@@ -1,0 +1,1452 @@
+Number,Name,Deployment State,Incident State,Type,Phone1,Phone2,Fax,E-Mail,Address,Note,Project
+1024000001,RS0503 / W1A39856,Functional,Operational,Shop,011/411-2600; 011/411-2601; 011/411-2602,,011/411-2605,RS0503hmdeltacitybeograd@gmail.com,Jurija Gagarina 16,,115
+1024000002,RS0504 / W1A39862,Functional,Operational,Shop,011/411-2611; 011/411-2610; 011/411-2612,,011/411-2615,RS0504hmvozdovacbeograd@gmail.com,Zaplanjska 32,,115
+1024000003,RS0505 / W1A84242,Functional,Operational,Shop,021/310-1900; 021/310-1901; 021/319-1902,,021/319-1904,RS0505hmnovisadbig@gmail.com,Sentandrejski put 11,,115
+1024000004,7252 - Cortefiel Usce,Retired,Operational,Shop,011 / 312-10-21,,,tien7252@cortefiel.com,Bulevar Mihajla Pupina 4,,107
+1024000005,7253 - Springfield Kraljevo,Functional,Operational,Shop,036/321-640; 036/332-091,,,tien7253@spf.com,Milosa Velikog 22,,107
+1024000006,Idea 425 Subotica 1,Functional,Operational,Shop,,,,idea425msubotica@gmail.com,Partizanskih Baza 30D,,112
+1024000007,7254 - Springfield Sarajevo,Functional,Operational,Shop,+387 33 555-736,,,tien7254@spf.com,Sime Milutinovica 12,,107
+1024000008,7255 - Springfield Sarajevo BBI Center,Functional,Operational,Shop,+387 33 212-486,,,tien7255@spf.com,Trg Djece Sarajeva 1,,107
+1024000009,7256 - Springfield Banja Luka,Functional,Operational,Shop,+387 51 211-988; +387 51 230-891,,,tien7256@spf.com,Veselina Maslese 12,,107
+1024000010,9773- Springfield Tuzla Mercator Center,Functional,Operational,Shop,+387 35 279-291,,,tien9773@spf.com,Korpusa Armije BiH bb,,107
+1024000011,7258 - Springfield Zenica Mall,Functional,Operational,Shop,+387 32 201-550,,,tien7258@spf.com,Kamberovica polje bb,,107
+1024000012,7259 - Springfield Terazije,Functional,Operational,Shop,011 / 362-29-98; 011 / 362-29-99,,,tien7259@spf.com,Terazije 4,,107
+1024000013,7260 - Springfield Usce,Functional,Operational,Shop,011 / 312-10-19,,,tien7260@spf.com,Bulevar Mihajla Pupina 4,,107
+1024000014,7261 - Springfield BG Mercator Centar,Functional,Operational,Shop,011 / 313-00-36; 011 / 312-16-60,,,tien7261@spf.com,Bulevar Umetnosti 4,,107
+1024000015,7262 - Springfield IMMO Centar Outlet,Functional,Operational,Shop,011 / 216-79-12; 011 / 217-52-58,,,tien7262@spf.com,Gandijeva 21,,107
+1024000016,7263 - Springfield Bulevar,Malfunctioned,Incident,Shop,011 / 303-72-78,,,tien7263@spf.com,Bul. Kralja Aleksandra 28-32,,107
+1024000017,7269 - Springfield Nis Mercator Centar,Functional,Operational,Shop,018 / 203-240;  018 / 203-241,,,tien7269@spf.com,Vizantijski bulevar 1,,107
+1024000018,7401 - Springfield TC BIG,Functional,Operational,Shop,021 / 270-13-16,,,tien7401@spf.com,Sentandrejski put 11,,107
+1024000019,7469 - Women Secret Kolarceva,Functional,Operational,Shop,011 / 263-16-99; 011 / 262-37-44,,,tien7469@womensecret.com,Kolarceva 6-8,,107
+1024000020,7470 - Women Secret Mercator BG,Functional,Operational,Shop,011 / 213-08-12,,,tien7470@womensecret.com,Bulevar Umetnosti 4,,107
+1024000021,7471 - Women Secret Bulevar,Functional,Operational,Shop,011 / 243-69-09; 011 / 383-61-90,,,tien7471@womensecret.com,Bul. Kralja Aleksandra 92,,107
+1024000022,7472 - Women Secret Pozeska,Functional,Operational,Shop,011 / 354-30-86; 011 / 354-33-10,,,tien7472@womensecret.com,Pozeska 67A,,107
+1024000023,7473 - Women Secret Centar,Functional,Operational,Shop,021 / 472-47-81,,,tien7473@womensecret.com,Kralja Aleksandra 8,,107
+1024000024,7474 - Women Secret Mercator NS,Functional,Operational,Shop,021 / 674-12-40,,,tien7474@womensecret.com,Bulevar Oslobodjenja 102,,107
+1024000025,7475 - Women Secret Kragujevac,Functional,Operational,Shop,034 / 335-648,,,tien7475@womensecret.com,Lole Ribara 2,,107
+1024000026,7476 - Women Secret Mercator Nis,Functional,Operational,Shop,018 / 200-680,064 / 827-32-23,,tien7476@womensecret.com,Vizantijski bulevar 1,,107
+1024000027,7477 - Women Secret Usce,Functional,Operational,Shop,011 / 285-44-27; 011 / 312-10-38,,,tien7477@womensecret.com,Bulevar Mihajla Pupina 4,,107
+1024000028,7520 - Women Secret Delta City BG,Functional,Operational,Shop,011 / 220-38-69; 011 / 220-38-70,,,tien7520@womensecret.com,Jurija Gagarina 16,,107
+1024000029,7521 - Women Secret TC BIG,Functional,Operational,Shop,021 / 270-13-17,,,tien7521@womensecret.com,Sentandrejski put 11,,107
+1024000030,7522 - Women Secret Nis TC Forum,Functional,Operational,Shop,018 / 240-320,061 / 313-01-34,,tien7522@womensecret.com,Obrenoviceva 42 (TC Forum),,107
+1024000031,7523 - Women Secret Kraljevo,Functional,Operational,Shop,036 / 333-566,,,tien7523@womensecret.com,Milosa Velikog 22,,107
+1024000032,7536 - Women Secret Delta City,Functional,Operational,Shop,+382 20 511-456,,,tien7536@grupocortefiel.com,Cetinjski put bb,,107
+1024000033,7541 - Women Secret BBI Center,Functional,Operational,Shop,+387 33 267-455; +387 33 267-456,,,tien7541@womensecret.com,Trg Dijece Sarajeva 1,,107
+1024000034,7590 - Women Secret City Center,Functional,Operational,Shop,+387 33 733-100; +387 33 733-101,,,tien7590@womensecret.com,"Vrbanja 1, TC City Center",,107
+1024000035,7591 - Springfield Podgorica Delta City,Functional,Operational,Shop,+382 20 410-846; +382 20 410-847,,,tien7591@spf.com,Cetinjski put bb,,107
+1024000036,7632 - Springfield Nis TC Forum,Functional,Operational,Shop,018 / 250-565; 018 / 250-566,,,tien7632@spf.com,Obrenoviceva 42 (TC Forum),,107
+1024000037,9774 - Springfield Modena,Functional,Operational,Shop,021 / 472-20-20,,,tien9774@spf.com,Modene 1,,107
+1024000038,7729 - Cortefiel Delta City,Functional,Operational,Shop,+382 20 410-912; +382 20 410-915,,,tien7729@grupocortefiel.com,Cetinjski put bb,,107
+1024000039,7731 - Springfield City Center,Functional,Operational,Shop,+387 33 733-105; +387 33 733-106,,,tien7731@spf.com,"Vrbanja 1, TC City Center",,107
+1024000040,7752 - Cortefiel City Center,Functional,Operational,Shop,+387 33 733-111,,,tien7752@grupocortefiel.com,"Vrbanja 1, TC City Center",,107
+1024000041,Tendam HQ Croatia,Functional,Operational,Shop,,,,Tendam_hq@gmail.com,Selska cesta 32,,107
+1024000042,Tendam HQ Serbia,Functional,Operational,Shop,,,,Tendam_HQ@gmail.com,Bul. Mihajla Pupina 115v,,107
+1024000043,7502 - Springfield Zagreb City Center One,Retired,Incident,Shop,+385 99 267-66-73,,,tien7502@spf.com,Slavonska avenija,,107
+1024000044,7503 - Springfield Zagreb Arena Mall,Retired,Operational,Shop,+385 99 267-66-69,,,tien7503@spf.com,Vice Vukova 6 (Arena Centar),Zatvorena 29/12/23,107
+1024000045,7634 - Springfield Zagreb Ilica,Functional,Operational,Shop,+385 14 831-521,,,tien7634@spf.com,Ilica,,107
+1024000046,7635 - Springfield Split City Center,Functional,Operational,Shop,+385 99 271-42-54,,,tien7635@spf.com,"Vukovarska 207, City Center",,107
+1024000047,7636 - Springfield Osijek,Functional,Operational,Shop,+385 99 530-47-83,,,tien7636@spf.com,"Svilajska 31, Portanova Mall",,107
+1024000048,7466 - Women Secret Petriceva,Retired,Incident,Shop,+385 14 811-571,,,tien7466@womensecret.com,Petriceva 4,,107
+1024000049,7467 - Women Secret Arena Centar,Retired,Incident,Shop,+385 16 524-100,,,tien7467@womensecret.com,Laniste ulica 32 (Arena Centar),,107
+1024000050,7482 - Women Secret ZTC Rijeka,Functional,Operational,Shop,+385 99 530-47-83,,,tien7482@womensecret.com,Zvonimirova 3,,107
+1024000051,0002 Deichmann Banja Luka,Functional,Operational,Shop,,,,0002deichmannbanjaluka@gmail.com,Jovana Dicica 25,,108
+1024000052,0010 Deichmann Beograd Delta City,Functional,Operational,Shop,011 / 312-97-79,,,0010deichmanndeltacitybeograd@gmail.com,Jurija Gagarina 16,,108
+1024000053,0009 Deichmann Beograd Kaludjerica,Malfunctioned,Incident,Shop,011 / 685-30-95,,,0009deichmannkaludjericabeograd@gmail.com,Vojvode Stepe Stepanovica 9i,,108
+1024000054,0011 Deichmann Beograd Karaburma,Functional,Operational,Shop,011 / 208-92-14,,,0011deichmannkaraburmabeograd@gmail.com,Mirijevski Bulevar 18b,,108
+1024000055,0014 Deichmann Beograd Terazije,Functional,Operational,Shop,011 / 303-82-02,,,0014deichmannterazijebeograd@gmail.com,Terazije 15-23,,108
+1024000056,0013 Deichmann Beograd Vozdovac,Functional,Operational,Shop,011 / 630-56-44,,,0013deichmannvozdovacbeograd@gmail.com,Zaplanjska 32,,108
+1024000057,0002 Deichmann Kragujevac Delta Park,Retired,Incident,Shop,034 / 356-094,,,0002deichmannkragujevacdeltapark@gmail.com,Save Kovacevica 27,,108
+1024000058,0007 Deichmann Kragujevac Plaza,Functional,Operational,Shop,034 / 610-03-75,,,0007deichmannkragujevacplaza@gmail.com,Bulevar Kraljice Marije 56,,108
+1024000059,0005 Deichmann Krusevac,Functional,Operational,Shop,037 / 493-850,,,0005deichmannkrusevac@gmail.com,Ugao ulica Blagoja Parovica i II Dalmatinske brigade,,108
+1024000060,0003 Deichmann Mladenovac,Functional,Operational,Shop,011 / 824-58-05,,,0003deichmannmladenovac@gmail.com,Brace Badzak br.2,,108
+1024000061,0003 Deichmann Mostar,Functional,Operational,Shop,,,,0003deichmannmostar@gmail.com,Kardinala Stepinca,,108
+1024000062,0001 Deichmann Nis,Functional,Operational,Shop,018 / 250-450,,,0001deichmannnis@gmail.com,Obrenoviceva 42,,108
+1024000063,0008 Deichmann Novi Sad,Functional,Operational,Shop,021 / 452-284,,,0008deichmannnovisad@gmail.com,Sentandrejski put 11,,108
+1024000064,0001 Deichmann Orasje,Functional,Operational,Shop,,,,0001deichmannorasje@gmail.com,Ulica XIV br.97,,108
+1024000065,0018 Deichmann Cacak,Functional,Operational,Shop,,,,0018deichmanncacak@gmail.com,Bulevar Vuka Karadzica bb,,108
+1024000066,0015 Deichmann Sabac,Functional,Operational,Shop,015/ 716-00-64,,,0015deichmannsabac@gmail.com,Zapadna Transverzala I br. 4,,108
+1024000067,0006 Deichmann Sarajevo Franca Lehara,Functional,Operational,Shop,,,,0006deichmannsarajevofrancalehara@gmail.com,Bulevar Franca Lehara 2,,108
+1024000068,0004 Deichmann Sarajevo Grand Centar,Functional,Operational,Shop,,,,0004deichmannsarajevograndcentar@gmail.com,Butimirska cesta 14,,108
+1024000069,0005 Deichmann Sarajevo Lukavica,Functional,Operational,Shop,,,,0005deichmannsarajevolukavica@gmail.com,Vojvode R.Putnika,,108
+1024000070,0011 Deichmann Tuzla,Functional,Operational,Shop,,,,0011deichmanntuzla@gmail.com,Univerzitetska br. 16,,108
+1024000071,0004 Deichmann Usce,Functional,Operational,Shop,011 / 312-21-58,,,0004deichmannuscebeograd@gmail.com,Bulevar Mihajla Pupina 4,,108
+1024000072,0016 Deichmann Zemun,Functional,Operational,Shop,011 / 316-65-32,,,0016deichmannzemun@gmail.com,Glavna 12-15,,108
+1024000073,European Investment Bank,Functional,Operational,Shop,,,,EuropeaninvestmentBankflex@gmail.com,Vladimira Popovica 40,,104
+1024000074,5505 Takko Beograd Idea,Functional,Operational,Shop,011 / 228-50-77,,,5505takkoideabeograd@gmail.com,Omladinskih brigada 100,,109
+1024000075,Takko HQ,Functional,Operational,Shop,,,,takkohq@gmail.com,Milutina Milankovica 136,,109
+1024000076,5508 Takko Karaburma,Functional,Operational,Shop,011 / 278-00-81,,,5508takkokaraburmabeograd@gmail.com,Mirijevski Bulevar 18b,,109
+1024000077,5503 Takko Kragujevac,Functional,Operational,Shop,034 / 355-481,,,5503takkokragujevac@gmail.com,Save Kovacevica 27,,109
+1024000078,5504 Takko Krusevac,Functional,Operational,Shop,037 / 493-738,,,5504takkokrusevac@gmail.com,Blagoja Parovica 20,,109
+1024000079,5502 Takko Mladenovac,Functional,Operational,Shop,011 / 774-06-68,,,5502takkomladenovac@gmail.com,Brace Badzak 2,,109
+1024000080,5506 Takko Novi Sad,Functional,Operational,Shop,021 / 539-008,,,5506takkonovisad@gmail.com,Sentandrejski put 11,,109
+1024000081,5501 Takko Pancevo,Functional,Operational,Shop,013 / 355-470,,,5501takkopancevo@gmail.com,Milosa Obrenovica 12,,109
+1024000082,5509 Takko Sabac,Functional,Operational,Shop,015 / 370-264,,,5509takkosabac@gmail.com,Zapada Transverzala I br. 4,,109
+1024000083,5507 Takko Vozdovac,Functional,Operational,Shop,011 / 630-58-06,,,5507takkovozdovacbeograd@gmail.com,Zaplanjska 32,,109
+1024000084,RS741 C&A Fashion Usce,Functional,Operational,Shop,011 / 715-00-46,063 / 861-63-81,,RS741causcebeograd@gmail.com,Bul. Mihajla Pupina 4,,110
+1024000085,RS742 C&A Fashion BG Vozdovac,Functional,Operational,Shop,011 / 785-64-32,062 / 801-07-63,,RS742cavozdovacbeograd@gmail.com,Zaplanjska 32,,110
+1024000086,RS743 C&A Fashion Pancevo,Functional,Operational,Shop,013 / 219-00-79,062 / 800-10-69,,RS743capancevo@gmail.com,Milosa Obrenovica br.12,,110
+1024000087,RS744 C&A Fashion BG Delta City,Functional,Operational,Shop,011 / 785-64-20,062 / 801-07-61,,RS744cadeltacitybeograd@gmail.com,Jurija Gagarina 16,,110
+1024000088,RS745 C&A Fashion NS Big,Functional,Operational,Shop,021 / 215-55-93,062 / 801-07-26,,RS745canovisadbig@gmail.com,Sentandrejski put 11,,110
+1024000089,RS746 C&A Fashion KG Plaza,Functional,Operational,Shop,034 / 619-51-84,062 / 801-07-64,,RS746cakragujevac@gmail.com,Bulevar Kraljice Marije 56,,110
+1024000090,RS747 C&A Fashion BG Karaburma,Functional,Operational,Shop,011 / 785-63-52,062 / 801-00-54,,RS747cakaraburmabeograd@gmail.com,Mirijevski Bulevar 18b,,110
+1024000091,RS748 C&A Fashion Zemun,Functional,Operational,Shop,011 / 785-64-53,063 / 861-63-73,,RS748cazemun@gmail.com,Glavna 12-15,,110
+1024000092,RS751 C&A Fashion Sabac,Functional,Operational,Shop,015 / 719-50-83,063 / 861-63-76,,RS751casabac@gmail.com,Zapadna Transverzala I br. 4,,110
+1024000093,FIL007 - DM Nis,Functional,Operational,Shop,018 / 295-540,064 / 829-79-75,,fil007dmnis@gmail.com,Obrenoviceva 2,,114
+1024000094,FIL014 - DM Novi Pazar,Functional,Operational,Shop,020 / 323-452,064 / 829-79-80,,fil014dmnovipazar@gmail.com,Rifata Burdzevica bb,,114
+1024000095,FIL027 - DM Krusevac,Functional,Operational,Shop,037 / 423-658,064 / 829-79-95,,fil027dmkrusevac@gmail.com,Mirka Tomica 26,,114
+1024000096,FIL044 - DM Nis,Functional,Operational,Shop,018 / 250-405,064 / 800-60-62,,fil044dmnis@gmail.com,Trg Nikole Pasica 29,,114
+1024000097,FIL053 - DM Vranje,Functional,Operational,Shop,017 / 420-701,064 / 800-60-73,,fil053dmvranje@gmail.com,Stefana Prvovencanog 51,,114
+1024000098,FIL055 - DM Nis,Functional,Operational,Shop,018 / 290-090,064 / 800-60-76,,fil055dmnis@gmail.com,Kralja Milana 11,,114
+1024000099,FIL058 - DM Krusevac,Functional,Operational,Shop,,,,fil058dmkrusevac@gmail.com,Blagoja Parovica 20,,114
+1024000100,Y101 Jysk Subotica,Functional,Operational,Shop,024 / 415-01-61,,,Y101JyskSubotica@gmail.com,Segedinski put 94-96,,106
+1024000101,Y102 Jysk Pancevo,Functional,Operational,Shop,013 / 219-00-33,,,Y102JyskPancevo@gmail.com,Milosa Obrenovica 12,,106
+1024000102,Y103 Jysk Novi Sad,Functional,Operational,Shop,021 / 210-06-77,,,Y103JyskNoviSad@gmail.com,Bulevar vojvode Stepe 38,,106
+1024000103,Y104 Jysk Nis,Functional,Operational,Shop,018 / 415-04-16,,,Y104JyskNis@gmail.com,Ul. Majakovskog BB,,106
+1024000104,Y105 Jysk Cacak,Functional,Operational,Shop,032 / 515-05-63,,,Y105JyskCacak@gmail.com,Ibarski put bb,,106
+1024000105,Y106 Jysk Kragujevac,Functional,Operational,Shop,034 / 617-03-92,,,Y106JyskKragujevac@gmail.com,Save Kovacevica 27,,106
+1024000106,Y107 Jysk Indjija,Functional,Operational,Shop,022 / 215-02-76,,,Y107JyskIndjija@gmail.com,Vojvode Stepe 11,,106
+1024000107,Y108 Jysk NBG,Functional,Operational,Shop,011 / 228-44-19,,,Y108JyskNBG@gmail.com,Nehruova 68b,,106
+1024000108,Y109 Jysk Uzice,Functional,Operational,Shop,031 / 565-595,,,Y109JyskUzice@gmail.com,Banjicka bb,,106
+1024000109,Y110 Jysk Smederevo,Functional,Operational,Shop,012 / 641-50-462,,,Y110JyskSmederevo@gmail.com,Djure Salaja bb (Idea centar),,106
+1024000110,Y111 Jysk Zrenjanin,Functional,Operational,Shop,023 / 315-03-40,,,Y111JyskZrenjanin@gmail.com,Barska bb,,106
+1024000111,Y112 Jysk BG Karaburma,Functional,Operational,Shop,011 / 655-61-74,,,Y112JyskKaraburmaBeograd@gmail.com,Mirijevski bulevar 18b,,106
+1024000112,Y113 Jysk BG Kaludjerica,Functional,Operational,Shop,011 / 655-61-98,,,Y113JyskKaludjericaBeograd@gmail.com,Vojvode Stepe Stepanovica 9i,,106
+1024000113,Y114 Jysk Zemun,Functional,Operational,Shop,011 / 655-62-33,,,Y114JyskZemun@gmail.com,Batajnicki drum 1,,106
+1024000114,Y115 Jusk BIG Novi Sad,Functional,Operational,Shop,021 / 210-03-59,,,Y115JyskNoviSadBig@gmail.com,Sentandrejski put 11,,106
+1024000115,Y116 Jysk Vozdovac Stadion,Functional,Operational,Shop,011 / 655-62-31,,,Y116JyskVozdovacBeograd@gmail.com,Zaplanjska 32,,106
+1024000116,Y117 Jysk Beograd Miljakovac,Functional,Operational,Shop,011 / 353-58-19,,,Y117JyskMiljakovacBeograd@gmail.com,Vareska 4,,106
+1024000117,Y118 Jysk Sabac,Functional,Operational,Shop,,,,Y118JyskSabac@gmail.com,Zapada Transverzala I br. 4,,106
+1024000118,Y119 Jysk Leskovac,Functional,Operational,Shop,016 / 315-00-05,,,Y119JyskLeskovac@gmail.com,Bulevar Oslobodenja bb,,106
+1024000119,Y121 Jysk Jagodina,Functional,Operational,Shop,035 / 882-08-61,,,Y121JyskJagodina@gmail.com,Kneza Lazara 74,,106
+1024000120,Y122 Jysk Pozarevac,Functional,Operational,Shop,012 / 716-01-08,,,Y122JyskPozarevac@gmail.com,Djure Djakovica bb,,106
+1024000121,Y123 Idea NBG,Functional,Operational,Shop,011 / 655-64-46,,,Y123JyskIdeaNBG@gmail.com,Ulica Omladinskih brigada 100,,106
+1024000122,Roda 346 MM Leskovac,Functional,Operational,Shop,,,,roda346mmleskovac@gmail.com,Mlinska 146,,112
+1024000123,Idea 366 Novi Sad Sajam,Functional,Operational,Shop,,,,Idea366sajamns@gmail.com,Bulevar Kralja Petra I 55-59,,112
+1024000124,Idea 378 Papazovac,Functional,Operational,Shop,,,,idea378papazovac@gmail.com,Dositeja Obradovica bb,,112
+1024000125,Idea 412 SM Kaludjerica,Functional,Operational,Shop,,,,idea412kaludjerica@gmail.com,Vojvode Stepe Stepanovica 9i,,112
+1024000126,Idea 368 Slavija,Functional,Operational,Shop,,,,idea368slavija@gmail.com,Crvene Armije bb,,112
+1024000127,Idea 362 Centar 2,Functional,Operational,Shop,,,,idea362centar2@gmail.com,17. Oktobra 22,,112
+1024000128,Idea 361 Centar 1,Functional,Operational,Shop,,,,idea361centar1@gmail.com,Radoslava Mirkovica 3,,112
+1024000129,Idea 367 Lipe,Functional,Operational,Shop,,,,idea367lipe@gmail.com,Marsala Tita bb,,112
+1024000130,Idea 376 Pozarevac 4,Functional,Operational,Shop,,,,idea376pozarevac4@gmail.com,Mose Pijade 40,,112
+1024000131,Idea 372 Petrovac na Mlavi,Functional,Operational,Shop,,,,idea372petrovac@gmail.com,Srpskih Vladara 171,,112
+1024000132,Idea 374 Pozarevac 2,Retired,Incident,Shop,,,,idea374pozarevac2@gmail.com,Cede Vasovica 12,,112
+1024000133,Idea 375 Pozarevac 3,Functional,Operational,Shop,,,,idea375pozarevac3@gmail.com,Lole Ribara 23,,112
+1024000134,Idea 381 MM Smederevska Palanka,Functional,Operational,Shop,,,,idea381mmsmedpalanka@gmail.com,Petra Munjasa bb,,112
+1024000135,Idea 371 Azanja,Functional,Operational,Shop,,,,idea371mazanja@gmail.com,Milije Batinica bb,,112
+1024000136,Idea 370 Smederevska Palanka,Functional,Operational,Shop,,,,idea370msmederevskapalanka@gmail.com,Prvog Srpskog Ustanka 13,,112
+1024000137,Idea 369 Markovac,Functional,Operational,Shop,,,,idea369mmarkovac@gmail.com,4. Juli 1,,112
+1024000138,Idea 380 SM Velika Plana,Functional,Operational,Shop,,,,idea380smvelikaplana@gmail.com,Milosa Velikog 40,,112
+1024000139,Roda 379 MM Smederevo,Functional,Operational,Shop,,,,roda379mmsmederevo@gmail.com,Despota Djurdja bb,,112
+1024000140,Idea 377 Donji Grad,Functional,Operational,Shop,,,,idea377donjigrad@gmail.com,Karadjordjeva 56,,112
+1024000141,Idea 485 Smederevo,Functional,Operational,Shop,,,,idea485smederevo@gmail.com,Save Nemanjica 3,,112
+1024000142,Idea 373 Pozarevac 1,Functional,Operational,Shop,,,,Idea373pozarevac1@gmail.com,7. Juli 31,,112
+1024000143,Roda 363 MM Backa Topola,Functional,Operational,Shop,,,,roda363mmbtopola@gmail.com,Boljai Farkasa 2,,112
+1024000144,Idea 358 Backa Topola,Functional,Operational,Shop,,,,idea358mbtopola@gmail.com,Matije Korvina 1/A,,112
+1024000145,Idea 476 Bukovac,Functional,Operational,Shop,,,,Idea476bukovac@gmail.com,Karadjordjeva 74,,112
+1024000146,Idea 477 Liman 2,Functional,Operational,Shop,,,,Idea477liman2@gmail.com,Veljka Petrovica 12,,112
+1024000147,Idea 479 Rumenka,Functional,Operational,Shop,,,,idea479rumenka@gmail.com,Vojvodjanska 43,,112
+1024000148,Idea 467 Sombor 1,Functional,Operational,Shop,,,,idea467sombor1@gmail.com,Staparski Put 3,,112
+1024000149,Idea 468 Sombor 2,Functional,Operational,Shop,,,,idea468sombor2@gmail.com,Laze Kostica 1,,112
+1024000150,Idea 469 Sombor 3,Functional,Operational,Shop,,,,idea469sombor3@gmail.com,Nike Maksimovica 2,,112
+1024000151,Idea 470 Sombor 4,Functional,Operational,Shop,,,,idea470sombor4@gmail.com,Filipa Kljajica 38,,112
+1024000152,Idea 471 Sombor 5,Functional,Operational,Shop,,,,idea471msombor5@gmail.com,Kamenka Gagrcina 2,,112
+1024000153,Idea 480 Salajka,Functional,Operational,Shop,,,,idea480salajka@gmail.com,Kisacka 3,,112
+1024000154,Idea 472 Stapar,Functional,Operational,Shop,,,,idea472stapar@gmail.com,Karadjordjev Plac 93,,112
+1024000155,Idea 474 Svetozar Miletic,Functional,Operational,Shop,,,,idea474svetozarmiletic@gmail.com,Dositeja Obradovica 5A,,112
+1024000156,Idea 478 Telep,Functional,Operational,Shop,,,,idea478telep@gmail.com,Fejes Klare 42,,112
+1024000157,Idea 359 SM Ub - Nije na nasem odrzavanju,Retired,Incident,Shop,,,,idea359smub@gmail.com,Kralja Petra Prvog Oslobodioca 48,,112
+1024000158,Idea 357 SM Terazije,Functional,Operational,Shop,,,,idea357terazije@gmail.com,Terazije 30-32,,112
+1024000159,Idea 475 SM Ruma,Functional,Operational,Shop,,,,idea475smruma@gmail.com,15. Maja 141,,112
+1024000160,Idea 465 SM Sombor 1,Functional,Operational,Shop,,,,idea465smsombor1@gmail.com,Sportska bb,,112
+1024000161,Idea 473 SM Srbobran,Functional,Operational,Shop,,,,idea473srbobran@gmail.com,Trg Vladike Nikolaja Velimirovica 3,,112
+1024000162,Idea 354 SM Zvezdara,Functional,Operational,Shop,,,,idea354zvezdara@gmail.com,Bulevar Kralja Aleksandra 518A,,112
+1024000163,Idea 364 SM Senta,Functional,Operational,Shop,,,,idea364senta@gmail.com,Jovana Djordjevica 11,,112
+1024000164,Idea 421 Vrbas,Functional,Operational,Shop,,,,Idea421mvrbas@gmail.com,Svetozara Markovica 58,,112
+1024000165,Idea 386 Ridjica,Functional,Operational,Shop,,,,idea386mridjica@gmail.com,Svetog Save 50,,112
+1024000166,Roda 340 C&C Mladenovac,Functional,Operational,Shop,,,,roda340ccmladenovac@gmail.com,Brace Badzak 2,,112
+1024000167,Idea 387 Stanisic,Functional,Operational,Shop,,,,idea387mstanisic@gmail.com,Oslobodjenja 77,,112
+1024000168,Idea 442 Futog,Functional,Operational,Shop,,,,idea442futogm@gmail.com,Carice Milice 26,,112
+1024000169,Roda 410 SM Jagodina,Functional,Operational,Shop,,,,roda410smjagodina@gmail.com,Kneza Lazara 74,,112
+1024000170,Idea 352 Centar Tehnike Vrbas,Functional,Operational,Shop,,,,idea352ctvrbas@gmail.com,Narodnog Fronta 51,,112
+1024000171,Idea 384 SM Zajecar,Functional,Operational,Shop,,,,idea384zajecar@merkator.com,Krfska 18,,112
+1024000172,Idea 409 Ada,Functional,Operational,Shop,,,,idea409mada@gmail.com,Vuka Karadzica 15,,112
+1024000173,Idea 390 Stari Grad,Functional,Operational,Shop,,,,idea390starigrad@gmail.com,Decanska bb,,112
+1024000174,Idea 397 SM Bajina Basta,Functional,Operational,Shop,,,,idea397smbbasta@gmail.com,Trg Dusana Jerkovica 1,,112
+1024000175,Idea 392 SM Miljakovac,Functional,Operational,Shop,,,,idea392smmiljakovac@gmail.com,Vareska 4,,112
+1024000176,Idea 393 SM Sava,Functional,Operational,Shop,,,,idea393sava@gmail.com,Jurija Gagarina 155,,112
+1024000177,Idea 391 SM Dusanovac,Functional,Operational,Shop,,,,idea391dusanovac@gmail.com,Ustanicka 64A,,112
+1024000178,Idea 399 SM Knjazevac,Functional,Operational,Shop,,,,idea399knjazevac@gmail.com,Trg Oslobodjenja 2,,112
+1024000179,Idea 395 SM Kraljevo,Functional,Operational,Shop,,,,idea395smkraljevo@gmail.com,Milosa Velikog 3,,112
+1024000180,Idea 398 SM Bor,Functional,Operational,Shop,,,,idea398mbor@gmail.com,Djordja Vajferta 2,,112
+1024000181,Idea 396 SM Uzice,Functional,Operational,Shop,,,,idea396smuzice@gmail.com,Dimitrija Tucovica 91,,112
+1024000182,Roda 349 MM Sabac,Functional,Operational,Shop,,,,roda349mmsabac@gmail.com,Jovana Cvijica 1A,,112
+1024000183,Roda 408 MM Zrenjanin,Functional,Operational,Shop,,,,roda408mmzrenjanin@gmail.com,Pere Dobrinovica 35,,112
+1024000184,Idea 402 SM Pirot,Functional,Operational,Shop,,,,idea402mpirot@gmail.com,Trg Pirotskih Oslobodioca bb,,112
+1024000185,Idea 404 SM Leskovac,Functional,Operational,Shop,,,,idea404smleskovac2@gmail.com,Bulevar Oslobodjenja bb,,112
+1024000186,Roda 383 SM Karaburma,Functional,Operational,Shop,,,,roda383smkaraburma@gmail.com,Mirijevski Bulevar 18b,,112
+1024000187,Idea 460 Kula 1,Functional,Operational,Shop,,,,idea460mkula1@gmail.com,Veljka Vlahovica 4A,,112
+1024000188,Roda 428 MM Beograd,Functional,Operational,Shop,,,,roda428mmbeograd2@gmail.com,Djordja Stanojevica 35,,112
+1024000189,Roda 463 C&C Beograd,Functional,Operational,Shop,,,,roda463zmaj@gmail.com,Autoput 18,,112
+1024000190,Roda 341 HM Beograd,Functional,Operational,Shop,,,,roda341hmmcbg@gmail.com,Bulevar Umetnosti 4,,112
+1024000191,Idea 439 Becej,Functional,Operational,Shop,,,,idea439mbecej@gmail.com,Glavna Ulica 43,,112
+1024000192,Roda 464 MM Kraljevo,Functional,Operational,Shop,,,,roda464cckraljevo@gmail.com,Tiosava Karapandzica 2B,,112
+1024000193,Roda 453 MM Pancevo,Functional,Operational,Shop,,,,roda453mmpancevo@gmail.com,Skadarska bb,,112
+1024000194,Idea 435 Palic,Functional,Operational,Shop,,,,Idea435mpalic@gmail.com,Horgoski put 71,,112
+1024000195,Idea 356 SM Sombor 2,Functional,Operational,Shop,,,,idea356smsombor@gmail.com,Pariska 9,,112
+1024000196,Idea 462 Kula 3,Functional,Operational,Shop,,,,idea462mkula3@gmail.com,Marsala Tita bb,,112
+1024000197,Idea 436 Kula 4,Functional,Operational,Shop,,,,idea436mkula4@gmail.com,Bratstva Jedinstva bb,,112
+1024000198,Idea 483 Centar Tehnike Kanjiza,Functional,Operational,Shop,,,,idea483ctknanjiza@gmail.com,Glavna Ulica 35,,112
+1024000199,Idea 353 Centar Tehnike Sombor,Functional,Operational,Shop,,,,idea353ctsombor@gmail.com,Pariska 9,,112
+1024000200,Idea 422 Centar Tehnike Sremska Mitrovica,Functional,Operational,Shop,,,,idea422ctsremskamitrovica@gmail.com,Timocke Divizije 1,,112
+1024000201,Roda 459 SM Sremska Mitrovica 2,Functional,Operational,Shop,,,,roda459smsremskamitrovica2@gmail.com,Timocke Divizije 1,,112
+1024000202,Idea 348 Centar Tehnike Kragujevac,Functional,Operational,Shop,,,,idea348ctkragujevac@gmail.com,Save Kovacevica 48A,,112
+1024000203,Idea 454 SM Backa Palanka,Functional,Operational,Shop,,,,idea454smbackapalanka@gmail.com,Jugoslovenske Armije 78,,112
+1024000204,Idea 430 SM Novo Naselje,Functional,Operational,Shop,,,,msprmnn@gmail.com,Jovana Ducica 9,,112
+1024000205,Roda 416 MM Novi Sad Plus 2,Functional,Operational,Shop,,,,roda416mmnovisadplus2@gmail.com,Kanalska 11,,112
+1024000206,Roda 451 MM Novi Sad,Functional,Operational,Shop,,,,roda451mnovisad@gmail.com,Temerinski Put 50,,112
+1024000207,Idea 437 Kula 5,Functional,Operational,Shop,,,,Idea437kula5@gmail.com,Novaka Pejcica 59,,112
+1024000208,Idea 443 Palma,Functional,Operational,Shop,,,,idea443mpalma@gmail.com,Novosadskog Sajma bb,,112
+1024000209,Idea 444 Sajlovo,Functional,Operational,Shop,,,,idea444msajlovo@gmail.com,Janka Veselinovica 3,,112
+1024000210,Idea 445 Sajmiste,Functional,Operational,Shop,,,,Idea445msajmiste@gmail.com,Futoska 37,,112
+1024000211,Restoran Novi Sad MMNS,Functional,Operational,Shop,,,,restoranns2@gmail.com,Temerinska 50,,112
+1024000212,Idea 456 SM Smederevo Centar,Functional,Operational,Shop,,,,idea456smsmederevo@gmail.com,Djusina 1,,112
+1024000213,Idea 449 Centar Tehnike Backa Palanka,Functional,Operational,Shop,,,,idea449ctbackapalanka@gmail.com,Safarikova 48,,112
+1024000214,914 Veleprodaja Sombor,Functional,Operational,Shop,,,,914veleprodajasombor@gmail.com,Filipa Kljajica bb,,112
+1024000215,916 Veleprodaja Kikinda,Functional,Operational,Shop,,,,916veleprodajakikinda@gmail.com,Milosa Velikog 78,,112
+1024000216,Roda 345 MM Nis,Functional,Operational,Shop,,,,roda345mmnis@gmail.com,Vizantijski Bulevar 1,,112
+1024000217,Avenija Mode Nis,Functional,Operational,Shop,,,,avmnis@gmail.com,Vizantijski Bulevar 1,,112
+1024000218,Beautique Nis,Functional,Operational,Shop,,,,mbeautni@gmail.com,Vizantijski Bulevar 1,,112
+1024000219,Skladiste Novi Sad 2,Functional,Operational,Shop,,,,821skladistens2@gmail.com,Kanalska 15,,112
+1024000220,Intersport Sabac,Functional,Operational,Shop,,,,intsabac@gmail.com,Jovana Cvijica 1A,,112
+1024000221,Idea 365 SM Vrbas 2,Functional,Operational,Shop,,,,idea365smvrbas2@gmail.com,Narodnog Fronta 51,,112
+1024000222,Skladiste potrosnog materijala Novi Sad,Functional,Operational,Shop,,,,701skladistepotrosnogmaterijala@gmail.com,Temerinski Put 50,,112
+1024000223,Roda 820 LDC,Functional,Operational,Shop,,,,820rodaldc@gmail.com,Temerinski Put 50,,112
+1024000224,Idea 433 SM Pancevo,Functional,Operational,Shop,,,,idea433smpancevo@gmail.com,Milosa Obrenovica 10,,112
+1024000225,Roda 343 MM Cacak,Functional,Operational,Shop,,,,roda343mmcacak@gmail.com,Brace Spasic bb,,112
+1024000226,Idea 458 SM Kanjiza,Functional,Operational,Shop,,,,idea458smkanjiza@gmail.com,Glavna Ulica 35,,112
+1024000227,Idea 440 Mol,Functional,Operational,Shop,,,,idea440mol@gmail.com,Novaka Radonica 49,,112
+1024000228,Idea 388 SM Loznica 2,Functional,Operational,Shop,,,,idea388smloznica2@gmail.com,Kneza Milosa 15,,112
+1024000229,Intersport Nis,Functional,Operational,Shop,,,,intnis@gmail.com,Vizantijski Bulevar 1,,112
+1024000230,Idea 457 SM Loznica,Functional,Operational,Shop,,,,idea457smloznica1@gmail.com,Trg Vuka Karadzica bb,,112
+1024000231,Avenija Mode Beograd,Functional,Operational,Shop,,,,ambeograd@gmail.com,Bulevar Umetnosti 4,,112
+1024000232,915 Veleprodaja Kula,Functional,Operational,Shop,,,,915veleprodajakula@gmail.com,Industrijska Zona bb,,112
+1024000233,Idea 461 SM Kula,Functional,Operational,Shop,,,,Idea461smkula2@gmail.com,Trg Oslobodjenja 2,,112
+1024000234,Idea 434 SM Pozega,Functional,Operational,Shop,,,,idea434pozega@gmail.com,Nikole Pasica 2,,112
+1024000235,Idea 448 Senjak,Functional,Operational,Shop,,,,idea448smederevosenjak@gmail.com,XVI Oktobra 82,,112
+1024000236,Idea 385 SM Smederevo Carina,Functional,Operational,Shop,,,,idea385smederevocarina@gmail.com,Proleterska bb,,112
+1024000237,Roda 423 MM Kragujevac,Functional,Operational,Shop,,,,roda423mmkragujevac@gmail.com,Save Kovacevica 48A,,112
+1024000238,Idea 431 SM Sremska Mitrovica 1,Functional,Operational,Shop,,,,idea431smmitrovica@gmail.com,Trg Svetog Stefana 32,,112
+1024000239,Beautique Cacak,Functional,Operational,Shop,,,,cacakb@gmail.com,Brace Spasica bb,,112
+1024000240,Idea 482 Centar Tehnike Indjija,Functional,Operational,Shop,,,,idea482ctindjija@gmail.com,Novosadska 12-16,,112
+1024000241,Idea 414 SM Cacak,Functional,Operational,Shop,,,,idea414smcacak@gmail.com,Stoje Tosic 12A,,112
+1024000242,Roda 450 MM Subotica,Functional,Operational,Shop,,,,roda450mmsubotica@gmail.com,Segedinski Put 92,,112
+1024000243,Idea 344 Centar Tehnike Cacak,Functional,Operational,Shop,,,,idea344ctcacak@gmail.com,Brace Spasic bb,,112
+1024000244,Idea 441 Zrenjanin,Functional,Operational,Shop,,,,idea441zrenjaninm@gmail.com,Zitni Trg 12-14,,112
+1024000245,Avenija Mode Novi Sad,Functional,Operational,Shop,,,,avnovisad@gmail.com,Bulevar Oslobodjenja 102,,112
+1024000246,Intersport Subotica,Functional,Operational,Shop,,,,intersubotica@gmail.com,Segedinski Put 92,,112
+1024000247,Idea 432 SM Indjija,Functional,Operational,Shop,,,,indjija@gmail.com,Novosadska 12-16,,112
+1024000248,Idea 405 SM Valjevo,Functional,Operational,Shop,,,,idea405smvaljevo@gmail.com,Karadjordjeva 62,,112
+1024000249,Idea 429 SM Veliko Gradiste,Functional,Operational,Shop,,,,svelikogradiste@gmail.com,Zike Popovica 18A,,112
+1024000250,Idea 455 SM Zemun 2,Functional,Operational,Shop,,,,idea455smzemun2@gmail.com,Batajnicki drum 11,,112
+1024000251,Intersport Novi Sad,Functional,Operational,Shop,,,,intns@gmail.com,Bulevar Oslobodjenja 102,,112
+1024000252,Idea 355 Centar Tehnike Senta,Functional,Operational,Shop,,,,idea355ctsenta@gmail.com,Jovana Djordjevica 11,,112
+1024000253,Idea 394 SM Zemun 1,Functional,Operational,Shop,,,,idea394smzemun1@gmail.com,Glavna 11-15,,112
+1024000254,Veleprodaja Pozarevac,Functional,Operational,Shop,,,,pozarevacv@gmail.com,Djure Djakovica bb,,112
+1024000255,Idea 438 Lipar,Functional,Operational,Shop,,,,idea438mlipar@gmail.com,Marsala Tita bb,,112
+1024000256,Idea 427 SM Zemun 3,Functional,Operational,Shop,,,,idea427smzemun3@gmail.com,Backa 11,,112
+1024000257,Idea 389 Centar Tehnike Zajecar,Functional,Operational,Shop,,,,idea389ctzajecar@gmail.com,Krfska 18,,112
+1024000258,Idea 400 SM Nis,Functional,Operational,Shop,,,,idea400smnis@gmail.com,Trg Kralja Milana 2,,112
+1024000259,Idea 403 SM Vranje,Functional,Operational,Shop,,,,idea403smvranje@gmail.com,Kralja Stefana Prvovencanog 51,,112
+1024000260,Idea 447 Mediana Nis,Functional,Operational,Shop,,,,Idea447mediananis@gmail.com,Blagoja Parovica 3,,112
+1024000261,Idea 401 SM Premijum Beogradjanka,Functional,Operational,Shop,,,,idea401smpremijumbg@gmail.com,Masarikova 5,,112
+1024000262,Idea 411 Centar Tehnike Jagodina,Functional,Operational,Shop,,,,idea411ctjagodina@gmail.com,Kneza Lazara 74,,112
+1024000263,Idea 350 Centar Tehnike Sabac,Functional,Operational,Shop,,,,idea350ctsabac@gmail.com,Jovana Cvijica 1A,,112
+1024000264,917 Veleprodaja Sremska Mitrovica,Functional,Operational,Shop,,,,917veleprodajasremskamitrovica@gmail.com,Jaracki Put bb,,112
+1024000265,Roda 351 MM Krusevac,Functional,Operational,Shop,,,,roda351mmkrusevac@gmail.com,Blagoja Parovica 20,,112
+1024000266,Intersport Krusevac,Functional,Operational,Shop,,,,ikrusevac@gmail.com,Blagoja Parovica 20,,112
+1024000267,Posta MM Novi Sad,Functional,Operational,Shop,,,,postammnovisad@gmail.com,Temerinski Put 50,,112
+1024000268,Roda VP 18532 Beograd Zmaj,Functional,Operational,Shop,,,,velepbg@gmail.com,Autoput 18,,112
+1024000269,Restoran Novi Sad MC,Functional,Operational,Shop,,,,restoranns@gmail.com,Bulevar oslobodenja 102,,112
+1024000270,Intersport Kragujevac,Functional,Operational,Shop,,,,intkg@gmail.com,Save Kovacevica 48A,,112
+1024000271,Idea 342 Centar Tehnike Beograd,Functional,Operational,Shop,,,,idea342ctmcbg@gmail.com,Bulevar Umetnosti 4,,112
+1024000272,Intersport Beograd 2,Functional,Operational,Shop,,,,intbeograd@gmail.com,Djorda Stanojevica 35,,112
+1024000273,Modiana Sombor,Functional,Operational,Shop,,,,sombormodiana@gmail.com,Pariska 9,,112
+1024000274,Modiana Sabac,Functional,Operational,Shop,,,,sabacmodiana@gmail.com,Jovana Cvijica 1a,,112
+1024000275,Intersport Sombor,Functional,Operational,Shop,,,,somborint@gmail.com,Pariska 9,,112
+1024000276,Beautique Novi Sad,Functional,Operational,Shop,,,,beautiquens@gmail.com,Bulevar Oslobodjenja 102,,112
+1024000277,Beautique Sabac,Functional,Operational,Shop,,,,sabacbea@gmail.com,Jovana Cvijica 1a,,112
+1024000278,Idea 413 Futog 2,Functional,Operational,Shop,,,,futog2@gmail.com,Cara Lazara 189,,112
+1024000279,Idea 406 SM Kikinda,Functional,Operational,Shop,,,,idea406smkikinda@gmail.com,Trg Sprskih Dobrovoljaca 53,,112
+1024000280,Idea 415 SM Mirijevo,Functional,Operational,Shop,,,,idea415mirijevo@gmail.com,Ulofa Palmea 1,,112
+1024000281,Roda 407 MM Valjevo,Functional,Operational,Shop,,,,roda407mmvaljevo@gmail.com,Bulevar Palih Boraca 91-92 broj 1,,112
+1024000282,Santana Bar MCBG,Functional,Operational,Shop,,,,santanamcbg@gmail.com,Bulevar Umetnosti 4,,112
+1024000283,Intersport Beograd 1,Functional,Operational,Shop,,,,intmcbg@gmail.com,Bulevar umetnosti 4,,112
+1024000284,Hipermarket 466 MC Novi Sad,Functional,Operational,Shop,,,,mp466@mercator.rs,Bulevar Oslobodjenja 102,,112
+1024000285,Idea 418 Krusevac,Functional,Operational,Shop,,,,Idea418mkrusevac@gmail.com,Stevana Visokog 10,,112
+1024000286,Modiana MCBG,Functional,Operational,Shop,,,,modmcbg@gmail.com,Bulevar Umetnosti 4,,112
+1024000287,Intersport Vozdovac,Functional,Operational,Shop,,,,intvoz@gmail.com,Zaplanjska 32,,112
+1024000288,Roda 417 MM Vozdovac,Functional,Operational,Shop,,,,roda417mmvozdovac@gmail.com,Zaplanjska 32,,112
+1024000289,Idea 420 Kej,Functional,Operational,Shop,,,,Idea420mkej@gmail.com,Kej Zrtava Racije 6,,112
+1024000290,Idea 446 Liman 1,Functional,Operational,Shop,,,,idea446liman1@gmail.com,Fruskogorska 21,,112
+1024000291,Roda Megamarket 426 Pozarevac,Functional,Operational,Shop,,,,roda426ccpozarevac@gmail.com,Djure Djakovica bb,,112
+1024000292,LDC 2,Functional,Operational,Shop,,,,ldc2@gmail.com,Kanalska 15,,112
+1024000293,Idea 360 SM Liman,Functional,Operational,Shop,,,,idea360smliman@gmail.com,Narodnog Fronta 73B,,112
+1024000294,Idea 424 Banovo Brdo,Functional,Operational,Shop,,,,Idea424banovobrdo@gmail.com,Blagoja Parovica 73,,112
+1024000295,X716 Jysk Doboj,Functional,Operational,Shop,,,,X716JyskDoboj@serviceplus-it.com,Pijeskovi bb (TUS centar),,106
+1024000296,0010 Deichmann Zenica,Functional,Operational,Shop,,,,0010deichmannzenica@gmail.com,Kamberovica polje bb,,108
+1024000297,7807 - Women Secret Tuzla Mercator Center,Retired,Operational,Shop,+387 35 246-350;  +387 35 246-351,,,7807wsmctuzla@gmail.com,Korpusa Armije BiH bb,,107
+1024000298,X715 Jysk Livno,Functional,Operational,Shop,,,,X715jysklivno@gmail.com,Industrijska zona - jug (pored Tehnostar-a),,106
+1024000299,X714 Jysk Tuzla,Functional,Operational,Shop,,,,X714JyskTuzla@gmail.com,Krecanska bb,,106
+1024000300,X704 Jysk Mostar,Functional,Operational,Shop,,,,X704JyskMostar@gmail.com,Bisce Polje bb,,106
+1024000301,7711 - Springfield Delta City BG,Functional,Operational,Shop,011 / 228-16-39,,,7711spfdcbg@gmail.com,Jurija Gagarina 16,,107
+1024000302,7793 - Springfield Jagodina,Functional,Operational,Shop,035 / 810-03-28; 035 / 810-03-29,065 / 898-78-34,,tien7793@spf.com,Stevana Ivanovica bb,,107
+1024000303,7637 - Springfield Zadar Supernova,Functional,Operational,Shop,+385 23 234-048,,,7637spfzadar@gmail.com,"Ulica Akcije Maslenica 1, Supernova",,107
+1024000304,0019 Deichmann Jagodina,Functional,Operational,Shop,035 / 815-04-21,,,0019deichmannjagodina@gmail.com,Stevana Ivanovica bb,,108
+1024000305,5510 Takko Jagodina,Functional,Operational,Shop,035 / 810-04-35,,,5510takkojagodina@gmail.com,Stevana Ivanovica bb,,109
+1024000306,RS0506 / W1B24091,Functional,Operational,Shop,013/416-010; 013/416-011; 013/416-012,,013/416-014,RS0506hmpancevo@gmail.com,Milosa Obrenovica 12,,115
+1024000307,RS0508 / W1B33839,Functional,Operational,Shop,011/411-2620; 011/411-2621; 011/411-2622,,011/411-2624,RS0508hmknez@gmail.com,Kneza Mihaila 14-16,,115
+1024000308,Sephora BG Delta City,Functional,Operational,Shop,011 / 312-95-35,,,sephora_deltacitybg@gmail.com,Jurija Gagarina 16,,117
+1024000309,Sephora BG Usce,Functional,Operational,Shop,011 / 260-20-37,,,sephora_uscebg@gmail.com,Bulevar Mihajla Pupina 4,,117
+1024000310,Idea 481 SM Vidikovac,Functional,Operational,Shop,,,,idea481smvidikovac@gmail.com,Vidikovacki Venac 102a,,112
+1024000311,Hipermarket Novi Sad,Functional,Operational,Shop,,,,hipermarketnovisad@gmail.com,Bulevar oslobodenja 102,,112
+1024000312,Idea 237 Borca,Functional,Operational,Shop,,,,idea237borca@gmail.com,Zrenjaniski put bb,,112
+1024000313,Biro Servis,Functional,Operational,Shop,,,,biroservissp@gmail.com,Vinicki put 20,,132
+1024000314,Peek & Cloppenburg d.o.o.,Functional,Operational,Shop,,,,sppeekncloppenburg@gmail.com,Ulica grada Vukovara 284,,120
+1024000315,Metro Cash & Carry Zagreb,Functional,Operational,Shop,,,,spmetrocnccro@gmail.com,Jankomir 31,,118
+1024000316,LPP CROATIA d.o.o.,Functional,Operational,Shop,,,,splppcroatia@gmail.com,Trsatska ulica 2c,,122
+1024000317,NKD HQ,Functional,Operational,Shop,,,,spnkdmodahqcro@gmail.com,Zavrtnica 17,,121
+1024000318,0032 Deichmann Ljubljana Rudnik,Functional,Operational,Shop,,,,0032deichmannljubljana@gmail.com,Jurckova cesta 223,,108
+1024000319,C&A Moda Zagreb,Functional,Operational,Shop,,,,camodazagreb@gmail.com,Oreskoviceva 6H/1,,110
+1024000320,IKEA Hrvatska HR021,Functional,Operational,Shop,,,,ikeacrosp@gmail.com,"Alfreda Nobela 2, Sop",,119
+1024000321,Decathlon Zagreb d.o.o.,Functional,Operational,Shop,,,,decathlonzgcrosp@gmail.com,Ilica 1/A,,123
+1024000322,ARCOTEL Allegra - Creative Business,Functional,Operational,Shop,,,,arcotelallegracreativebusinessspcro@gmail.com,Branimirova 29,,124
+1024000323,Santana Bar Pozarevac,Functional,Operational,Shop,,,,santanabarpozarevac@gmail.com,Djure Djakovica bb,,112
+1024000324,Idea 330 Zvezdara,Functional,Operational,Shop,,,,idea330zvezdara@gmail.com,Milana Rakica 80,,112
+1024000325,"0008 Deichmann Citluk, Medjugorie",Functional,Operational,Shop,,,,0008deichmanncitlukmedjugorie@gmail.com,Tromeda bb,,108
+1024000326,Metro Cash & Carry Zemun,Functional,Operational,Shop,,,,spmetrocncsrb@gmail.com,Autoput za Novi Sad 120,,118
+1024000327,Online Shop Novi Sad MP 326,Functional,Operational,Shop,,,,onlineshopidea326@gmail.com,Temerinski Put 50,,112
+1024000328,0009 Deichmann Skofja Loka,Functional,Operational,Shop,,,,0009deichmannskofjaloka@gmail.com,Grenc 56,,108
+1024000329,0005 Deichmann Postojna,Functional,Operational,Shop,,,,0005deichmannpostojna@gmail.com,Reska Cesta 6,,108
+1024000330,Posta MM Subotica,Functional,Operational,Shop,,,,postammsubotica@gmail.com,Segedinski put 92,,112
+1024000331,P-015 Zagreb,Retired,Incident,Shop,,,,p015zg@gmail.com,Preradoviceva 39,,103
+1024000332,P-020 Zagreb,Retired,Incident,Shop,,,,p020zg@gmail.com,Kaciceva 21,,103
+1024000333,P-021 Zagreb,Functional,Operational,Shop,,,,p021zg@gmail.com,Milke Trnine 11a,,103
+1024000334,P-024 Zagreb,Retired,Incident,Shop,,,,p024zg@gmail.com,Petrinjska 11,,103
+1024000335,P-25 Gavrilovic,Functional,Operational,Shop,,,,p025zg@gmail.com,Vlaska 21 (stakl),,103
+1024000336,P-026 Zagreb,Retired,Incident,Shop,,,,p026zg@gmail.com,Nova Ves 46,,103
+1024000337,P-027 Zagreb,Retired,Incident,Shop,,,,p027zg@gmail.com,Jurisiceva 2a (stakl),,103
+1024000338,P-028 Zagreb,Retired,Incident,Shop,,,,p028zg@gmail.com,Petrinjska 26a,,103
+1024000339,P-29 Gavrilovic Zagreb,Functional,Operational,Shop,,,,p029zg@gmail.com,Trg Bana Jelacica 2,,103
+1024000340,P-32 Gavrilovic Zagreb,Functional,Operational,Shop,,,,p032zg@gmail.com,Ilica 39,,103
+1024000341,P-033 Zagreb,Retired,Incident,Shop,,,,p033zg@gmail.com,A. Hebranga 27,,103
+1024000342,P-35 Gavrilovic Zagreb,Retired,Incident,Shop,,,,p035zg@gmail.com,Cirilometodska 8,,103
+1024000343,P-043 Zagreb,Retired,Incident,Shop,,,,p043zg@gmail.com,Sibenska 1,,103
+1024000344,P-065 Zagreb,Retired,Incident,Shop,,,,p065zg@gmail.com,Tresnjevacki Trg,,103
+1024000345,P-067 Zagreb,Retired,Incident,Shop,,,,p067zg@gmail.com,Ljubljanica 29,,103
+1024000346,P-095 Zagreb,Retired,Incident,Shop,,,,p095zg@gmail.com,Frane Petrica 7,,103
+1024000347,P-111 Zagreb,Retired,Incident,Shop,,,,p111zg@gmail.com,Augusta Senoe 49,,103
+1024000348,P-117 Zagreb,Retired,Incident,Shop,,,,p117zg@gmail.com,Zagrebacka 4c,,103
+1024000349,P-143 Zagreb,Retired,Incident,Shop,,,,p143zg@gmail.com,Bastijanova bb,,103
+1024000350,P-201 Gavrilovic Zagreb,Functional,Operational,Shop,,,,p201zg@gmail.com,Vlaska 76,P-201 Gavrilovic Zagreb,103
+1024000351,P-202 Zagreb,Retired,Incident,Shop,,,,p202zg@gmail.com,Draskoviceva 76,,103
+1024000352,P-204 Zagreb,Retired,Incident,Shop,,,,p204zg@gmail.com,Marticeva 14,,103
+1024000353,P-207 Zagreb,Retired,Incident,Shop,,,,p207zg@gmail.com,Ul. Kneza Viseslava,,103
+1024000354,P-208 Zagreb,Retired,Incident,Shop,,,,p208zg@gmail.com,Svearova 9,,103
+1024000355,P-216 Zagreb,Retired,Incident,Shop,,,,p216zg@gmail.com,Draskoviceva 40,,103
+1024000356,P-220 Zagreb Gavrilovic,Functional,Operational,Shop,,,,p220zg@gmail.com,Vlaska 126,,103
+1024000357,P-222 Zagreb,Retired,Incident,Shop,,,,p222zg@gmail.com,Branimirova Trznica,,103
+1024000358,P-233 Zagreb,Retired,Incident,Shop,,,,p233zg@gmail.com,Rudolfa Bicanica 10,,103
+1024000359,P-234 Zagreb,Retired,Incident,Shop,,,,p234zg@gmail.com,Domagojeva 14,,103
+1024000360,P-313 Zagreb,Retired,Incident,Shop,,,,p313zg@gmail.com,Masarykova 23,,103
+1024000361,P-331 Zagreb,Retired,Incident,Shop,,,,p331zg@gmail.com,Crnomerec 3,,103
+1024000362,P-337 Zagreb,Retired,Incident,Shop,,,,p337zg@gmail.com,Ul. Grada Vukovara 56,,103
+1024000363,P-347 Zagreb,Retired,Incident,Shop,,,,p347zg@gmail.com,Trznica Vrapce,,103
+1024000364,P-361 Zagreb,Retired,Incident,Shop,,,,p361zg@gmail.com,Trznica Volovcica,,103
+1024000365,P-380 Zagreb,Retired,Incident,Shop,,,,p380zg@gmail.com,Donje Svetice 127,,103
+1024000366,P-500 Zagreb Gavrilovic,Functional,Operational,Shop,,,,p500zg@gmail.com,Trg Bana Jelacica 4,,103
+1024000367,P-505 Zagreb,Retired,Incident,Shop,,,,p505zg@gmail.com,Trznica Utrine,,103
+1024000368,P-510 Zagreb,Retired,Incident,Shop,,,,p510zg@gmail.com,Jablanska 22,,103
+1024000369,P-863 Rijeka,Retired,Incident,Shop,,,,p863rj@gmail.com,Centralni plac,,103
+1024000370,P-865 Pula,Retired,Incident,Shop,,,,p865pu@gmail.com,Sergiajevaca 35,,103
+1024000371,P-866 Pula,Retired,Incident,Shop,,,,p866pu@gmail.com,Zagrebacka 8,,103
+1024000372,P-868 Rovinj,Retired,Incident,Shop,,,,p868ro@gmail.com,Garibaldijeva,,103
+1024000373,P-869 Umag,Retired,Incident,Shop,,,,p869um@gmail.com,Ernesta Milosa 8c,,103
+1024000374,P-901 Pazin,Retired,Incident,Shop,,,,p901pa@gmail.com,25. Rujna 38,,103
+1024000375,P-903 Pazin,Retired,Incident,Shop,,,,p903pa@gmail.com,25. Rujna 2,,103
+1024000376,P-904 Pazin,Retired,Incident,Shop,,,,p904pa@gmail.com,Stari trg 14,,103
+1024000377,P-905 Pazin,Retired,Incident,Shop,,,,p905pa@gmail.com,Set. Pazinske Gimn. bb,,103
+1024000378,P-906 Pazin,Retired,Incident,Shop,,,,p906pa@gmail.com,Istarskih Narodnjaka 6,,103
+1024000379,P-908 Pazin,Retired,Incident,Shop,,,,p908pa@gmail.com,Stareh Kostanji bb,,103
+1024000380,P-902 Zminj,Retired,Incident,Shop,,,,p902zm@gmail.com,Pazinska Cesta bb,,103
+1024000381,P-913 Zminj,Retired,Incident,Shop,,,,p913zm@gmail.com,9. Rujan bb,,103
+1024000382,P-909 Liznjan,Retired,Incident,Shop,,,,p909li@gmail.com,Liznjan 137A,,103
+1024000383,P-912 Pula,Retired,Incident,Shop,,,,p912pu@gmail.com,Defranceschieva 35,,103
+1024000384,P-942 Pula,Retired,Incident,Shop,,,,p942pu@gmail.com,Starih Statuta 9,,103
+1024000385,P-943 Pula,Retired,Incident,Shop,,,,p943pu@gmail.com,Viteziceva 6,,103
+1024000386,P-951 Pula,Retired,Incident,Shop,,,,p951pu@gmail.com,Narodni trg 9,,103
+1024000387,P-952 Pula,Retired,Incident,Shop,,,,p952pu@gmail.com,Narodni trg 9,,103
+1024000388,P-914 Rovinj,Retired,Incident,Shop,,,,p914ro@gmail.com,Fazanska 19b,,103
+1024000389,P-915 Rovinj,Retired,Incident,Shop,,,,p915ro@gmail.com,Lacosercio 2A,,103
+1024000390,P-916 Rovinj,Retired,Incident,Shop,,,,p916ro@gmail.com,Rovinjsko selo,,103
+1024000391,P-917 Rovinj,Retired,Incident,Shop,,,,p917ro@gmail.com,Aldo Negri 1,,103
+1024000392,P-945 Rijeka,Retired,Incident,Shop,,,,p945ri@gmail.com,Venuccijeve Stube 7,,103
+1024000393,P-937 Buzet,Retired,Incident,Shop,,,,p937bu@gmail.com,Trg Fontana 8/2,,103
+1024000394,P-935 Buzet,Retired,Incident,Shop,,,,p935bu@gmail.com,Trg Fontana 7,,103
+1024000395,P-921 Porec,Retired,Incident,Shop,,,,p921po@gmail.com,Rocka 20,,103
+1024000396,P-925 Porec,Retired,Incident,Shop,,,,p925po@gmail.com,Market Zelena Laguna,,103
+1024000397,P-918 Vrsar,Retired,Incident,Shop,,,,p918vr@gmail.com,Obala M. Tita 10,,103
+1024000398,P-919 Funtana,Retired,Incident,Shop,,,,p919fu@gmail.com,Ribarska Ulica 11,,103
+1024000399,P-922 Novigrad,Retired,Incident,Shop,,,,p922ng@gmail.com,Eugena Kumicica 14,,103
+1024000400,P-927 Nedescina,Retired,Incident,Shop,,,,p927ne@gmail.com,Plac bb,,103
+1024000401,P-931 Sv.Petar u Sumi,Retired,Incident,Shop,,,,p931svps@gmail.com,Dajcici BB,,103
+1024000402,P-932 Gracisce,Retired,Incident,Shop,,,,p932gr@gmail.com,Gracisce 82A,,103
+1024000403,P-933 Lupoglav,Retired,Incident,Shop,,,,p933lu@gmail.com,Lupoglav 17,,103
+1024000404,P-934 Roc,Retired,Incident,Shop,,,,p934ro@gmail.com,Roc bb,,103
+1024000405,P-936 Cerovlje,Retired,Incident,Shop,,,,p936ce@gmail.com,Dom Josipa Dausa 6,,103
+1024000406,P-938 Buje,Retired,Incident,Shop,,,,p938bu@gmail.com,Digitronska 7,,103
+1024000407,P-939 Visnjan,Retired,Incident,Shop,,,,p939vi@gmail.com,Istarska 5,,103
+1024000408,P-941 Brtonigla,Retired,Incident,Shop,,,,p941br@gmail.com,Bunarska 2,,103
+1024000409,P-946 Rupa,Retired,Incident,Shop,,,,p946ru@gmail.com,Rupa 4,,103
+1024000410,P-947 Jusici,Retired,Incident,Shop,,,,p947ju@gmail.com,Jusici 14D,,103
+1024000411,Idea 281 Online Shop Beograd,Functional,Operational,Shop,,,,idea281onlinebg@gmail.com,Bul.Umetnosti 4,,112
+1024000412,0013 Deichmann Ljubljana,Retired,Incident,Shop,,,,0013deichmannljubljana@gmail.com,Smartinska cesta 152g,,108
+1024000413,0001 Deichmann Velenje,Functional,Operational,Shop,,,,0001deichmannvelenje@gmail.com,Partizanska cesta 10a,,108
+1024000414,OVS maloprodaja d.o.o.,Functional,Operational,Shop,,,,ovszg_sp@gmail.com,Radnicka cesta 80,,125
+1024000415,PAN-PEK d.o.o.,Functional,Operational,Shop,,,,panpekzg_sp@gmail.com,Planinska ulica 2C,,131
+1024000416,Idea 238 Novi Sad,Functional,Operational,Shop,,,,idea238novisad@gmail.com,Branka Bajica 9,,112
+1024000417,Santana Bar 4,Functional,Operational,Shop,,,,santanabarborca@gmail.com,Zrenjaninski put bb,,112
+1024000418,Idea 332 Cuprija,Functional,Operational,Shop,,,,idea332cuprija@gmail.com,Kneza Milosa 23,,112
+1024000419,Idea 321 Beograd,Functional,Operational,Shop,,,,idea321beograd@gmail.com,Dimitrija Tucovica 66,,112
+1024000420,Idea 328 Subotica,Functional,Operational,Shop,,,,idea328subotica@gmail.com,Vase Stajica 11,,112
+1024000421,Sava Coop Veleprodaja,Functional,Operational,Shop,021 / 443 - 217,,,savacoopdoo@gmail.com,Teodora Mandica 9,,127
+1024000422,Sava Coop Cardak 1,Functional,Operational,Shop,021/6339-936,,,cardak1@gmail.com,Partizanska 44,,127
+1024000423,Sava Coop Cardak 2,Functional,Operational,Shop,,,,cardak2@gmail.com,Cara Lazara 3,,127
+1024000424,Sava Coop Cardak 3,Functional,Operational,Shop,,,,cardak3@gmail.com,Danila Bojovica 61,,127
+1024000425,Sava Coop Cardak 5,Functional,Operational,Shop,021/851-119,,,cardak5@gmail.com,Novosadska 323,,127
+1024000426,Sava Coop Cardak 6,Functional,Operational,Shop,021/836-167,,,cardak6@gmail.com,Branka Radicevica 41,,127
+1024000427,C&A Moda Beograd,Functional,Operational,Shop,,,,camodabeograd@gmail.com,"Mihajla Pupina 6 / 13 sprat, Poslovni centar Usce",,110
+1024000428,ZORKA-KERAMIKA D.O.O.,Functional,Operational,Shop,,,,zorkakeramika@gmail.com,Hajduk Veljkova 1,,126
+1024000429,Hipermarket Beograd,Functional,Operational,Shop,,,,hipermarketbeograd@gmail.com,Bulevar Umetnosti 4,,112
+1024000430,Idea 335 Online Shop Nis,Functional,Operational,Shop,,,,idea335onlinenis@gmail.com,Vizantijski bulevar 1,,112
+1024000431,Gavrilovic HQ,Functional,Operational,Shop,,,,gavrilovic@diona.hr,Trg Gavrilovica 1,,103
+1024000432,Area Office Beograd,Functional,Operational,Shop,+381 11 655 70 61,,+381 11 2693 999,areaofficebeograd@gmail.com,Milutina Milankovica 136 A,,109
+1024000433,TIMI HOLDINGS LIMITED Beograd,Functional,Operational,Shop,,,,timiholdings@gmail.com,Balkanska 2,,128
+1024000434,Idea Super 263 Novi Sad,Functional,Operational,Shop,,,,roda263mmns@gmail.com,Bulevar Vojvode Stepe 32,,112
+1024000435,0002 Deichmann Murska Sobota,Functional,Operational,Shop,,,,0002deichmannmurskasobota@gmail.com,Obrtna ulica 26a,,108
+1024000436,0004 Deichmann Maribor,Functional,Operational,Shop,,,,0004deichmannmaribor@gmail.com,"Cesta Proletarskih brigada 100, Interspar II",,108
+1024000437,0006 Deichmann Domzale,Retired,Incident,Shop,,,,0006deichmanndomzale@gmail.com,Ljubljanska cesta 151,,108
+1024000438,0007 Deichmann Slovenj Gradec,Functional,Operational,Shop,,,,0007deichmannslovenjgradec@gmail.com,Francetova cesta 16,,108
+1024000439,0008 Deichmann Kranj,Functional,Operational,Shop,,,,0008deichmannkranj@gmail.com,Cesta 1. Maja 77,,108
+1024000440,0010 Deichmann Ljubljana,Functional,Operational,Shop,,,,0010deichmannljubljana@gmail.com,"Bratislava ulica 9, tus Center",,108
+1024000441,0011 Deichmann Celje,Retired,Incident,Shop,,,,0011deichmanncelje@gmail.com,Mariborska cesta 88,,108
+1024000442,0014 Deichmann Krsko,Functional,Operational,Shop,,,,0014deichmannkrsko@gmail.com,Ulica 11. novembra 53,,108
+1024000443,0015 Deichmann Nova Gorica,Functional,Operational,Shop,,,,0015deichmannnovagorica@gmail.com,Cesta 25. junija 1A,,108
+1024000444,0016 Deichmann Ptuj,Functional,Operational,Shop,,,,0016deichmannptuj@gmail.com,Ormoska cesta 24,,108
+1024000445,0017 Deichmann Ljubljana,Functional,Operational,Shop,,,,0017deichmannljubljana@gmail.com,"Jamova cesta 105, Vic Interspar",,108
+1024000446,0018 Deichmann Maribor,Functional,Operational,Shop,,,,0018deichmannmaribor@gmail.com,Trzaska cesta 4,,108
+1024000447,0019 Deichmann Jesenice,Functional,Operational,Shop,,,,0019deichmannjesenice@gmail.com,Fuzinska cesta 8,,108
+1024000448,0020 Deichmann Novo Mesto,Functional,Operational,Shop,,,,0020deichmannnovomesto@gmail.com,Otoska cesta 5,,108
+1024000449,0021 Deichmann Kamnik,Functional,Operational,Shop,,,,0021deichmannkamnik@gmail.com,Domzalska cesta 3,,108
+1024000450,0022 Deichmann Slovenska Bistrica,Functional,Operational,Shop,,,,0022deichmannslovenskabistrica@gmail.com,Zolgarjeva ulica 14,,108
+1024000451,0023 Deichmann Koper,Functional,Operational,Shop,,,,0023deichmannkoper@gmail.com,Ankaranska cesta 2,,108
+1024000452,0026 Deichmann Prevalje,Functional,Operational,Shop,,,,0026deichmannprevalje@gmail.com,Polje 10,,108
+1024000453,0027 Deichmann Sibenik Supernova,Functional,Operational,Shop,,,,0027deichmannsibeniksupernova@gmail.com,Ul. Velimira Škorpika 23,,108
+1024000454,V601 Jysk Zadar,Functional,Operational,Shop,,,,V601jyskzadar@gmail.com,159. Brigade 10,,106
+1024000455,V602 Jysk Slavonski Brod,Functional,Operational,Shop,,,,V602jyskslavonskibrod@gmail.com,Osjecka ulica 284,,106
+1024000456,V603 Jysk Varazdin,Functional,Operational,Shop,,,,V603jyskvarazdin@gmail.com,Optujska ulica bb,,106
+1024000457,V604 Jysk Virovitica,Functional,Operational,Shop,,,,V604jyskvirovitica@gmail.com,Pejaceviceva bb,,106
+1024000458,V605 Jysk Jug Osijek,Functional,Operational,Shop,,,,V605jyskjugosijek@gmail.com,Josipa Reihl-Kira bb,,106
+1024000459,V606 Jysk Koprivnica,Functional,Operational,Shop,,,,V606jyskkoprivnica@gmail.com,Radnicka cesta bb,,106
+1024000460,V607 Jysk Valpovo,Functional,Operational,Shop,,,,V607jyskvalpovo@gmail.com,Bana Josipa Jelacica bb,,106
+1024000461,V608 Jysk Cakovec,Functional,Operational,Shop,,,,V608jyskcakovec@gmail.com,Zagrebacka 87,,106
+1024000462,V609 Jysk Imotski,Functional,Operational,Shop,,,,V609jyskimotski@gmail.com,Glavina Donja 336,,106
+1024000463,V610 Jysk Sisak,Functional,Operational,Shop,,,,V610jysksisak@gmail.com,Zagrebacka 49/J,,106
+1024000464,V611 Jysk Karlovac,Functional,Operational,Shop,,,,V611jyskkarlovac@gmail.com,Prilaz Veceslava Holjevca 12,,106
+1024000465,V612 Jysk Sibenik,Functional,Operational,Shop,,,,V612jysksibenik@gmail.com,Velimira Skorpika 23,,106
+1024000466,V613 Jysk Zagreb Dubrava,Functional,Operational,Shop,,,,V613jyskzagrebdubrava@gmail.com,Ulica kneza Branimira 183,,106
+1024000467,V614 Jysk Zagreb Rotor,Functional,Operational,Shop,,,,V614jyskzagrebrotor@gmail.com,Jadranska avenija 2b,,106
+1024000468,V615 Jysk  Zagreb King Cross,Functional,Operational,Shop,,,,V615jyskzagrebkingcross@gmail.com,Velimira Skorpika 34,,106
+1024000469,V616 Jysk Gospic,Functional,Operational,Shop,,,,V616jyskgospic@gmail.com,Trg Stjepana Radica bb,,106
+1024000470,V617 Jysk Rijeka,Functional,Operational,Shop,,,,V617jyskrijeka@gmail.com,"Osjecka 71, Skurinje",,106
+1024000471,V618 Jysk Vinkovci,Functional,Operational,Shop,,,,V618jyskvinkovci@gmail.com,Duga ulica 26,,106
+1024000472,V619 Jysk Djakovo,Functional,Operational,Shop,,,,V619jyskdjakovo@gmail.com,Petra Preradovica 209b,,106
+1024000473,V620 Jysk Avenue Mall Osijek,Functional,Operational,Shop,,,,V620jyskavenuemallosijek@gmail.com,Sv. Leopolda Bogdana Mandica 50a,,106
+1024000474,V621 Jysk Rovinj,Functional,Operational,Shop,,,,V621jyskrovinj@gmail.com,Brace Bozic 4c,,106
+1024000475,V622 Jysk Split,Functional,Operational,Shop,,,,V622jysksplit@gmail.com,Cesta dr. Franje Tudmana 7,,106
+1024000476,V623 Jysk Samobor,Functional,Operational,Shop,,,,V623jysksamobor@gmail.com,Bleiburskih zrtava 1945/1 (Mercator),,106
+1024000477,V624 Jysk Pula,Functional,Operational,Shop,,,,V624jyskpula@gmail.com,Industrijska cesta bb (GETRO),,106
+1024000478,V625 Jysk Bjelovar,Functional,Operational,Shop,,,,V625jyskbjelovar@gmail.com,Pakracka ulica 2 (GETRO),,106
+1024000479,V626 Jysk Dubrovnik,Functional,Operational,Shop,,,,V626jyskdubrovnik@gmail.com,Gornja Cibaca bb (GETRO),,106
+1024000480,V627 Jysk Sinj,Functional,Operational,Shop,,,,V627jysksinj@gmail.com,M. Buljana bb (GETRO),,106
+1024000481,V628 Jysk Split Sirobuja (Split 2),Functional,Operational,Shop,,,,V628jysksplitsirobuja@gmail.com,Kralja Drzislava 22 (Sirobuja),,106
+1024000482,V629 Jysk Velika Gorica,Functional,Operational,Shop,,,,V629jyskvelikagorica@gmail.com,Sajmisna ulica bb,,106
+1024000483,V630 Jysk Pozega,Functional,Operational,Shop,,,,V630jyskpozega@gmail.com,Osjecka 19,,106
+1024000484,V631 Jysk Sesvete,Functional,Operational,Shop,,,,V631jysksesvete@gmail.com,Ljudevita Posavskog 5 (GETRO),,106
+1024000485,V632 Jysk Novi Zagreb (Zaprude),Functional,Operational,Shop,,,,V632jysknovizagreb@gmail.com,Sajmisna cesta 4 (GETRO),,106
+1024000486,V633 Jysk Makarska,Functional,Operational,Shop,,,,V633jyskmakarska@gmail.com,Vrgoracki put 1,,106
+1024000487,V634 Jysk Vukovar,Functional,Operational,Shop,,,,V634jyskvukovar@gmail.com,Priljevo 203 J,,106
+1024000488,V635 Jysk Solin,Functional,Operational,Shop,,,,V635jysksolin@gmail.com,A. G. Matosa 10,,106
+1024000489,V636 Jysk West Gate Donja Bistra,Functional,Operational,Shop,,,,V636jyskwestgatedonjabistra@gmail.com,"Zapresicka 2, Jablanovec",,106
+1024000490,V637 Jysk Opuzen,Functional,Operational,Shop,,,,V637jyskopuzen@gmail.com,"Jasenska bb, (Solin Grada)",,106
+1024000491,O501 Jysk Brezice,Functional,Operational,Shop,,,,O501jyskbrezice@gmail.com,Tovarniska 10a,,106
+1024000492,O502 Jysk Murska Sobota,Functional,Operational,Shop,,,,O502jyskmurskasobota@gmail.com,Obrtna ulica 26a,,106
+1024000493,O503 Jysk Celje,Functional,Operational,Shop,,,,O503jyskcelje@gmail.com,Bezigrajska 16,,106
+1024000494,O504 Jysk Slovenska Bistrica,Functional,Operational,Shop,,,,O504jyskslovenskabistrica@gmail.com,Zolgarjeva ulica 18,,106
+1024000495,O505 Jysk Ljubljana,Functional,Operational,Shop,,,,O505jyskjjubljana@gmail.com,Smartinska c. 152 (Emporium),,106
+1024000496,O506 Jysk Maribor,Functional,Operational,Shop,,,,O506jyskmaribor@gmail.com,Cesta proletarskih brigad 100,,106
+1024000497,O507 Jysk Novo mesto,Functional,Operational,Shop,,,,O507jysknovomesto@gmail.com,Pod Trsko goro 83,,106
+1024000498,O508 Jysk Slovenj Gradec,Functional,Operational,Shop,,,,O508jyskslovenjgradec@gmail.com,Francetova 16,,106
+1024000499,O509 Jysk Ptuj,Functional,Operational,Shop,,,,O509jyskptuj@gmail.com,Puhova ulica 21,,106
+1024000500,O510 Jysk Kranj,Functional,Operational,Shop,,,,O510jyskkranj@gmail.com,Cesta Jake Platiše 18,,106
+1024000501,O511 Jysk Koper,Functional,Operational,Shop,,,,O511jyskkoper@gmail.com,Ankaranska cesta 4 (Supernova),,106
+1024000502,O512 Jysk Kocevje,Functional,Operational,Shop,,,,O512jyskkocevje@gmail.com,Reska cesta 13 (TUS Supermarket),,106
+1024000503,O513 Jysk Menges,Functional,Operational,Shop,,,,O513jyskmenges@gmail.com,Slovenska cesta 85 (TUS Supermarket),,106
+1024000504,O514 Jysk Skofja Loka,Functional,Operational,Shop,,,,O514jyskskofjaloka@gmail.com,Grenc 56 (Trgovski center Grenc),,106
+1024000505,O515 Jysk Postojna,Functional,Operational,Shop,,,,O515jyskpostojna@gmail.com,Kazarje 10 (Poslovna stavba Epicenter),,106
+1024000506,Dr Techno 3,Functional,Operational,Shop,,,,drtechno3@gmail.com,Sentandrejski put 11,,100
+1024000507,O516 Jysk Velenje,Functional,Operational,Shop,,,,O516jyskvelenje@gmail.com,Salek 112 (Megamarket Interspar),,106
+1024000508,O517 Jysk Ljubljana Rudnik,Functional,Operational,Shop,,,,O517jyskljubljanarudnik@gmail.com,Jurckova cesta 228,,106
+1024000509,O518 Jysk Nova Gorica,Functional,Operational,Shop,,,,O518jysknovagorica@gmail.com,Prvomajska ulica br. 35 (Shopping Park Supernova),,106
+1024000510,O519 Jysk Ljubljana Siska,Functional,Operational,Shop,,,,O519jyskljubljanasiska@gmail.com,Celovska cesta 249,,106
+1024000511,MOL Beograd,Functional,Operational,Shop,011 / 2096-900,,,molbeogradsp@gmail.com,Omladinskih brigada 88/V,,101
+1024000512,NKD 5005 Zagreb,Functional,Operational,Shop,,,,5005zagrebmandi@gmail.com,Slavonska Avenija 56,,121
+1024000513,NKD 5006 Zagreb - Dubrava,Functional,Operational,Shop,+385/1 291-1404,099/2635-034,,5006zagrebdubrava@gmail.com,Avenija Dubrava 33,,121
+1024000514,NKD 5007 Zadar - Supernova,Functional,Operational,Shop,,,,5007zadarsupernova@gmail.com,Akcija Maslenica 1,,121
+1024000515,NKD 5008 Zadar - Super Konzum,Functional,Operational,Shop,+385/2 331-1719,099/2635-036,,5008zadarsuperkonzum@gmail.com,Ante Starcevica bb,,121
+1024000516,NKD 5009 Osijek R.K. Doma,Functional,Operational,Shop,,,,5009osijekrkdoma@gmail.com,Ive Tijardovica 4a,,121
+1024000517,NKD 5010 Vinkovci,Functional,Operational,Shop,+385/3 233-3983,099/2635-038,,5010vinkovci@gmail.com,Duga ulica 26,,121
+1024000518,NKD 5011 Zagreb - Vrbani,Functional,Operational,Shop,+385/1 386-5204,099/2635-039,,5011zagrebvrbani@gmail.com,Rudeska cesta 140,,121
+1024000519,NKD 5012 Karlovac,Functional,Operational,Shop,,,,5012karlovac@gmail.com,Trg Milana Sufflaya 1,,121
+1024000520,NKD 5013 Cakovec,Functional,Operational,Shop,+385/4 031-3828,099/2635-041,,5013cakovec@gmail.com,Trg Republike 6,,121
+1024000521,"NKD 5014 Zagreb, Kustosija",Functional,Operational,Shop,+385/1 370-3759,099/2635-042,,5014zagrebkustosija@gmail.com,Ilica 298a,,121
+1024000522,NKD 5015 Zagreb - Imp. Centar,Functional,Operational,Shop,+385/1 457-7544,099/2635-043,,5015zagrebimpcentar@gmail.com,Trg Ante Starcevica 7,,121
+1024000523,NKD 5016 Zagreb - Imp. Galleria,Functional,Operational,Shop,+385/1 455-0309,099/2635-044,,5016zagrebimpgalleria@gmail.com,Trg Drage Iblera 10,,121
+1024000524,NKD 5017 Nasice,Functional,Operational,Shop,+385/3 161-1739,099/2635-045,,5017nasice@gmail.com,Pejacevicev trg 12,,121
+1024000525,NKD 5018 Split R.K. Prima 3,Functional,Operational,Shop,+385/2 147-0358,099/2635 -046,,5018splitrkprima3@gmail.com,Rudera Boskovica 18a,,121
+1024000526,NKD 5019 Zagreb - Garden Mall,Functional,Operational,Shop,+385/1 292-5719,099/2635 -047,,5019zagrebgardenmall@gmail.com,Oporovecka 14,,121
+1024000527,NKD 5020 Koprivnica,Functional,Operational,Shop,+385/4 821-1211,099/2635-048,,5020koprivnica@gmail.com,Radnicka cesta 8,,121
+1024000528,NKD 5021 Slavonski Brod Supernova,Functional,Operational,Shop,,,,5021slavonskibrodsupernova@gmail.com,Osjecka 284,,121
+1024000529,NKD 5022 Pozega,Functional,Operational,Shop,+385/3 431-2177,099/2635-050,,5022pozega@gmail.com,Stjepana Radica 21,,121
+1024000530,NKD 5023 Osijek - Avenue Mall,Functional,Operational,Shop,+385/3 129-7186,099/2635-051,,5023osijekavenuemall@gmail.com,Sv. Leopolda Bogdana Mandica 50a,,121
+1024000531,NKD 5024 Varazdin - Storeland,Functional,Operational,Shop,+385/4 220-4902,099/2635-052,,5024varazdinstoreland@gmail.com,Gospodarska bb,,121
+1024000532,NKD 5025 Sisak,Functional,Operational,Shop,+385/4 451-0047,099/2635-054,,5025sisak@gmail.com,Ivana Fistrovica 23,,121
+1024000533,NKD 5026 Zagreb - King Cross,Functional,Operational,Shop,,,,5026zagrebkingcross@gmail.com,Skorpikova 34,,121
+1024000534,NKD 5027 Split - Plodine,Functional,Operational,Shop,+385/2 145-6064,099/2635-057,,5027splitplodine@gmail.com,Put Pazdigrada bb,,121
+1024000535,NKD 5035 Sibenik,Functional,Operational,Shop,+385/2 234-0151,099/2656-412,,5035sibeniktcVidici@gmail.com,Vidici bb,,121
+1024000536,NKD 5028 Djakovo - Kaufland,Functional,Operational,Shop,+385/3 181-5166,099/2635-035,,5028djakovokaufland@gmail.com,Franje Rackog 95,,121
+1024000537,"NKD 5034 Zagreb, Ravnice -  Kaufland",Functional,Operational,Shop,+385/1 462-2250,099/2635-049,,5034zagrebravkauflan@gmail.com,Branimirova 119,,121
+1024000538,NKD 5029 Slavonski Brod Kaufland,Functional,Operational,Shop,+385/3 541-1331,099/2635-040,,5029slavonskibrodkaufland@gmail.com,"Naselje Slavonija II, br.5",,121
+1024000539,NKD 5030 Slavonski Brod - Colosseum,Functional,Operational,Shop,+385/3 525-0476,099/2635-037,,5030slavonskibrodcolosseum@gmail.com,Josipa Rimca 7,,121
+1024000540,NKD 5031 Slavonski Brod - Supernova,Functional,Operational,Shop,,,,5031slavonskibrodsupernova@gmail.com,Osjecka 284,,121
+1024000541,NKD 5032 Dubrovnik Spiona Land,Functional,Operational,Shop,+385/2 031-1807,099/2635-058,,5032dubrovnikspionaland@gmail.com,Gornja Cibaca 14,,121
+1024000542,NKD 5033 Crikvenica Duga Mall,Functional,Operational,Shop,+385/5 178-5423,099/2635-079,,5033crikvenicadugamall@gmail.com,Ulica Kralja Tomislava 109D,,121
+1024000543,Pravni Fakultet Novi Sad,Functional,Operational,Shop,,,,pravnifakultsp@gmail.com,Trg Dositeja Obradovica 1,,129
+1024000544,Pogled Temerin,Functional,Operational,Shop,,,,pogledtemerin123@gmail.com,Marka Oreskovi?a 7,,130
+1024000545,Santana Bar 3,Functional,Operational,Shop,,,,santanabar3bg@gmail.com,Autoput 18,,112
+1024000546,0009 Deichmann Bugojno,Functional,Operational,Shop,,,,0009deichmannbugojno@gmail.com,Ciglane bb,,108
+1024000547,Idea 327 Temerin,Functional,Operational,Shop,,,,idea327temerin@gmail.com,Novosadska 429,,112
+1024000548,Sigma Promet d.o.o.,Functional,Operational,Shop,,,,sigmapromet@gmail.com,Svetozara Markovica 104,,133
+1024000549,"NKD 5036 Zagreb, King Cross",Functional,Operational,Shop,+385/7 349-7542,099/2635-056,,5036zagrebkingcross@gmail.com,Velimira Skorpika 34,,121
+1024000550,Mystico Plus,Functional,Operational,Shop,,,,spmysticoplus@gmail.com,Safarikova 35,,134
+1024000551,5511 Takko Cacak,Functional,Operational,Shop,38132332466,,38132332477,5511takkocacak@gmail.com,Bulevar Vuka Karadzica,,109
+1024000552,Knott Autoflex Jug,Functional,Operational,Shop,,,,knottautoflexspns@gmail.com,Novosadska 153,,135
+1024000553,X717 Jysk Bugojno,Functional,Operational,Shop,,,,X717JyskBugojno@gmail.com,Podgaj 2,,106
+1024000554,0015 Deichmann Gorazde,Functional,Operational,Shop,,,,0015deichmanngorazde@gmail.com,Rabite bb,,108
+1024000555,Metro Cash & Carry Novi Sad,Functional,Operational,Shop,021/4801-908,,021/4801-919,spmetrocncsrbns@gmail.com,Put Novosadskog partizanskog odreda br. 5,,118
+1024000556,Idea 236 Kragujevac,Retired,Incident,Shop,,,,idea236kragujevac@gmail.com,Daniciceva 64,,112
+1024000557,Idea 337 Novi Sad,Functional,Operational,Shop,,,,idea337novisad@gmail.com,Kis Ernea 2,,112
+1024000558,RS749 C&A Fashion Cacak,Functional,Operational,Shop,,,,RS749cacacak@gmail.com,Bulevar Vuka Karadzica bb,,110
+1024000559,Metro Cash & Carry Nis,Functional,Operational,Shop,,,,spmetrocncsrbnis@gmail.com,Naselje Milke Protic 1,,118
+1024000560,Metro Uzice,Functional,Operational,Shop,,,,spmetropomeriuzice@gmail.com,Banjicka bb,,118
+1024000561,7519 - Women Secret Arena Centar,Functional,Operational,Shop,+385 16 524-100,,,tien7519@womensecret.com,Vice Vukova 6,,107
+1024000562,Metro Cash & Carry Kragujevac,Functional,Operational,Shop,034/307-917,,034/307-919,spmetrocncsrbkg@gmail.com,Lepenicki bulevar br. 1a,,118
+1024000563,Roda 257 MM Beograd - Parking blok 62,Functional,Operational,Shop,,,,roda257mmbgparking62@gmail.com,Nehurova 56B,,112
+1024000564,Idea 229 Stara Pazova - Parking,Functional,Operational,Shop,,,,idea229starapazovaparking@gmail.com,Svetosavska 18,,112
+1024000565,Metro Cash & Carry Krnjaca,Functional,Operational,Shop,011/2073-127,,011/2073-119,spmetrocncsrbkrnjaca@gmail.com,Zrenjaninski put br.11M,,118
+1024000566,Metro Cash & Carry Palic,Functional,Operational,Shop,0800 222 022,,,spmetrocncsrbpalic@gmail.com,Tuk Ugarnice bb,,118
+1024000567,X718 Jysk Banja Luka 2,Functional,Operational,Shop,,,,X718JyskBanjaluka@gmail.com,Jovana Ducica 25,,106
+1024000568,Metro Cash & Carry Vidikovac,Functional,Operational,Shop,011/2927-716,011/2927-758,,spmetrocncsrbvidikovac@gmail.com,Ibarski put 20,,118
+1024000569,Metro Cash & Carry Pozarevac,Functional,Operational,Shop,012/716-0036,,,spmetrocncsrbpozarevac@gmail.com,Djure Djakovica BB,,118
+1024000570,Metro Cash & Carry Sabac,Functional,Operational,Shop,015/716-0020,,015/716-0022,spmetrocncsrbsabac@gmail.com,Gavrila Principa BB,,118
+1024000571,0006 Deichmann Pancevo,Functional,Operational,Shop,,,,0006deichmannpancevo@gmail.com,Milosa Obrenovica 12,,108
+1024000572,5512 Takko Zemun,Functional,Operational,Shop,,,,55121takkozemun@gmail.com,"Autoput za Novi Sad 126, One Centar",,109
+1024000573,Vanilica Slatka Radionica,Functional,Operational,Shop,3.81347E+11,,,vanilicaslatkaradionica@gmail.com,Josifa Pancica 46,,136
+1024000574,Active Traveling,Functional,Operational,Shop,,,,activetravelingbg@gmail.com,"Resavka 27, stan 1",,137
+1024000575,UR Freshly Made,Functional,Operational,Shop,,,,urfreshlymade@gmail.com,Bulevar oslobodenja 66,,138
+1024000576,Nera d.o.o.,Functional,Operational,Shop,,,,neradoo@gmail.com,Savica Sanci 147,,139
+1024000577,V639 Jysk Porec,Functional,Operational,Shop,,,,v639jyskporec@gmail.com,"Vukovarska 19, Merkator",,106
+1024000578,V638 Jysk Zabok,Functional,Operational,Shop,,,,v638jyskzabok@gmail.com,Josipa Broza Tita 23,,106
+1024000579,Modiana NORK,Functional,Operational,Shop,,,,modiananorkns@gmail.com,Bulevar Mihajla Pupina 2,,112
+1024000580,X701 Jysk Sarajevo,Functional,Operational,Shop,,,,x701jysksarajevo@gmail.com,Kolodvorska 12,,106
+1024000581,FRAGMENT AUTO  D.O.O.,Functional,Operational,Shop,3.81114E+11,064/8913295,,fragmentautobgsp@gmail.com,Tosin Bunar 41,,141
+1024000582,Decathlon Trgovina 700876 King Cross,Functional,Operational,Shop,,,,decathlonzgkingcross@gmail.com,Velimira Skorpika 34,,123
+1024000583,Centralno Skladiste Voca i Povrca Nis,Functional,Operational,Shop,,,,centralnoskladistevocaipovrcanis@gmail.com,Vazduhoplovaca I/11,,112
+1024000584,Zreonica Banana Nis,Functional,Operational,Shop,,,,ivan.stojanovic@mercator.rs,Vazduhoplovaca I/11,,112
+1024000585,CS NEPREHRANA II,Functional,Operational,Shop,,,,csneprehrana2@gmail.com,Primorska 84,,112
+1024000586,Roda 813 LDC Nis,Functional,Operational,Shop,,,,803ldcnis@gmail.com,Vazduhoplovaca I/11,,112
+1024000587,Idea 104 Feketic,Functional,Operational,Shop,,,,idea104feketic@gmail.com,Marsala Tita 28,,112
+1024000588,Idea 105 Lovcenac,Functional,Operational,Shop,,,,idea105lovcenac@gmail.com,Marsala Tita 35,,112
+1024000589,Idea 106 Kucura,Functional,Operational,Shop,,,,idea106kucura@gmail.com,Trg Oslobodenja  1,,112
+1024000590,Idea 108 Vrbas,Functional,Operational,Shop,,,,idea108vrbas@gmail.com,Save Kovacevica 1,,112
+1024000591,Idea 109 Crvenka,Functional,Operational,Shop,,,,idea109crvenka@gmail.com,Marsala Tita 89,,112
+1024000592,Idea 110 Sivac,Functional,Operational,Shop,,,,idea110sivac@gmail.com,Marsala Tita 195,,112
+1024000593,Idea 112 Zmajevo,Functional,Operational,Shop,,,,idea112zmajevo@gmail.com,Ivana Milutinovica 49a,,112
+1024000594,Idea 113 Savino Selo,Functional,Operational,Shop,,,,idea113savinoselo@gmail.com,Marsala Tita 33,,112
+1024000595,Idea 114 Backo Dobro Polje,Functional,Operational,Shop,,,,Idea114backodobropolje@gmail.com,Marsala Tita 79,,112
+1024000596,Idea 118 Smederevska Palanka,Functional,Operational,Shop,,,,idea118smederevskapalanka@gmail.com,20. Jula 1,,112
+1024000597,Idea 119 Grocka,Functional,Operational,Shop,,,,idea119grocka@gmail.com,Vucka Milicevica 1,,112
+1024000598,Idea 124 Nis,Functional,Operational,Shop,,,,idea124nis@gmail.com,Obilicev Venac 3,,112
+1024000599,Idea 125 Beograd Batajnica,Functional,Operational,Shop,,,,idea125bgbatajnica@gmail.com,Jovana Brankovica BB,,112
+1024000600,Idea 126 Valjevo,Functional,Operational,Shop,,,,idea126valjevo@gmail.com,Karadordeva 92,,112
+1024000601,Idea 129 Paracin,Functional,Operational,Shop,,,,idea129paracin@gmail.com,Majora Marka 3,,112
+1024000602,Idea 131 Cuprija,Functional,Operational,Shop,,,,idea131cuprija@gmail.com,Karadordeva 42,,112
+1024000603,Idea 132 Zrenjanin,Functional,Operational,Shop,,,,idea132zrenjanin@gmail.com,Laze Kostica bb,,112
+1024000604,Idea 133 Bolec,Functional,Operational,Shop,,,,idea133bolec@gmail.com,"Smederevski Put 12, Grocka",,112
+1024000605,Idea 134 Nork,Functional,Operational,Shop,,,,idea134nork@gmail.com,Bulevar Mihajla Pupina 2,,112
+1024000606,Idea 141 Cetvrti Jul Vrbas,Functional,Operational,Shop,,,,idea141cetvrtijulvrbas@gmail.com,Trg Mose Pijade 21,,112
+1024000607,Idea 143 Sombor,Functional,Operational,Shop,,,,idea143sombor@gmail.com,Batinska 2,,112
+1024000608,Idea 141 Kikinda,Functional,Operational,Shop,,,,idea141kikinda@gmail.com,Svetosavska 43,,112
+1024000609,Idea 147 Konzum Nis,Functional,Operational,Shop,,,,idea147konzumnis@gmail.com,Bulevar Zorana Djindica 44,,112
+1024000610,Idea 148 Prehrana Nis,Functional,Operational,Shop,,,,idea148prehrananis@gmail.com,Dragiše Cvetkovića 91,,112
+1024000611,Idea 149 Dunav Nis,Functional,Operational,Shop,,,,idea149dunavnis@gmail.com,Jovana Ristica 29,,112
+1024000612,Idea 150 Cegar Nis,Functional,Operational,Shop,,,,idea150cegarnis@gmail.com,Kosovke Devojke 2,,112
+1024000613,Idea 151 1. Maj Nis,Functional,Operational,Shop,,,,idea1511majnis@gmail.com,Vojvode Misica 6,,112
+1024000614,Idea 152 28 Mart Nis,Functional,Operational,Shop,,,,idea15228martnis@gmail.com,Marina Drzica 6,,112
+1024000615,Idea 153 Cele Kula Nis,Functional,Operational,Shop,,,,idea153celekulanis@gmail.com,Bulevar Cara Konstantina 2,,112
+1024000616,Idea 154 Durmitor Nis,Functional,Operational,Shop,,,,idea154durmitornis@gmail.com,Bozidarceva 31,,112
+1024000617,Idea 155 Sindelic Nis,Functional,Operational,Shop,,,,idea155sindjelicnis@gmail.com,Borska 2,,112
+1024000618,Idea 156 Mladost Nis,Functional,Operational,Shop,,,,idea156mladostnis@gmail.com,Bulevar Nemanjica 3,,112
+1024000619,Idea 157 Buducnost Nis,Functional,Operational,Shop,,,,idea157buducnostnis@gmail.com,Mokranjceva 31,,112
+1024000620,Idea 160 Zelengora Nis,Functional,Operational,Shop,,,,idea160zelengoranis@gmail.com,Njegoseva 22,,112
+1024000621,Idea 161 Vinik Nis,Functional,Operational,Shop,,,,idea161viniknis@gmail.com,Knjazevacka 141,,112
+1024000622,Idea 162 Meljak,Functional,Operational,Shop,,,,idea162meljak@gmail.com,Ibarski put 50,,112
+1024000623,Idea 163 Cair Nis,Functional,Operational,Shop,,,,idea163cairnis@gmail.com,Hajduk Veljkova 18,,112
+1024000624,Idea 164 25. Maj Nis,Functional,Operational,Shop,,,,idea16425majnis@gmail.com,Branka Miljkovica 13,,112
+1024000625,Idea 165 Kula Hotel,Functional,Operational,Shop,,,,idea165kulahotel@gmail.com,Marsala Tita 89,,112
+1024000626,Idea 168 Mladenovac,Functional,Operational,Shop,,,,idea168mladenovac@gmail.com,Kralja Petra Prvog 29,,112
+1024000627,Idea 169 Djerdap Nis,Functional,Operational,Shop,,,,idea169djerdapnis@gmail.com,Nikole Kopernika 65,,112
+1024000628,Idea 172 Nisava Nis,Functional,Operational,Shop,,,,idea172nisavanis@gmail.com,Branka Krsmanovica 43,,112
+1024000629,Idea 173 Medosevac,Functional,Operational,Shop,,,,idea173medosevac@gmail.com,Medosevac,,112
+1024000630,Idea 176 Crvena Zvezda Nis,Functional,Operational,Shop,,,,idea176crvenazvezdanis@gmail.com,Sabacka 2,,112
+1024000631,Idea 177 Borac Nis,Functional,Operational,Shop,,,,idea177boracnis@gmail.com,Filipa Kljajica BB,,112
+1024000632,Idea 178 29 Novembar Nis,Functional,Operational,Shop,,,,idea17829novembarnis@gmail.com,Humska 6,,112
+1024000633,Idea 182 Ratko Jovic Nis,Functional,Operational,Shop,,,,idea182ratkojovicnis@gmail.com,Ratka Jovica BB,,112
+1024000634,Idea 183 Novi Komren Nis,Functional,Operational,Shop,,,,idea183novikomrennis@gmail.com,Bulevar 12. Februar 106,,112
+1024000635,Idea 184 Metalija Nis,Functional,Operational,Shop,,,,idea184metalijanis@gmail.com,Obilicev Venac 52,,112
+1024000636,Idea 185 Razvitak Nis,Functional,Operational,Shop,,,,idea185razvitaknis@gmail.com,Pobedina 13,,112
+1024000637,Idea 186 Napredak Nis,Functional,Operational,Shop,,,,idea186napredaknis@gmail.com,Ljubomira Nikolica BB,,112
+1024000638,Idea 187 Konak Nis,Functional,Operational,Shop,,,,idea187konaknis@gmail.com,Vozdova 21,,112
+1024000639,Idea 192 Brzi Brod Nis,Functional,Operational,Shop,,,,idea192brzibrodnis@gmail.com,Nisavska BB,,112
+1024000640,Idea 194 Subotica Centar,Functional,Operational,Shop,,,,idea194suboticacentar@gmail.com,Matka Vukovica 10,,112
+1024000641,Idea MP200 Nis Centar,Functional,Operational,Shop,,,,idea200niscentar@gmail.com,Obrenoviceva 3,,112
+1024000642,Idea 208 Ostojicevo,Functional,Operational,Shop,,,,idea208ostojicevo@gmail.com,Jugoviceva 1,,112
+1024000643,Idea 209 Banatsko Karadordevo,Functional,Operational,Shop,,,,idea209banatskokaradjordjevo@gmail.com,Djure Jaksica BB,,112
+1024000644,Idea 210 Srpska Crnja,Functional,Operational,Shop,,,,idea210srpskacrnja@gmail.com,Partizanska 54,,112
+1024000645,Idea 211 Srbobran,Functional,Operational,Shop,,,,idea211srbobran@gmail.com,Pere Segedinca 1,,112
+1024000646,Idea 212 Novi Becej,Functional,Operational,Shop,,,,idea212novibecej@gmail.com,Zarka Zrenjanina 2,,112
+1024000647,Idea 213 Senta,Functional,Operational,Shop,,,,idea213senta@gmail.com,Karadordeva 4,,112
+1024000648,Idea 216 Beocin,Functional,Operational,Shop,,,,idea216beocin@gmail.com,Svetosavska 37a,,112
+1024000649,Idea 217 Zrenjanin Centar,Functional,Operational,Shop,,,,idea217zrenjanincentar@gmail.com,Vojvode Petra Bojovica 25-27,,112
+1024000650,Idea 218 Coka,Functional,Operational,Shop,,,,idea218coka@gmail.com,Marsala Tita 3,,112
+1024000651,Idea 219 Kaluderica Centar Grocka,Functional,Operational,Shop,,,,idea219kaludjericacentargrocka@gmail.com,"Livade 2, Grocka",,112
+1024000652,Idea 220 Sabac Centar,Functional,Operational,Shop,,,,idea220sabaccentar@gmail.com,Macvanska 1,,112
+1024000653,Idea 222 Aleksinac,Functional,Operational,Shop,,,,idea222aleksinac@gmail.com,Kneza Milosa 80,,112
+1024000654,Idea 225 Knjazevac,Functional,Operational,Shop,,,,Idea225knjazevac@gmail.com,Knjaza Milosa 50,,112
+1024000655,Idea 226 Dalton Mali Novi Sad,Functional,Operational,Shop,,,,idea226daltonmalinovisad@gmail.com,Bulevar Oslobodenja 95,,112
+1024000656,Idea 228 Ruma Glavna,Functional,Operational,Shop,,,,idea228rumaglavna@gmail.com,Glavna 172,,112
+1024000657,Idea 229 Stara Pazova,Functional,Operational,Shop,,,,idea229starapazova@gmail.com,Svetosavska 18,,112
+1024000658,Idea 231 Pancevo - Kotez,Functional,Operational,Shop,,,,idea231pancevokotez@gmail.com,Brace Jovanovic 104,,112
+1024000659,Idea 233 Zajecar,Functional,Operational,Shop,,,,idea233zajecar@gmail.com,Karadordev Venac 4,,112
+1024000660,Idea 241 Heroja Pinkija Novi Sad,Functional,Operational,Shop,,,,idea241herojapinkijans@gmail.com,Vatroslava Jagica BB,,112
+1024000661,Idea 244 Bor,Functional,Operational,Shop,,,,idea244bor@gmail.com,Nikole Pasica 21,,112
+1024000662,Idea 246 Puskinova Novi Sad,Functional,Operational,Shop,,,,idea246puskinovans@gmail.com,Puskinova 3,,112
+1024000663,Idea 248 Bac,Functional,Operational,Shop,,,,idea248bac@gmail.com,Marsala Tita 5,,112
+1024000664,Idea 249 Pozarevac,Functional,Operational,Shop,,,,idea249pozarevac@gmail.com,Nemanjina 1,,112
+1024000665,Idea 252 Grbavica Novi Sad,Functional,Operational,Shop,,,,idea252grbavicans@gmail.com,Kolo Srpskih Sestara 18,,112
+1024000666,Idea 253 Kosovska Novi Sad,Functional,Operational,Shop,,,,idea253kosovskans@gmail.com,Kosovska 26b,,112
+1024000667,Idea 254 Masarikova Kikinda,Functional,Operational,Shop,,,,idea254kikinda@gmail.com,Masarikova 3,,112
+1024000668,Idea 255 Svilajnac,Functional,Operational,Shop,,,,idea255svilajnac@gmail.com,Kriva Carsija,,112
+1024000669,Idea 256 Vladicin Han,Functional,Operational,Shop,,,,idea256vladicinhan@gmail.com,Nikole Tesle BB,,112
+1024000670,Idea 260 Vranje,Functional,Operational,Shop,,,,idea260vranje@gmail.com,Partizanskih Odreda,,112
+1024000671,Idea 270 Zrenjanin Jevrejska,Functional,Operational,Shop,,,,idea270zrenjaninjevrejska@gmail.com,Jevrejska 2,,112
+1024000672,Idea 274 Nis Uzor,Functional,Operational,Shop,,,,idea274nisuzor@gmail.com,Carnojeviceva 10B,,112
+1024000673,Idea 275 Satelit Novi Sad,Functional,Operational,Shop,,,,idea275satelitns@gmail.com,Ive Cipika 23,,112
+1024000674,Idea 276 Ledena Stena Nis,Functional,Operational,Shop,,,,idea276ledenastenanis@gmail.com,Dimitrija Tucovica 27,,112
+1024000675,Idea 280 Vrsac,Functional,Operational,Shop,,,,idea280vrsac@gmail.com,Vojnicki Trg 23a,,112
+1024000676,Idea 282 Nova Pazova,Functional,Operational,Shop,,,,idea282novapazova@gmail.com,Kralja Petra 143,,112
+1024000677,Idea 283 Jagodina Pijaca,Functional,Operational,Shop,,,,idea283jagodinapijaca@gmail.com,Gine Pajevic BB,,112
+1024000678,Idea 287 Vrsac Jelena,Functional,Operational,Shop,,,,idea287vrsacjelena@gmail.com,Svetosavski Trg 11,,112
+1024000679,Idea 291 Bulevar Evrope,Functional,Operational,Shop,,,,idea291bulevarevropens@gmail.com,Polgara Andrasa 14,,112
+1024000680,Idea 292 Krusevac Centar,Functional,Operational,Shop,,,,idea292krusevaccentar@gmail.com,Takovska 1,,112
+1024000681,Idea 295 Dunavski Park,Functional,Operational,Shop,,,,idea295dunavskiparkns@gmail.com,Ignjate Pavlasa 2,,112
+1024000682,Idea 300 Klisa,Functional,Operational,Shop,,,,idea300klisans@gmail.com,Cenejska 20,,112
+1024000683,Idea 304 Danila Kisa,Functional,Operational,Shop,,,,idea304danilakisa@gmail.com,Danila Kisa 14,,112
+1024000684,Idea 305 Pozarevac Kosovska,Functional,Operational,Shop,,,,idea305pozarevackosovska@gmail.com,Kosovska 41A,,112
+1024000685,Idea 320 Fruskogorska Novi Sad,Functional,Operational,Shop,,,,idea320fruskogorskanovisad@gmail.com,Fruskogorska 26,,112
+1024000686,Idea 322 Batajnica Centar,Functional,Operational,Shop,,,,idea322batajnica@gmail.com,Pukovnika Milenka Pavlovica 3,,112
+1024000687,Idea 323 Obrenovac Centar,Functional,Operational,Shop,,,,idea323obrenovaccentar@gmail.com,Milosa Obrenovica 113,,112
+1024000688,Idea 324 Veternik,Functional,Operational,Shop,,,,idea324veternik@gmail.com,Sonje Marinkovic 1b,,112
+1024000689,Idea 325 Kac,Functional,Operational,Shop,,,,idea325kac@gmail.com,Kralja Petra 3,,112
+1024000690,Idea 329 Pancevo Centar,Functional,Operational,Shop,,,,idea329pancevocentar@gmail.com,Masarikova 4,,112
+1024000691,Idea Super 269 Sremska Kamenica,Functional,Operational,Shop,,,,ideasuper269sremskakamenica@gmail.com,Vojvode Putnika 79,,112
+1024000692,Roda Megamarket 271 Merkur NS,Functional,Operational,Shop,,,,rodamegamarket271merkurns@gmail.com,Rumenacka 150,,112
+1024000693,Idea Super 273 Bulevar NS,Functional,Operational,Shop,,,,ideasuper273bulevarns@gmail.com,Bulevar Oslobodenja 27,,112
+1024000694,Roda 215 MM Smederevo,Functional,Operational,Shop,,,,roda215mmsmederevo@gmail.com,Djure Salaja,,112
+1024000695,Roda 223 MM Krusevac,Functional,Operational,Shop,,,,roda223mmkrusevac@gmail.com,Zore Petrovic 11a,,112
+1024000696,Roda 265 Sombor Super,Functional,Operational,Shop,,,,roda265somborsuper@gmail.com,Staparski put BB,,112
+1024000697,Roda 288 Vranje Super,Functional,Operational,Shop,,,,roda288vranjesuper@gmail.com,Mose Pijade 16,,112
+1024000698,Roda 312 MM Backa Palanka,Functional,Operational,Shop,,,,roda312mmbackapalanka@gmail.com,Trg bratstva i jedinstva 6,,112
+1024000699,Roda 107 Megamarket Merkata,Functional,Operational,Shop,,,,roda107megamarketmerkata@gmail.com,Ivana Milutinovica BB,,112
+1024000700,Idea 136 Nis SL1,Functional,Operational,Shop,,,,mp136@mercator.rs,Matijevacki Put BB,,112
+1024000701,Sephora TC Bazar Novi Sad,Functional,Operational,Shop,,,,sephora_tcbazarns@gmail.com,Bulevar Mihajla Pupina 1,,117
+1024000702,Idea 195 Loznica,Functional,Operational,Shop,,,,idea195loznica@gmail.com,Kneza Milosa 15,,112
+1024000703,Idea 207 Liman,Functional,Operational,Shop,,,,idea207liman@gmail.com,Narodnog Fronta 53a,,112
+1024000704,Idea 214 Tamis Kapija,Functional,Operational,Shop,,,,idea214tamiskapija@gmail.com,Dositeja Obradovica BB,,112
+1024000705,Idea 258 Jagodina Pivara,Functional,Operational,Shop,,,,idea258jagodinapivara@gmail.com,Radmila Djordevica 1,,112
+1024000706,Idea 264 Sremska Mitrovica,Functional,Operational,Shop,,,,idea264sremskamitrovica@gmail.com,Marko Pericin BB,,112
+1024000707,Idea Super 286 Sid Centar,Functional,Operational,Shop,,,,idea286sidcentar@gmail.com,Cara Dusana 39,,112
+1024000708,Idea Super 309 Apatin,Functional,Operational,Shop,,,,ideasuper309apatin@gmail.com,Branka Radicevica BB,,112
+1024000709,Veleprodaja 903 Novi Sad,Functional,Operational,Shop,,,,veleproveliki903@gmail.com,Primorska 84,,112
+1024000710,Veleprodaja 909 Subotica,Functional,Operational,Shop,,,,veleprodaja909subotica@gmail.com,Tuk Ugarnice BB,,112
+1024000711,Veleprodaja 910 Zajecar,Functional,Operational,Shop,,,,veleprodaja910zajecar@gmail.com,Filipa Kljajica BB,,112
+1024000712,Veleprodaja 911 Loznica,Functional,Operational,Shop,,,,veleprodaja911loznica@gmail.com,Republike Srpske bb,,112
+1024000713,Veleprodaja 913 Sabac,Functional,Operational,Shop,,,,veleprodaja913sabac@gmail.com,Borivoja Jevtica 34,,112
+1024000714,Veleprodaja 905 Nis,Functional,Operational,Shop,,,,veleprodaja905nis@gmail.com,Vazduhoplovaca I prilaz / 11,,112
+1024000715,Veleprodaja 906 Leskovac,Functional,Operational,Shop,,,,veleprodaja906leskovac@gmail.com,Njegoseva 95,,112
+1024000716,Veleprodaja 901 Viline Vode,Functional,Operational,Shop,,,,,Knežopoljska 1,,112
+1024000717,Deichmann HQ Slovenia,Functional,Operational,,,,,,Dunajska c. 151,,108
+1024000718,Intersport Cacak,Functional,Operational,Shop,,,,intersportcacak@gmail.com,"Brace Spasic BB
+32000
+Cacak
+Serbia",,112
+1024000719,7808 - Women Secret Banja Luka,Functional,Operational,Shop,,,,tien7808@womensecret.com,Aleja Svetog Save 69,,107
+1024000720,Idea 338 Backa Topola,Functional,Operational,Shop,,,,,Glavna 14,,112
+1024000721,Skladiste Vrbas,Functional,Operational,Shop,,,,skladistevrbas@gmail.com,,,112
+1024000722,Idea 491 Novi Sad,Functional,Operational,Shop,,,,,Jozefa Atile 6,,112
+1024000723,0013 Deichmann Bijeljina,Functional,Operational,Shop,,,,0013deichmannbijeljina@gmail.com,Trg Kralja Petra I Karadjordjevica,,108
+1024000724,0012 Deichmann Bihac,Functional,Operational,Shop,,,,0012deichmannbihac@gmail.com,Zrtava srebrenickog genocida bb,,108
+1024000725,Idea 489 Novi Sad,Functional,Operational,Shop,,,,idea489novisad@gmail.com,Sremska 5,,112
+1024000726,X707 Jysk Bihac,Functional,Operational,Shop,,,,,Žrtava Srebreničkog genocida bb,,106
+1024000727,X712 Jysk Prijedor,Functional,Operational,Shop,+387 66 444 640,+387 66 445 321,,,"Branislava Nušića 35, Prijedor",,106
+1024000728,Idea 492 Novi Sad,Functional,Operational,Shop,,,,,Jovana Popovica 25b,,112
+1024000729,Idea 494 Subotica,Functional,Operational,Shop,,,,,Milosa Obilica 16,,112
+1024000730,Santana Bar MCNS,Functional,Operational,Shop,,,,,Bulevar Oslobodjenja  102,,112
+1024000731,Santana Bar 5,Functional,Operational,Shop,,,,,Bežanijska kosa - Partizanske Avijacije BB,,112
+1024000732,0012 Deichmann Zrenjanin,Functional,Operational,Shop,,,,,Bagljas Zapad 5,,108
+1024000733,5515 Takko Zrenjanin,Functional,Operational,Shop,3.81233E+11,3.81654E+11,3.81233E+11,Zrenjanin.5515@takko.de,Bagljas Zapad 5,,109
+1024000734,RS752 C&A Fashion Zrenjanin,Functional,Operational,Shop,,,,RS752cazrenjanin@gmail.com,Bagljas Zapad 5,,110
+1024000735,Idea 496 Novi Sad,Functional,Operational,Shop,,,,idea496novisad@gmail.com,Bulevar Oslobodenja 75,,112
+1024000736,RS0510 / W1B89907,Functional,Operational,Shop,,,,rs0510hmzrenjanin@gmail.com,Bagljas Zapad 5,,115
+1024000737,Idea 493 Novi Sad,Functional,Operational,Shop,,,,,Sumadijska 12,,112
+1024000738,RS753 C&A Fashion Jagodina,Functional,Operational,Shop,,,,RS753cajagodina@gmail.com,"Stevana Ivanovica bb, ""VIVO Shopping Park""",,110
+1024000739,Y124 Jysk BG Gardenia,Functional,Operational,Shop,,,,y124jyskbggardenia@gmail.com,Živka Davidovica 86,,106
+1024000740,5513 Takko Zvezdara,Functional,Operational,Shop,,,,5513takkozvezdara@gmail.com,Zivka Davidovica 86,,109
+1024000742,7847 - Springfield Split Mall,Retired,Incident,Shop,,,,,Josipa Jovića 93,preseljena kao 9775,107
+1024000743,7518 - Women Secret Split Mall,Functional,Operational,Shop,,,,,Josipa Jovića 93,,107
+1024000744,Beautique Beograd,Functional,Operational,Shop,,,,,Bulevar umetnosti 4,,112
+1024000745,0026 Deichmann Zvezdara,Functional,Operational,Shop,,,,0026deichmannzvezdara@gmail.com,Zivka Davidovica 86,,104
+1024000746,RS01 Mercator Beograd,Functional,Operational,Shop,011-3121065,,belgrade.mercator@lcwaikiki.com,,Bulevar umetnosti 4,,146
+1024000747,LCW RS02 Mercator Novi Sad,Functional,Operational,Shop,,,,novisad.mercator@lcwaikiki.com,Bulevar Oslobođenja 102,,146
+1024000748,Idea 505 Subotica,Functional,Operational,Shop,,,,,Korzo 13,,112
+1024000749,0027 Deichmann Koper,Retired,Incident,Shop,+386 2 885 02 41,,,,Dolinska cesta 1 A,,108
+1024000750,Beautique Kragujevac,Functional,Operational,Shop,,,,mbeautkg@gmail.com,"Kragujevac, Serbia.",,112
+1024000751,Idea 506 Sombor,Functional,Operational,Shop,,,,,Kralja Petra I 12,,112
+1024000752,Roda 808 LDC Kron,Functional,Operational,Shop,,,,,Autoput za Zagreb 11a,,112
+1024000753,Intersport Zemun,Functional,Operational,Shop,,,,,Glavna 13,,112
+1024000754,Idea 499 Sajkas,Functional,Operational,Shop,,,,,Nikole Tesle 17,,112
+1024000755,Idea Super 503 Zrenjanin,Functional,Operational,Shop,,,,,Mileticeva 86,,112
+1024000756,Idea 339 Subotica,Functional,Operational,Shop,,,,,Prvomajska 103/Prozivka,,112
+1024000757,Idea 501 Brus,Functional,Operational,Shop,,,,,Kralja Petra I bb,,112
+1024000758,Idea 502 Pancevo,Functional,Operational,Shop,,,,,Vojvode Radomira Putnika 3a,,112
+1024000759,Idea 510 Sivac,Functional,Operational,Shop,,,,,Maršala Tita 197,,112
+1024000760,Magacin Polovne Opreme Subotica,Functional,Operational,Shop,,,,,Segedinski put 76,,112
+1024000761,Hofer trgovina d.o.o.,Functional,Operational,Shop,,,,,Kranjska cesta 1,,151
+1024000762,K&O HQ Ljubljana,Functional,Operational,Shop,,,,,Šmartinska cesta 152g,,150
+1024000763,Idea 144 Kikinda,Functional,Operational,Shop,,,,,Svetosavska 43,,112
+1024000764,SLOVENIA H&M Hennes & Mauritz d.o.o.,Functional,Operational,Shop,,,,,Kirchengasse 6/6,,115
+1024000765,Idea 486 Sabac,Functional,Operational,Shop,,,,,Karadjordjeva 27 kod Navip Zgrade,,112
+1024000766,Idea 511 Irig,Functional,Operational,Shop,,,,,Vojvode Putnika 2,,112
+1024000767,0017 Deichmann Banja Luka,Functional,Operational,Shop,,,,,Branka Popovica 310,,108
+1024000768,RS0509 / W1C19245,Functional,Operational,Shop,,,,,Segenski Put 88,,115
+1024000769,Magacin 823 Arhiva,Functional,Operational,Shop,,,,,Laze Kostića bb,,112
+1024000770,Idea 507 Subotica,Functional,Operational,Shop,,,,,Segedinski put 88,,112
+1024000771,X705 Jysk Gracanica,Functional,Operational,Shop,38766811989,,,X705jyskgracanica@gmail.com,Branilaca grada bb,,106
+1024000772,X708 Jysk Tesanj,Functional,Operational,Shop,,,,,Krasevo bb,,106
+1024000773,5514 Takko Subotica,Functional,Operational,Shop,,,,,Segedinski put 88,,109
+1024000774,0020 Deichmann Subotica,Functional,Operational,Shop,,,,0020deichmansubotica@gmail.com,Segedinski put 88,,108
+1024000775,Koton - M832 Split Mall of Split,Functional,Operational,Shop,+385 21 681626,,,,"Mall of Split, Josipa Jovica 93",,145
+1024000776,RS754 C&A Subotica,Functional,Operational,Shop,,,,rs754casubotica@gmail.com,Segedinski put 88,,110
+1024000777,0016 Deichmann Trebinje,Functional,Operational,Shop,,,,0016deichmanntrebinje@gmail.com,Zasad Polje,,108
+1024000778,VP815 Magacin Opreme,Functional,Operational,Shop,,,,,Leskovacka 2,,112
+1024000779,X702 Jysk Vitez,Functional,Operational,Shop,,,,,Poslovni centar 96 (FIS),,106
+1024000780,Intersport Pancevo,Functional,Operational,Shop,,,,,Milosa Obrenovica 12,,112
+1024000781,0018 Deichmann Livno,Functional,Operational,Shop,,,,,Splitska bb,,108
+1024000782,Idea Super 524 Nis,Functional,Operational,Shop,,,,,Bulevar Medijana 21,,112
+1024000783,0025 Deichmann Nis,Functional,Operational,Shop,,,,,Bulevar Medijana 21,,108
+1024000784,Idea 515 Novi Banovci,Functional,Operational,Shop,,,,idea515novibanovci@gmail.com,Svetosavska 2,,112
+1024000785,5516 Takko Nis StopShop,Functional,Operational,Shop,,,,,Bul. Medijana 21,,109
+1024000786,RS755 C&A Fashion Nis StopShop,Functional,Operational,Shop,,,,,Bul. Medijana 21,,110
+1024000787,LCW RS04 Nis,Functional,Operational,Shop,,,,,Bul. Medijana 21,,146
+1024000788,LCW RS03 TC Usce BG,Functional,Operational,Shop,,,,,Bul. Mihajla Pupina 4,,146
+1024000789,Univerexport Novi Sad,Functional,Operational,Shop,,,,,Sentandrejski put 165,,153
+1024000790,RS0511 / W1A63225,Functional,Operational,Shop,,,,,Bul. Kralja Aleksandra bb,,115
+1024000792,Parking MC NS,Functional,Operational,Shop,,,,,Bulevar Oslobodjenja 102,,112
+1024000793,BILLA d.o.o. Zagreb,Functional,Operational,Shop,,,,,Riječka ulica 12,,154
+1024000794,BIPA d.o.o. Zagreb,Functional,Operational,Shop,,,,,Riječka ulica 12,,155
+1024000795,VP824 Skladiste osnovnih sredstava i opreme Subotica,Functional,Operational,Shop,,,,,Segedinski put 76,,112
+1024000796,9257 - Fifty Factory City Center,Functional,Operational,Shop,,,,,"Vrbanja 1, TC City Center",,107
+1024000797,LDC 825 Novi Banovci,Functional,Operational,Shop,,,,,Treca Logisticka 1,,112
+1024000798,0024 Deichmann Slavonski Brod,Functional,Operational,Shop,,,,,Osjecka 284,,108
+1024000799,Union Enterprises d.o.o.,Functional,Operational,Shop,,,,,Dusana Vasiljeva 30/10,,157
+1024000800,Idea 523 Bogatic,Functional,Operational,Shop,,,,,Vojvode Stepe 16,,112
+1024000801,Fungo Jug d.o.o.,Functional,Operational,Shop,,,,,Ucitelja Josifa 1/6,,158
+1024000802,0029 Deichmann Lendava,Functional,Operational,Shop,,,,,Kolodvorska ulica 41 A,,108
+1024000803,Y125 Jysk BG - Banovo Brdo,Functional,Operational,Shop,,,,,Maršala Tolbuhina,,106
+1024000804,Koton - M885 Marrakech Carre Eden,Functional,Operational,Shop,,,,,Avenue Mohammed V,,145
+1024000805,M0396 (old M837) Koton Paris,Functional,Operational,Shop,,,,,"Boulevard André Citroën, 93600 Aulnay-sous-Bois",,145
+1024000806,0027 Deichmann Valjevo Stop.Shop,Functional,Operational,Shop,,,,,Uzun Mirkova 2b,,108
+1024000807,Idea 519 Titel,Functional,Operational,Shop,,,,,Glavna bb,,112
+1024000808,Idea 526 Bujanovac,Functional,Operational,Shop,,,,,Kosovska 75,,112
+1024000809,7848 Springfield Rijeka,Functional,Operational,Shop,,,,,JANKA POLIC KAMOVA 81a,,107
+1024000810,Emmezeta Beograd,Functional,Operational,Shop,,,,,Partizanske avijacije 2a,,159
+1024000811,Charles&Vogele HQ Ljubljana,Functional,Operational,Shop,,,,,Linhartova cesta 11,,160
+1024000812,H&M Area Office Usce Tower,Functional,Operational,Shop,,,,,"Bulevar Mihajla Pupina 6/15, Usce Tower",,115
+1024000813,Decathlon Trgovina 1062 Rijeka,Functional,Operational,Shop,,,,,Osječka ulica 67a,,123
+1024000814,Decathlon Trgovina 701147 Zadar,Functional,Operational,Shop,,,,,Ulica bleiburških žrtava 17,,123
+1024000815,Decathlon Trgovina 1176 Zagreb,Functional,Operational,Shop,,,,,Ulica Siniše Glavaševića 5,,123
+1024000816,Decathlon Ljubljana 1539,Functional,Operational,Shop,,,,,"Moskovska 10, hala 18",,123
+1024000817,X711 Jysk Trebinje,Functional,Operational,Shop,,,,,Vuka Karadica 51,,106
+1024000818,V604 Jysk Virovitca,Functional,Operational,Shop,,,,,Pejaceviceva bb,,106
+1024000819,V640 Jysk Umag,Functional,Operational,Shop,,,,,Ungarija 39b,,106
+1024000820,X703 Jysk Stup Sarajevo,Functional,Operational,Shop,,,,,Kurta Schorka 7,,106
+1024000821,X710 Jysk Istocno Sarajevo,Functional,Operational,Shop,,,,,Spasovdanska 22,,106
+1024000822,Y126 Jysk Kraljevo,Functional,Operational,Shop,,,,,"Industrijska zona bb, Seovac",,106
+1024000823,X706 Jysk Zenica,Functional,Operational,Shop,,,,,Trg Alije Izetbegovica 73,,106
+1024000824,X709 Jysk Bijeljina,Functional,Operational,Shop,,,,,Stefana Dečanskog bb,,106
+1024000825,X713 Jysk Banja Luka,Functional,Operational,Shop,,,,,Ulica Prote Nikole Kostica bb,,106
+1024000826,Y120 Jysk Krusevac,Functional,Operational,Shop,,,,,Blagoja Parovica 20,,106
+1024000827,Idea 516 Stara Pazova,Functional,Operational,Shop,,,,,Cirila i Metodija 142,,112
+1024000828,H&M Office Beograd,Functional,Operational,Shop,,,,,Kosovska 39,,115
+1024000829,Idea 527 Loznica,Functional,Operational,Shop,,,,,Vuka Karadzica 35,,112
+1024000830,Y127 Jysk BG Borca,Functional,Operational,Shop,,,,,Zrenjaninski put bb,,106
+1024000831,Koton - M845 Tangier Socco Alto,Functional,Operational,Shop,,,,,"Avenue Banafsaj, Tangier 90040, Maroko",,145
+1024000832,RS0507 / W1C37494,Functional,Operational,Shop,,,,,Trg Kralja Milana 2,,115
+1024000833,5517 Takko Valjevo Stop Shop,Functional,Operational,Shop,,,,,Uzun Mirkova 2b,,109
+1024000834,Veleprodaja Krusevac,Functional,Operational,Shop,,,,vkrusevac@gmail.com,Blagoja Parovića 20,,112
+1024000835,Idea 504 Jagodina,Functional,Operational,Shop,,,,,Kneginje Milice bb,,112
+1024000836,0023 Deichmann Pula,Functional,Operational,Shop,,,,,Rimske centurijacije 101,,108
+1024000837,LCW RS06 Valjevo Stop.Shop,Functional,Operational,Shop,,,,,Uzun Mirkova bb,,146
+1024000838,LCW RS09 Sabac Capitol Park,Functional,Operational,Shop,,,,,"Zapadna Transverzala I, br.4",,146
+1024000839,10781 OBI Celje,Functional,Operational,Shop,,,,,Kidričeva ulica 32,,161
+1024000840,10773 OBI Koper,Functional,Operational,Shop,,,,,Ankaranska cesta 3a,,161
+1024000841,10774 OBI Kranj,Functional,Operational,Shop,,,,,Stara cesta 25,,161
+1024000842,10772 OBI Ljubljana,Functional,Operational,Shop,,,,,Jurčkova cesta 226,,161
+1024000843,10782 OBI Maribor,Functional,Operational,Shop,,,,,Tržaška cesta 1,,161
+1024000844,10775 OBI Murska Sobota,Functional,Operational,Shop,,,,,Nemčavci 66,,161
+1024000845,10776 OBI Nova Gorica,Functional,Operational,Shop,,,,,Prvomajska ulica 35,,161
+1024000846,10778 OBI Ptuj,Functional,Operational,Shop,,,,,Puhova ulica 19,,161
+1024000847,OBI d.o.o.,Functional,Operational,Shop,,,,,Jurčkova cesta 226,,161
+1024000848,7901 - Women Secret Tower center Rijeka,Functional,Operational,Shop,,,,,Janka Polić Kamova 81A,,107
+1024000849,7900 - Women Secret Avenue Mall Zagreb,Functional,Operational,Shop,,,,,Avenija Dubrovnik 16,,107
+1024000850,IKEA Srbija Beograd RS050,Functional,Operational,Shop,,,,,Autoput 22,,119
+1024000851,0024 Deichmann Beograd Borca,Functional,Operational,Shop,,,,,Bratstva i jedinstva 2g,,108
+1024000852,5518 Takko Beograd - Borca,Functional,Operational,Shop,,,,,Bratstva i jedinstva 2g,,109
+1024000853,LCW RS11 Beograd - Borca,Functional,Operational,Shop,,,,,Zrenjaninski Put bb,,146
+1024000854,0014 Deichmann Tuzla,Functional,Operational,Shop,,,,,Mitra Trifunovica 2,,108
+1024000855,Kastrum DOO,Functional,Operational,Shop,,,,,Moravska 44,,163
+1024000856,X719 Jysk Derventa,Functional,Operational,Shop,,,,,Kninska 1,,106
+1024000857,Idea 530 Pozarevac,Functional,Operational,Shop,,,,,Trg Oslobodjenja 1,,112
+1024000858,V641 Jysk Krizevci,Functional,Operational,Shop,,,,,Petra Zrinskog 8,,106
+1024000859,0030 Deichmann Domzale,Functional,Operational,Shop,,,,,Virska cesta 21,,108
+1024000860,RS0590 Pop up Store Beograd,Functional,Operational,Shop,,,,,Cetinjska 15a,,115
+1024000861,Y128 Jysk Zemun Park Beograd,Functional,Operational,Shop,,,,,Autoput za Novi Sad 126,,106
+1024000862,7925 - Springfield Mostar,Functional,Operational,Shop,,,,,Kardinala Stepinca bb,,107
+1024000863,M0453 (old S038) Koton Tuzla,Functional,Operational,Shop,,,,,Mitra Trifunovica 2,,145
+1024000864,Span d.o.o. Zagreb,Functional,Operational,Shop,,,,,Koturaška 47,,164
+1024000865,Y129 Jysk Sremska Mitrovica,Functional,Operational,Shop,,,,,Djure Jaksica 1,,106
+1024000866,Idea Super 534 Kanjiza,Functional,Operational,Shop,,,,,Sumska bb,,112
+1024000867,Idea 535 Negotin,Functional,Operational,Shop,,,,,Trg Djordja Stanojevica 5,,112
+1024000868,Idea 536 Negotin,Functional,Operational,Shop,,,,,Djure Salaja 5-11,,112
+1024000869,Idea 537 Negotin,Functional,Operational,Shop,,,,,Karapandzina 2a,,112
+1024000870,LCW RS10 Novi Sad BIG,Functional,Operational,Shop,,,,,Sentandrejski put 11,,146
+1024000871,Takko CRO,Functional,Operational,Shop,,,,,,,109
+1024000872,Takko SLO,Functional,Operational,Shop,,,,,,,109
+1024000873,7896 - Women Secret Kralja Milana BG,Functional,Operational,Shop,,,,,Kralja Milana 17,,107
+1024000874,O520 Jysk Krsko,Functional,Operational,Shop,,,,,Cesta Krških Žrtev 141,,106
+1024000875,Fiscal Solutions Beograd,Functional,Operational,Shop,,,,,Vojvode Stepe 607A,,1
+1024000876,Fiscal Solutions Nis,Functional,Operational,Shop,,,,,Patrisa Lumumbe 47/4a,,2
+1024000877,POS Mercator NS,Functional,Operational,Shop,,,,,Temerinski put 50,,112
+1024000878,Idea Uprava BG,Functional,Operational,Shop,,,,,,,112
+1024000879,Takko HQ SLO,Functional,Operational,Shop,,,,,,,109
+1024000880,NKD 5037 Osijek - R.K. Doma,Functional,Operational,Shop,,,,,Ive Tijardovića 4a,,121
+1024000881,0031 Deichmann Celje,Functional,Operational,Shop,,,,,Bežigrajska cesta 16,,108
+1024000882,C&A Moda Ljubljana,Functional,Operational,Shop,,,,,Building No 53 Šmartinska cesta 106,,110
+1024000883,Peek & Cloppenburg SLO,Functional,Operational,Shop,,,,,,,120
+1024000884,Peek & Cloppenburg CZ,Functional,Operational,Shop,,,,,,,120
+1024000885,Deichmann HR,Functional,Operational,Shop,,,,,,,108
+1024000886,Deichmann CZ,Functional,Operational,Shop,,,,,Brno Business Park Londýnské náměstí 853/1 - Budova 1,,108
+1024000887,NKD Moda d.o.o. SLO,Functional,Operational,Shop,,,,,Ulica XIV. Divizije 12,,121
+1024000888,LPP CZ,Functional,Operational,Shop,,,,,,,122
+1024000889,Decathlon CZ,Functional,Operational,Shop,,,,,,,123
+1024000890,Jysk CZ,Functional,Operational,Shop,,,,,,,106
+1024000891,OBI CZ,Functional,Operational,Shop,,,,,,,161
+1024000892,Takko CZ,Functional,Operational,Shop,,,,,,,109
+1024000893,Prada CZ,Functional,Operational,Shop,,,,,,,165
+1024000894,Claires CZ,Functional,Operational,Shop,,,,,,,166
+1024000895,Benetton CZ,Functional,Operational,Shop,,,,,,,167
+1024000896,Bvlgari CZ,Functional,Operational,Shop,,,,,,,168
+1024000897,Loro Piana CZ,Functional,Operational,Shop,,,,,,,169
+1024000898,Infomedica,Functional,Operational,Shop,,,,,,,170
+1024000899,Smart d.o.o. Novi Sad,Functional,Operational,Shop,,,,,Trg Mladenaca 5,,1
+1024000900,X720 Jysk Kakanj,Functional,Operational,Shop,,,,,Alije Izetbegovića bb,,106
+1024000901,V642 Jysk Korcula,Functional,Operational,Shop,,,,,Ante Starčevića 6,,106
+1024000902,Sephora BG BIG Fashion,Functional,Operational,Shop,,,,,Visnjicka 84,,117
+1024000903,RS0513 / W1C67397,Functional,Operational,Shop,,,,,Visnjicka 84,,115
+1024000904,7794 - Springfield BG Big Fashion,Functional,Operational,Shop,,,,,Visnjicka 84,,107
+1024000905,7897 - Women Secret BG Big Fashion,Functional,Operational,Shop,,,,,Visnjicka 84,,107
+1024000906,0029 Deichmann Big Fashion Mall BG,Functional,Operational,Shop,,,,,Visnjicka 84,,108
+1024000907,7809 - Women Secret BL Centar,Retired,Operational,Shop,051/241-466,,,,Veselina Maslese 19,,107
+1024000908,LCW RS13 Beograd BIG Fashion,Functional,Operational,Shop,,,,,Visnjicka 84,,146
+1024000909,M0257 Koton (old M684) Sarajevo SCC,Functional,Operational,Shop,033 733-130,,,,Vrbanja 1,,145
+1024000910,Gordon d.o.o. Subotica,Functional,Operational,Shop,,,,,14. Nova br. 2,,1
+1024000911,Y130 Jysk Novi Pazar,Functional,Operational,Shop,,,,,Čerkez Mahala bb,,106
+1024000912,Decathlon Trgovina 1575 Osijek,Functional,Operational,Shop,031 544 100,,,,Svilajska 36,,123
+1024000913,Deichmann Austria,Functional,Operational,Shop,,,,,,,108
+1024000914,Peek & Cloppenburg Austria,Functional,Operational,Shop,,,,,,,120
+1024000915,OBI Austria,Functional,Operational,Shop,,,,,,,161
+1024000916,Loro Piana Austria,Functional,Operational,Shop,,,,,,,169
+1024000917,Prada Austria,Functional,Operational,Shop,,,,,,,165
+1024000918,Orsay Austria,Functional,Operational,Shop,,,,,,,171
+1024000919,Pimkie Austria,Functional,Operational,Shop,,,,,,,172
+1024000920,Desigual Austria,Functional,Operational,Shop,,,,,,,173
+1024000921,Salvatore Ferragamo Austria,Functional,Operational,Shop,,,,,,,174
+1024000922,Sorelle Ramonda Austria,Functional,Operational,Shop,,,,,,,175
+1024000923,C.W.F. Austria,Functional,Operational,Shop,,,,,,,176
+1024000924,Petit Bateau Austria,Functional,Operational,Shop,,,,,,,177
+1024000925,Hotel Trogir,Functional,Operational,Shop,,,,,,,178
+1024000926,NKD 5038 Kutina,Functional,Operational,Shop,,,,,Kolodvorska 27,,121
+1024000927,RS07 Kragujevac Plaza,Functional,Operational,Shop,,,,,"Bulevar Kraljice Marije 56, lokal 110B",,146
+1024000928,Jysk SLO,Functional,Operational,Shop,,,,,,,106
+1024000929,Decathlon Maribor 701615,Functional,Operational,Shop,,,,,Tržaška cesta 14,,123
+1024000930,Idea 541 Subotica,Functional,Operational,Shop,,,,,Petefi Sandora 3-5,,112
+1024000931,LDC 828 Mesa - Ugrinovci,Functional,Operational,Shop,,,,,Ugrinovacki put bb,,112
+1024000932,Koton - M0746 Tangier City Mall (old S049),Functional,Operational,Shop,,,,,Route Tanja El Balia,,145
+1024000933,RS0512 Kragujevac Plaza,Functional,Operational,Shop,,,,,Bul. Kraljice Marije 23,,115
+1024000934,LCW RS08 Beograd Vozdovac,Functional,Operational,Shop,,,,,"Zaplanjska 32, lokal 0/8a",,146
+1024000935,Y132 Jysk BG TC Rakovica,Functional,Operational,Shop,,,,,Ulica Patrijarha Dimitrija bb,,106
+1024000936,LPP Reserved Beograd Big,Functional,Operational,Shop,,,,lppreservedbgsp@gmail.com,Visnjicka 84,,122
+1024000937,LCW RS12 Novi Pazar,Functional,Operational,Shop,,,,,Zitni trg bb,,146
+1024000938,Y131 Jysk Valjevo,Functional,Operational,Shop,,,,,Bulevar palih ratnika 91-92,,106
+1024000940,LCW RS05 StopShop Cacak,Functional,Operational,Shop,,,,,Bulevar Vuka Karadzica 86/86a,,146
+1024000941,Roda 543 MM Lazarevac,Functional,Operational,Shop,,,,roda543mmlazarevac@gmail.com,Zeleznicka bb,,112
+1024000942,0021 Deichmann Sombor,Functional,Operational,Shop,,,,0021deichmannnis@gmail.com,Strosmajerova bb,,108
+1024000943,7778 - Springfield Rajiceva,Functional,Operational,Shop,,,,tien7778@spf.com,Rajiceva 1,,107
+1024000944,5519 Takko Sombor,Functional,Operational,Shop,,,,Sombor.5519@takko.rs,Stosmajerova bb,,109
+1024000945,LCW RS15 Lazarevac,Functional,Operational,Shop,,,,rs15lcwlazarevac@gmail.com,Zeleznicka bb,,146
+1024000946,RS756 C&A Fashion Sombor Capitol park,Functional,Operational,Shop,,,,RS756somborcapitol@gmail.com,Strosmajerova bb,,110
+1024000947,0023 Deichmann Smederevo,Functional,Operational,Shop,,,,0023deichmannsmederevo@gmail.com,"Salinacka bb, Shoppi",,108
+1024000948,RS0514 / W1C89319,Functional,Operational,Shop,,,,,"Salinacka bb, Shoppi",,115
+1024000949,7779 - Springfield Smederevo,Functional,Operational,Shop,,,,tien7779@spf.com,"Salinacka bb, Shoppi",,107
+1024000950,0017 Deichmann Rakovica,Functional,Operational,Shop,,,,0017deichmannrakovica@gmail.com,Patrijarha Dimitrija 14,,108
+1024000951,RS16 LCW Shoppi Smederevo,Functional,Operational,Shop,,,,,"Salinacka bb, 11300 Smederevo",,146
+1024000952,L’Oreal Balkan HQ Belgrade,Functional,Operational,Shop,,,,lorelarbalkan@gmai.com,Bulevar Zorana Djindjica 64a,,179
+1024000953,CTAC B.V. Headquarter,Functional,Operational,Shop,+31 (0)73 692 0692,+31 (0)6 55 696 516,+31 (0) 73 692 06 88,Ivo.van.der.raad@ctac.nl,Meerendonkweg 11,,181
+1024000954,LCW RS18 Rakovica Beograd,Functional,Operational,Shop,,,,,Patrijarha Dimitrija 14,,146
+1024000955,0030 Deichmann Kraljevo,Functional,Operational,Shop,,,,0030deichmannkraljevo@gmail.com,Dusana Popovica 40-74,,108
+1024000956,X721 Jysk Cazin,Functional,Operational,Shop,,,,x721jyskcazin@gmail.com,Mala lisa bb,,106
+1024000957,Takko 5520 Kraljevo,Functional,Operational,Shop,,,,kraljevo.5520@takko.rs,Dusana Popovica BB,,109
+1024000958,LCW RS19 Kraljevo,Functional,Operational,Shop,,,,lcwrs19kraljevo@gmail.com,Dusana Popovica BB,,146
+1024000959,Loreal Beograd Terazije NYX professional makeup,Functional,Operational,Shop,,,,lorealterazijebeograd@gmail.com,Terazije 12,,179
+1024000960,Roda 544 MM Pirot,Functional,Operational,Shop,,,,roda544mmpirot@gmail.com,Lava Tolstoja bb,,112
+1024000961,Silverbyte headquarter,Functional,Operational,Shop,,,,,,,183
+1024000962,9360 Women Secret Stadion BG,Functional,Operational,Shop,,,,tien9360@womensecret.com,Zaplanjska 32,,107
+1024000963,Koton - S267 Marrakech Morocco Menara,Functional,Operational,Shop,,,,s267kotonmarrakech@gmail.com,"Avenue Prince Moulay Rachid, Menara Mall,",,145
+1024000964,9329 Women Secret Zagreb,Functional,Operational,Shop,099 388 1799,01 6289 996,,tien9329@womensecret.com,"Ilica, 28",,107
+1024000965,Salvatore Ferragamo France HQ,Functional,Operational,Shop,,,,salvatoreferragamofrance_sp@gmail.com,,,174
+1024000966,Roda Kutak 512 Novi Sad,Functional,Operational,Shop,,,,,Trg Slobode bb,,112
+1024000967,Exorigo-Upos HQ Warszawa,Functional,Operational,Shop,,,,exorigoupospoland@gmail.com,Kolejowa 5/7,,179
+1024000968,"Sergent Major HQ Wien, Austria",Functional,Operational,Shop,,,,sergentmajor@gmail.com,,,184
+1024000969,"Jacadi HQ Wien, Austria",Functional,Operational,Shop,,,,jacadiwien@gmail.com,,,185
+1024000970,9454 Fifty Factory IMMO Beograd,Functional,Operational,Shop,011 / 216-79-12,011 / 217-52-58,,tien9450@fiftyfactory.com,Gandijeva 21,,107
+1024000971,0019 Deichmann Mostar,Functional,Operational,Shop,,,,0019deichmannmostar@gmail.com,Put M-17 broj 5,,108
+1024000972,Giorgio Armani SpA HQ,Functional,Operational,Shop,,,,giorgioarmani@gmail.com,39 Av. Victor Hugo,,186
+1024000973,RS0515 - H&M Sabac Capitol Park,Functional,Operational,Shop,,,,RS0515hmsabac@gmail.com,Zapada Transverzala I br. 4,,115
+1024000974,"Parfois 106, Salzburg",Functional,Operational,Shop,,,,parfois106@gmail.com,"Europark Shopping, Shop No. 106",,180
+1024000975,X723 Jysk Citluk,Functional,Operational,Shop,,,,x723jyskcitluk@gmail.com,"Gospodarska zona bb, Park and Shop",,106
+1024000976,0022 Deichmann Pozarevac,Functional,Operational,Shop,,,,0022deichmannpozarevac@gmail.com,Djure Djakovica bb,,108
+1024000977,Roda MM 549 Vrsac,Functional,Operational,Shop,,,,roda549mmvrsac@gmail.com,Bul. Miloša Obilića bb,,112
+1024000978,Emmezeta Cacak,Functional,Operational,Shop,,,,emmezetacacak@gmail.com,Ibarski put bb,,159
+1024000979,0028 Deichmann Vrsac,Functional,Operational,Shop,,,,0028deichmannvrsac@gmail.com,Ulica Milosa Obilica bb,,108
+1024000980,9328 Women Secret Zadar,Functional,Operational,Shop,099/589-8863,,,tien9328@womensecret.com,Ulica akcija Maslenica 1,,107
+1024000981,LPP Reserved Pozarevac,Functional,Operational,Shop,,,,lppreservedpozarevac@gmail.com,Djure Djakovica bb,,122
+1024000982,LPP Reserved Vrsac,Functional,Operational,Shop,,,,lppreservedvrsac@gmail.com,Milosa Obilica bb,,122
+1024000983,LCW RS22 Vrsac Waikiki,Functional,Operational,Shop,,,,rs22vrsac@gmail.com,Milosa Obilica bb,,146
+1024000984,LPP Slovenia Reserved Fashion d.o.o.,Functional,Operational,Shop,+48 572 663 798,,,Sebastian.Rydel@lppsa.com,Brodišče 012,,122
+1024000985,LCW RS20 Beograd knez,Functional,Operational,Shop,,,,lcwrs20bgknez@gmail.com,Knez Mihajla 44,,146
+1024000986,5521 Takko Pozarevac,Functional,Operational,Shop,,,,pozarevac.5521@takko.rs,Djure Djakovica bb,,109
+1024000987,Decathlon Celje 701907,Functional,Operational,Shop,,,,decathlonceljesp@gmail.com,Mariborska cesta 128,,123
+1024000988,New Yorker CZ Headquater,Functional,Operational,Shop,,,,newyorkercz@gmail.com,Lidická 63a,,188
+1024000989,9406 Springfield Stadion Beograd,Functional,Operational,Shop,,,,tien9406@spf.com,Zaplanjska 32,,107
+1024000990,New Yorker SLO Headquater,Functional,Operational,Shop,,,,newyorkerslo@gmail.com,Verovškova ulica 55,,188
+1024000991,TINKAL GmbH Austria,Functional,Operational,Shop,,,,tinkalgmbh@gamil.com,Pischeldorfer Straße 107,,190
+1024000992,X722 Jysk Gradiska,Functional,Operational,Shop,,,,X722Jyskgradiska@gmail.com,Braće Manojlović bb,,106
+1024000993,LCW RS17 Nis Obrenoviceva,Functional,Operational,Shop,,,,rs22nislcw@gmail.com,Obrenoviceva 42,,146
+1024000994,LCW RS14 Jagodina Waikiki,Functional,Operational,Shop,,,,rs14jagodina@gmail.com,"Vuka Bojovica bb, lokal D5",,146
+1024000995,LCW RS21 Pozarevac,Functional,Operational,Shop,,,,rs21pozarevac@gmail.com,Djure Djakovica bb,,146
+1024000996,Decathlon Trgovina 1576 Split,Functional,Operational,Shop,,,,,"Antuna Gustava Matoša 10, 21210 Solin",,123
+1024000997,Idea Kutak 313 Novi Sad,Functional,Operational,Shop,,,,ideakutak313@gmail.com,"Temerinski put 50, skladište 826",,112
+1024000998,LPP Reserved Lazarevac Stop Shop,Functional,Operational,Shop,,,,lppreservedlazarevac@gmail.com,Zeleznicka ulica,,122
+1024000999,9407 SPF Beograd Vuk,Functional,Operational,Shop,,,,tien9407@spf.com,Bulevar Kralja Aleksandra 98,,107
+1024001000,Ikea Knez Mihajlova PopUp store,Functional,Operational,Shop,,,,ikeaknezbg@gmail.com,Knez Mihailova 5,,119
+1024001001,CS 829 Novi Sad,Functional,Operational,Shop,,,,cs829@gmail.com,"Temerinski put 50, skladište 829",,112
+1024001002,LPP Reserved Big Novi Sad,Functional,Operational,Shop,,,,lppnsbigreserved@gmail.com,Sentandrejski put 11,,122
+1024001003,Emmezeta Nis,Functional,Operational,Shop,,,,xyzemmezetanis@gmail.com,Majakovskog bb,,159
+1024001004,LCW RS23 Zemun park,Functional,Operational,Shop,,,,rs23zemun@gmail.com,Autoput za Novi Sad 124-126,,146
+1024001005,Loreal NYX Zagreb CCOW,Functional,Operational,Shop,+385 1 4094 741,,,loreal.nyx.zgccow@gmail.com,"Jankomir 33, 10000 Zagreb",,179
+1024001006,Loreal Kiehls Zagreb CCO West,Functional,Operational,Shop,38514952124,,,loreal.kiehls.zgccow@gmail.com,"Jankomir 33, 10000 Zagreb",,179
+1024001007,Loreal Kiehls Zagreb Arena,Functional,Operational,Shop,,,,loreal.kiehls.zgarena@gmail.com,"Vice Vukova 6, 10000 Zagreb",,179
+1024001008,Loreal NYX Professional MakeUp Arena Centar Zagreb,Retired,Incident,Shop,,,,loreal.nyx.zgarena@gmail.com,"Vice Vukova 6, 10000 Zagreb",,179
+1024001009,Loreal NYX Zagreb Ilica,Retired,Incident,Shop,,+385 91 6311 902,,loreal.nyx.zgilica@gmail.com,"Ilica 19, 10000 Zagreb",,179
+1024001010,Loreal Kiehls Zadar Supernova,Functional,Operational,Shop,+385 23 643 788,,,loreal.kiehls.zdsupernova@gmail.com,"Akcije Maslenica 1, 23000 Zadar",,179
+1024001011,Loreal Kiehls Split CCO,Functional,Operational,Shop,+385 21 585 5469,+385 95 1998 077,,loreal.kiehls.stcco@gmail.com,"Vukovarska 207, 21000 Split",,179
+1024001012,Loreal NYX Split CCO,Functional,Operational,Shop,,+385 91 6311 961,,loreal.nyx.stcco@gmail.com,"Vukovarska 207, 21000 Split",,179
+1024001013,Casual Food SLO SQ,Functional,Operational,Shop,,,,,,,191
+1024001014,9330 Women Secret Varazdin,Retired,Incident,Shop,,,,tien9330@womensecret.com,"Ul. Grada Lipika 15, 42204, Donji Kneginec",zatvorena 22.09.2023.,107
+1024001015,Koton - M1009 Marrakech PopUp,Functional,Operational,Shop,,,,STOREM1009@koton.com.tr,,,145
+1024001016,0031 Deichmann Novi Sad Promenada,Functional,Operational,Shop,,,,0031deichmannns@gmail.com,"Bulevar Oslobođenja 119, Trzni centar Promenada",,108
+1024001017,9361 Women Secret BIG Fashion Novi Sad,Functional,Operational,Shop,,,,tien9361@womensecret.com,Bulevar Oslobodjenja i Bulevar Cara Lazara BIG Fashion,,107
+1024001018,7795 Springfield Promenada Novi Sad,Functional,Operational,Shop,,,,tien7795@spf.com,Bulevar Oslobodjenja i Bulevar Cara Lazara,,107
+1024001019,9331 Women Secret Pula Stoja,Functional,Operational,Shop,,,,tien9331@womensecret.com,"Negrijeva ulica 5, 52100 Pula",,107
+1024001020,LCW RS25 Promenada Novi Sad,Functional,Operational,Shop,,,,rs25promenadans@gmail.com,"Ugao bul.Oslobodjenja i bul.Cara Lazara, lokal G235,F195",,146
+1024001021,LPP Cropp Novi Sad Promenada,Functional,Operational,Shop,,,,lppnspromenadacropp@gmail.com,"Ugao Bul.Oslobodjenja i Cara Lazara, TC Promenada",,122
+1024001022,Loreal CRO HQ,Functional,Operational,Shop,,,,,Slavonska avenija 1c - nova adresa,,179
+1024001023,9551 Springfield Pula Stoja,Functional,Operational,Shop,,,,tien9551@spf.com,"Negrijeva ulica 5, 52100 Pula",,107
+1024001024,9552 Women Secret Pula,Malfunctioned,Incident,Shop,,,,tien9552@womensecret.com,,,107
+1024001025,Idea 550 Novi Becej,Functional,Operational,Shop,,,,mp550@mercator.rs,Maršala Tita 9,,112
+1024001026,Lidl HQ,Functional,Operational,Shop,+381 11 6554000,,,kontakt@lidl.rs,Prva juzna radna br. 3,,193
+1024001027,Burger King HQ,Functional,Operational,Shop,,,,dns.krvc@gmail.com,Bani 75,,194
+1024001029,0020 Deichmann Prijedor,Functional,Operational,Shop,,,,0020deichmennprijedor@gmail.com,"Ugao ulica 1.Maja i novoprojektovane ulice 107, TC Bingo",,108
+1024001030,Koton Textil Limited HQ,Functional,Operational,Shop,,,,kotontextilelimited@gmail.com,Bulevar Vojvode Misica 15,,145
+1024001031,Tendam HQ Bosnia,Functional,Operational,Shop,,,,Tendam_hq@gmail.com,,,107
+1024001032,LPP Headquarters,Functional,Operational,Shop,,,,,,,122
+1024001033,BAHAM0301 H&M Banja Luka,Functional,Operational,Shop,,,,hmbanjaluka@gmail.com,Bulevar srpske vojske,,115
+1024001034,0021 Deichmann Banja Luka,Functional,Operational,Shop,,,,0020deichmennbanjaluka@gmail.com,Bulevar srpske vojske 8,,108
+1024001035,Jysk HQ,Functional,Operational,Shop,,,,jyskhq@gmail.com,Damira Tomljanovića Gavrana 11/6,,106
+1024001037,9411 Springfield Banja Luka,Functional,Operational,Shop,,,,tien9411@spf.com,Bulevar srpske vojske 8,,107
+1024001038,7810 Women Secret Banja Luka,Functional,Operational,Shop,,,,tien7810@womensecret.com,Bulevar srpske vojske 8,,107
+1024001039,LPP House Novi Sad Promenada,Functional,Operational,Shop,,,,lppnspromenadahouse@gmail.com,Ugao Bul.Oslobodjenja i Cara Lazara,,122
+1024001040,LPP Mohito Novi Sad Promenada,Functional,Operational,Shop,,,,lppnspromenadamohito@gmail.com,Ugao Bul.Oslobodjenja i Cara Lazara,,122
+1024001041,LPP Reserved Novi Sad Promenada,Functional,Operational,Shop,,,,lppnspromenadareserved@gmail.com,Ugao Bul.Oslobodjenja i Cara Lazara,,122
+1024001042,LPP Sinsay Novi Sad Promenada,Functional,Operational,Shop,,,,lppnspromenadasinsay@gmail.com,Ugao Bul.Oslobodjenja i Cara Lazara,,122
+1024001043,LPP Cropp Banja Luka Delta Planet,Functional,Operational,Shop,,,,lppcroppdeltabl@gmail.com,"Bulevar Srpske Vojske 8, TC Delta Planet",,122
+1024001044,LPP House Banja Luka Delta Planet,Functional,Operational,Shop,,,,lpphousedeltabl@gmail.com,"Bulevar Srpske Vojske 8, TC Delta Planet",,122
+1024001045,LPP Mohito Banja Luka Delta Planet,Functional,Operational,Shop,,,,lppmohitodeltabl@gmail.com,"Bulevar Srpske Vojske 8, TC Delta Planet",,122
+1024001046,LPP Sinsay Big Novi Sad,Functional,Operational,Shop,,,,lppnsbigsinsay@gmail.com,Sentandrejski put 11,,122
+1024001047,LPP Sinsay Lazarevac Stop Shop,Functional,Operational,Shop,,,,lppsinsaylazarevac@gmail.com,Zeleznicka ulica,,122
+1024001048,LPP Sinsay Pozarevac,Functional,Operational,Shop,,,,lppsinsaypozarevac@gmail.com,Djure Djakovica bb,,122
+1024001049,LPP Sinsay Vrsac,Functional,Operational,Shop,,,,lppsinsayvrsac@gmail.com,Milosa Obilica bb,,122
+1024001050,Emmezeta Headquarters,Functional,Operational,Shop,,,,M.Filipovic@emmezeta.hr,Velimira Škorpika 25,,159
+1024001051,0033 Deichmann Ljubljana,Functional,Operational,Shop,,,,0033deichmannljubljana@gmail.com,Šmartinska cesta 152g,,108
+1024001052,Idea Super 488,Functional,Operational,Shop,,,,mp488@mercator.rs,Gerberova 12,,112
+1024001053,0028 Deichmann Radovljica,Functional,Operational,Shop,,,,0028deichmannradovljica@gmail.com,Gradnikova cesta 1C,,108
+1024001054,Y134 Jysk Zajecar,Functional,Operational,Shop,,,,Y134JyskZajecar@gmail.com,Zaječar Capitol Park,,106
+1024001055,Fifty Factory 9625 Sesvetski Kraljevac - Zagreb,Functional,Operational,Shop,,,,tien9625@grupocortefiel.com,"Ulica Alfreda Nobela 4, Sop",,107
+1024001056,"M0745 Koton, Rabat Morocco",Functional,Operational,Shop,+212 638 186235,,,managerm0745@koton.com.tr,Ryad Square,,145
+1024001057,0033 Deichmann Leskovac,Functional,Operational,Shop,,,,0033deichmannleskovac@gmail.com,28.marta 10,,108
+1024001058,0032 Deichmann Novi Pazar,Functional,Operational,Shop,,,,0032deichmannnovipazar@gmail.com,Cerkez Mahala bb,,108
+1024001059,9363 Women Secret Zemun,Functional,Operational,Shop,,,,tien9363@womensecret.com,Glavna 31,,107
+1024001060,RS0517 H&M Beograd - Ada Mall,Functional,Operational,Shop,,,,RS0517adamall@gmail.com,,,115
+1024001061,0035 Deichmann Zajecar,Functional,Operational,Shop,,,,0035deichmannzajecar@gmail.com,Cupiceva 2,,108
+1024001062,LPP Reserved Banja Luka Delta Planet,Malfunctioned,Operational,Shop,,,,lppreserveddeltabl@gmail.com,"Bulevar Srpske Vojske 8, TC Delta Planet",,122
+1024001063,9362 Women Secret Beograd Ada Mall,Functional,Operational,Shop,,,,tien9362@womensecret.com,Ada Mall TC,,107
+1024001064,7781 Springfield Beograd Ada Mall,Functional,Operational,Shop,,,,tien7781@spf.com,Ada Mall TC,,107
+1024001065,LPP Sinsay Leskovac,Functional,Operational,Shop,,,,Stevan.Miljkovic@lppsa.com,"28.marta bb Capitol Park
+Leskovac
+Srbija",,122
+1024001066,LPP Sinsay Beograd Ada Mall,Functional,Operational,Shop,,,,lppbgadasinsay@gmail.com,"Radnicka 9, TC Ada Mall, Beograd",,122
+1024001067,LPP Cropp Beograd Ada Mall,Functional,Operational,Shop,,,,lppbgadamallcropp@gmail.com,"Radnicka 9, TC Ada Mall",,122
+1024001068,Kiehls Ada Mall Belgrade Loreal,Retired,Incident,Shop,,,,kiehlsadabg@gmail.com,"Radnicka 9, TC Ada Mall, BG",,179
+1024001069,Kiehls Zagreb Loreal,Functional,Operational,Shop,,+385 91 6312 081,,antonija.stojanovicerceg@loreal.com,"Supernova Centar Cvjetni BQ POS 10 Zagreb Croatia, Trg Petra Preradovića 6,  10 000 Zagreb,",,179
+1024001070,9364 Women Secret Rajiceva Beograd,Functional,Operational,Shop,,,,tien9364@womensecret.com,Rajiceva 1,,107
+1024001071,Idea Super 551 Leskovac,Functional,Operational,Shop,,,,mp551@mercator.rs,Bore Piksle bb,,112
+1024001072,Headquarters Almeer Bahrain,Functional,Operational,Shop,,,,IT@almeer.com.bh,,,189
+1024001073,0036 Deichmann Sremska Mitrovica,Functional,Operational,Shop,,,,0036deichmannsm@gmail.com,Bulevar Konstantina Velikog bb,,108
+1024001074,0022 Deichmann Cazin,Functional,Operational,Shop,,,,0022deichmanncazin@gmail.com,Mala Lisa bb,,108
+1024001075,Technical Support Service Plus,Functional,Operational,Shop,063 585 120,,,support@serviceplus-it.com,Temerinski put 50,,3
+1024001076,Flex-POS Headquater,Functional,Operational,Shop,,,,,Heinrich-Hertz-Str. 10,,108
+1024001077,Decathlon Ljubljana Rudnik 2286,Functional,Operational,Shop,,,,,Premrlova ulica 14,,123
+1024001078,Idea online 553 Novi Sad,Functional,Operational,Shop,,,,mp553@mercator.rs,Bulevar Oslobodjenja 102,,112
+1024001079,0037 Deichmann Krusevac,Functional,Operational,Shop,,,,0037deichmannkg@gmail.com,Krfska 7,,108
+1024001080,Y135 Jysk Uzice,Functional,Operational,Shop,,,,Y135JyskUzice@gmail.com,Miloša Obrenovića NEST Retail Park,,106
+1024001081,LPP Sinsay Zajecar,Functional,Operational,Shop,,,,LPPSinsayZajecar@gmail.com,"Cupiceva bb, Capitol Park Zajecar",,122
+1024001082,LPP House Ada Mall Beograd,Functional,Operational,Shop,,,,Stevan.Miljkovic@lppsa.com,"Radnicka 9, TC Ada Mall, Beograd",,122
+1024001083,LPP Mohito Ada Mall Beograd,Functional,Operational,Shop,,,,adamallbgmohito@gmail.com,"Radnicka 9, TC Ada Mall, Beograd",,122
+1024001084,LPP Reserved Ada Mall Beograd,Functional,Operational,Shop,,,,reservedadabg@gmail.com,"Radnicka 9, TC Ada Mall, Beograd",,122
+1024001085,V646 Jysk Pula,Functional,Operational,Shop,,,,V646JyskPula@gmail.com,"Ulica Rimske Centurijacije 101
+52100 Pula",,106
+1024001086,X725 Jysk Zivinice,Functional,Operational,Shop,,,,X725JyskZivinice@gmail.com,"I. Ulica 121, Bingo centar
+75270 Živinice
+Bosna i Hercegovina",,106
+1024001087,O521 Jysk Maribor,Functional,Operational,Shop,,,,O521jyskmaribor@gmail.com,Tržaška 87,,106
+1024001088,0034 Deichmann Uzice,Functional,Operational,Shop,,,,0034deichmannuzice@gmail.com,Miloša Obrenovića 2,,108
+1024001089,CD 830 Pozarevac,Functional,Operational,Shop,,,,cd830@gmail.com,Ratarska 186,,112
+1024001090,M947 Koton Morocco Rabat,Functional,Operational,Shop,,,,STOREM947@koton.com.tr,Avenue Inaouin,,145
+1024001091,0023 Deichmann Zivinice,Functional,Operational,Shop,,,,0023deichmannzivinice@gmail.com,Prva ulica 121,,108
+1024001092,LPP Sinsay Banja Luka Delta Planet,Functional,Operational,Shop,,,,lppsinsaydeltabl@gmail.com,"Bulevar Srpske Vojske 8, TC Delta Planet",,122
+1024001093,LPP Sinsay Krusevac,Functional,Operational,Shop,,,,lppsinsaykrusevac@gmail.com,Krfska 37,,122
+1024001094,V645 Jysk Supetar Brac,Functional,Operational,Shop,,,,V645jysksupetarbrac@gmail.com,Zedno Drage bb,,106
+1024001095,Takko HQ,Functional,Operational,Shop,,,,takkohq@gmail.com,,,109
+1024001096,Decathlon Beograd Visnjicka,Functional,Operational,Shop,,,,decathlonbeograd@gmail.com,Visnjicka 86,,123
+1024001097,Idea 554 Sremska Mitrovica,Functional,Operational,Shop,,,,mp554@mercator.rs,"Arsenija Čarnojevića bb,",,112
+1024001098,NKD 5052 Pula,Functional,Operational,Shop,,,,nkd5052pula@gmail.com,,,121
+1024001100,M1024 Koton Kenitra Morocco,Functional,Operational,Shop,,,,STOREM1024@koton.com,"Pac Kenitra, TC Marjane",,145
+1024001101,Y137 Jysk Vrsac,Functional,Operational,Shop,,,,Y137JyskVrsac@gmail.com,Nikola Nešković 39,,106
+1024001102,Y136 Jysk Lazarevac,Functional,Operational,Shop,+381 6257 2572,,,Y136yskLazarevac@gmail.com,Dimitrije Tucović bb,,106
+1024001103,Idea 557 Novi Sad Patrijarha Pavla 85,Functional,Operational,Shop,,,,mp557@mercator.rs,Patrijarha Pavla 85,,112
+1024001104,0034 Deichmann Ljubljana,Functional,Operational,Shop,,,,0034deichmannljubljana@gmail.com,Celovska cesta 180b (Rakuševa ulica 1),,108
+1024001105,Metro Cash & Carry Croatia,Functional,Operational,Shop,+385 (1) 3444-449,+385  91 3344-449,+385 (1) 3466-566,dominik.kukic@metro-cc.hr,Jankomir 31,,118
+1024001106,Deichmann HQ Serbia,Functional,Operational,Shop,,,,deichmannrssp@gmail.com,,,108
+1024001107,Mlinar Zagreb pekarska industrija,Functional,Operational,Shop,,,,mlinar@gmail.com,Radnička cesta 228c,,197
+1024001108,O522 Jysk Domzale,Functional,Operational,Shop,,,,O522jyskdomzale@gmail.com,"TUŠ Centar Domžale, Mesni trg 1",,106
+1024001109,Albatros 003 Pasterova 8 Novi Sad,Functional,Operational,Shop,,,,alabtrospasterova@gmail.com,Pasterova 8,,198
+1024001110,Albatros 006 Novosadski put 85 Novi Sad,Functional,Operational,Shop,,,,albatrosnovosadskiput@gmail.com,Novosadski put 85,,198
+1024001111,V647 Jysk Biograd na moru,Functional,Operational,Shop,,,,V647Jysk@gmail.com,,,106
+1024001112,Decathlon Varazdin 2076,Functional,Operational,Shop,,,,2076decathlonvarazdin@gmail.com,Gospodarska 39,,123
+1024001113,0037 Deichmann Kranj MC Savski Otok,Functional,Operational,Shop,,,,0037deichmannkranj@gmail.com,Stara cesta 25b,,108
+1024001114,Idea 559 Zrenjanin,Functional,Operational,Shop,,,,mp559@mercator.rs,"2h-Catastrophic, 4h-Critical, 20h-Seriours, 48h-Normal",,112
+1024001115,V647 Jysk Biograd na moru,Functional,Operational,Shop,,,,V647Jysk@gmail.com,"V647 Biograd na moru
+23210
+ul fra Lina Pedišića 4",,106
+1024001116,V648 JYSK Krapina,Functional,Operational,Shop,,,,V648JYSK@gmail.com,"Frana Galovića 9
+49 000 Krapina
+Krapina, Croatia",,106
+1024001117,0038 Deichmann BEO Beograd - Zvezdara,Functional,Operational,Shop,,,,,"BEO Beograd
+Vojislava Ilica 141
+11050 Beograd - Zvezdara",,108
+1024001118,310003 Eurospin Zadar,Functional,Operational,Shop,,,,eurospinzadar@gmail.com,"4. Gardijske Brigade 1, 23000 Zadar",,200
+1024001119,310005 Eurospin Samobor,Functional,Operational,Shop,,,,eurospinsamobor@gmail.com,"Ulica Hrvatskih Branitelja 2, 10430 Samobor",,200
+1024001120,310004 Eurospin Pozega,Functional,Operational,Shop,,,,eurospinpozega@gmail.com,"Zagrebačka 52, Supernova,
+34000 Požega",,200
+1024001121,Women Secret 9493 Beograd BEO SC,Functional,Operational,Shop,,,,tien9493@womensecret.com,Vojislava Ilica 141i,,107
+1024001122,Springfield 9542 Beograd BEO SC,Functional,Operational,Shop,,,,tien9542@spf.com,Vojislava Ilica 141i,,107
+1024001123,RS757 C&A Fashion Beograd BEO SC,Functional,Operational,Shop,,,,RS757beoSC@gmail.com,Vojislava Ilića 141i,,110
+1024001124,610 Peek & Cloppenburg Beograd BEO SC,Functional,Operational,Shop,,,,peekncloppenburgbeosc@gmail.com,Vojislava Ilica 141i,,120
+1024001125,LPP Cropp Beograd BEO SC,Functional,Operational,Shop,,,,lppbgbeosccropp@gmail.com,Vojislava Ilica 141 I,,122
+1024001126,LPP Mohito Beograd BEO SC,Functional,Operational,Shop,,,,lppbgbeoscmohito@gmail.com,Vojislava Ilica 141 I,,122
+1024001127,LPP Reserved Beograd BEO SC,Functional,Operational,Shop,,,,lppbgbeosccropp@gmail.com,Vojislava Ilica 141 I,,122
+1024001128,310006 Eurospin Velika Gorica,Functional,Operational,Shop,,,,eurospinvelikagorica@gmail.com,"Ulica dr. Jurja Dobrile 1c, 10410 
+Velika Gorica",,200
+1024001129,P-21 Gavrilovic Zagreb,Functional,Operational,Shop,,,,p21zg@gmail.com,Milke Trnine 11a,,103
+1024001130,Fiscal Solutions Support,Functional,Operational,Shop,,,,support@fiscal-solutions.com,,,3
+1024001131,Albatros 002 Bulevar Slobodana Jovanovica 22,Functional,Operational,Shop,064/643-7620,,,allbattros2@gmail.com,Bulevar Slobodana Jovanovića 22,,198
+1024001132,Albatros 004 Kace Dejanovic 22,Functional,Operational,Shop,021/6395412,064/6437625,,allbattros4@gmail.com,Kace Dejanovic 22,,198
+1024001133,"Albatros 005 Branka Copica 40, Novi Sad-Adice",Functional,Operational,Shop,021/6399661,065/8437628,,allbattros5@gmail.com,"Branka Copica 40, Novi Sad-Adice",,198
+1024001134,Y138 Usce Jysk TC Beograd,Malfunctioned,Operational,Shop,,,,Y138usejysk@gmail.com,Bulevar Mihajla Pupina 4,,106
+1024001135,0035 Deichmann Ilirska Bistrica,Functional,Operational,Shop,,,,0035deichmannilirskabistrica@gmail.com,vorl. Vilharjeva cesta 33b,,108
+1024001136,Albatros 007,Functional,Operational,Shop,,,,AlbatrosMileveMaric5@gmail.com,Albatros 007 Mileve Maric 5 Novi Sad,,198
+1024001137,0036 Deichmann Nova Gorica,Functional,Operational,Shop,,,,0035deichmannng@gmail.com,Prvomajska ulica 35,,108
+1024001138,LPP Mohito Knez Mihailova,Functional,Operational,Shop,,,,,,"Knez Mihailova 20
+11000
+Beograd
+Srbija",122
+1024001139,"Albatros 001 Dragoslava Srejovica 12, Veternik",Functional,Operational,Shop,,,,allbattros001@gmail.com,"Dragoslava Srejovica 12, Veternik",,198
+1024001140,Idea 561 Boljevac,Functional,Operational,Shop,,,,mp561@mercator.rs,Obiliceva 1,,112
+1024001141,LPP Reserved Knez Mihailova Beograd,Functional,Operational,Shop,,,,lppreservedknez@gmail.com,Knez Mihailova,,122
+1024001142,Palas Asa d.o.o,Functional,Operational,Shop,,,,palasada@gmail.com,"Bulevar Kneza Milosa 31
+Novi Sad
+21000",,198
+1024001143,Royal Leonardo Hotel Munich,Functional,Operational,Shop,,,,c.buckley@leonardo-hotels.com,"Munich 80331, Germany",,201
+1024001144,RS0519 H&M Beograd - Beo centar,Functional,Operational,Shop,011/6351235,,,RS0519beocentar@gmail.com,"Vojislava Ilica 141I, 11050 BG-Zvezdara",,115
+1024001146,M1158 Koton Mostar,Functional,Operational,Shop,,,,managerm1158@koton.com.tr,Plaza TC - Bisce polje bb,,145
+1024001147,Y141 Jysk Beograd Vracar,Functional,Operational,Shop,,,,Y141JyskVracar@gmail.com,Beograd Vracar.,,106
+1024001148,Y140 Jysk Vranje,Functional,Operational,Shop,,,,Y140JyskVranje@gmail.com,17500 Vranje,,106
+1024001149,612 Peek & Cloppenburg Beograd TC Waterfront,Functional,Operational,Shop,,,,peekncloppenburgwaterfront@gmail.com,Bulevar Vudroa Vilsona 12,,120
+1024001150,Y139 JYSK Mladenovac,Functional,Operational,Shop,,,,Y139JYSKMladenovac@gmail.com,"Ulica kralja Petra I 1a
+11400 Mladenovac",,106
+1024001151,Sephora Beograd TC Waterfront,Functional,Operational,Shop,,,,sephorawater@gmail.com,"Bul.Vudroa Vilsona 12, BG",,117
+1024001152,310002 Eurospin Zagreb Branimirova,Functional,Operational,Shop,,,,eurospinzagrebbranimirova@gmail.com,"1. Štefanovečki zavoj 12, 10000 Zagreb",,200
+1024001153,310007 Eurospin Krizevci,Functional,Operational,Shop,,,,eurospinkrizevci@gmail.com,"Ulica kralja Tomislava 47A, 48260 Križevci",,200
+1024001154,LPP House BEO centar Beograd,Functional,Operational,Shop,,,,rs_ho_6112270@shops.lppsa.com,"Vojislava Ilica 141, TC BEO",,122
+1024001155,Idea 570 Surdulica,Functional,Operational,Shop,,,,mp570@mercator.rs,Tome Ivanovića 14,,112
+1024001156,Y133 Jysk Obrenovac,Functional,Operational,Shop,,,,Y133yskobrenovac@gmail.com,Vojvode Mišića 36g,,106
+1024001157,Idea 567 Sokobanja,Functional,Operational,Shop,,,,mp567@mercator.rs,Alekse Markišića 2,,112
+1024001158,Y142 Jysk Sombor,Functional,Operational,Shop,,,,Y142Jysksombor@gmail.com,Staparski put bb,,106
+1024001159,310010 Eurospin Porec,Functional,Operational,Shop,,,,eurospinporec@gmail.com,"Mate Vlašića 51A, 52440 Poreč",,200
+1024001160,LPP Sinsay Gornji Milanovac,Functional,Operational,Shop,,,,sinsaygornjimilanovac@gmail.com,Naselje Parac 18d,,122
+1024001161,Beograd Djordja Stanojevica,Functional,Operational,Shop,,,,decathlonbeograddjs@gmail.com,Djordja Stanojevica 35/1a,,123
+1024001162,Idea 575 Kovin,Functional,Operational,Shop,,,,MP575@mercator.rs,Trg Oslobođenja 4,,112
+1024001163,Idea 574 Ruma,Functional,Operational,Shop,,,,mp574@mercator.rs,Glavna 100,,112
+1024001164,Idea 572 Petrovaradin,Functional,Operational,Shop,,,,MP572@mercator.rs,Rackog 17,,112
+1024001165,Decathlon Beograd Djordja Stanojevica,Functional,Operational,Shop,,,,nikola.andjelkovic@decathlon.com,Djordja Stanojevica 35/1a,,123
+1024001166,Idea 577 Novi Sad,Functional,Operational,Shop,,,,mp577@mercator.rs,Masarikova 29,,112
+1024001169,MAC Cosmetics,Functional,Operational,Shop,+387 33 227-887,,,,"BBI Center
+Trg djece Sarajeva
+Sarajevo 71000
+Bosnia & Herzegovina",,2
+1024001170,Field Service and RC Fiscal Solutions,Functional,Operational,Shop,,,,,Temerinski put 20,,2
+1024001171,X726 Jysk Orasje,Functional,Operational,Shop,,,,x726yskorasje@gmail.com,II Ulica bb,,106
+1024001172,Emmezeta Novi Sad,Functional,Operational,Shop,,,,emmezetaNS@emmezeta.rs,Temerinska 95,,159
+1024001173,Idea 564 Banja Koviljaca,Functional,Operational,Shop,,,,mp564@mercator.rs,Maršala Tita bb,,112
+1024001174,Decathlon Pula 2666,Functional,Operational,Shop,,,,decathlonpulasp@gmail.com,Ul. Rimske centurijacije 102,,123
+1024001175,Idea 569 Novi Sad,Functional,Operational,Shop,,,,mp569@mercator.rs,Dr. Svetislava Kasapinovića 38-40,,112
+1024001176,Idea MP580 Bac,Functional,Operational,Shop,,,,mp580@mercator.rs,Maršala Tita 3,,112
+1024001177,0039 Deichmann Vranje,Functional,Operational,Shop,,,,0039deichmannvranje@gmail.com,Pariske komune 20,,108
+1024001178,Kiehls Waterfront Belgrade Loreal,Functional,Operational,Shop,,,,kiehlswfbg@gmail.com,Vudroa Vilsona 12,,179
+1024001179,9494 Women Secret Beograd TC Waterfront,Functional,Operational,Shop,,,,tien9494@womensecret.com,Bulevar Vudroa Vilsona 12,,107
+1024001180,9582 Springfield Beograd TC Waterfront,Functional,Operational,Shop,,,,tien9582@spf.com,Bulevar Vudroa Vilsona 12,,107
+1024001181,9658 Cortefiel Beograd,Functional,Operational,Shop,,,,tien9658@cortefiel.com,Galerija Beograd Bulevar Vudroa Vilsona 12,,107
+1024001183,Emmezeta Visnjicka Beograd,Functional,Operational,Shop,,,,,"Address: Višnjička 84, Beograd 11060
+011 2259211",,159
+1024001184,O523 Jysk Trbovlje,Functional,Operational,Shop,,,,,"Vodenska cesta bb
+1420 Trbovlje
+Slovenija",,106
+1024001185,Idea 576 NAIS Nis Delta,Functional,Operational,Shop,,,,,"Idea 576 NAIS Nis Delta
+Blagoja Parovića 1a
+18000 NIS",,112
+1024001186,Decathlon BIG Novi Sad,Functional,Operational,Shop,,,,,"Decathlon Novi Sad
+Sentandrejski put 11
+21000 Novi Sad",,123
+1024001187,LPP Mohito Nis Delta Planet,Functional,Operational,Shop,,,,LPPMohitoNisDeltaPlanet@gmail.com,Bulevar Nemanjica 11b,,122
+1024001188,9775 - Springfield Split Mall,Functional,Operational,Shop,,,,,Josipa Jovića 93,EX 7847,107
+1024001189,310011 Eurospin Bjelovar,Functional,Operational,Shop,,,,eurospinbjelovar@gmail.com,"Ulica Vlahe Paljetka 14, 43000 Bjelovar",,200
+1024001190,310009 Eurospin Vrbovec,Functional,Operational,Shop,,,,eurospinvrbovec@gmail.com,"Celine 2, 10340 Vrbovec",,200
+1024001191,Idea 583 Odzaci,Functional,Operational,Shop,,,,mp583@mercator.rs,Somborska 27,,112
+1024001192,LPP Reserved Nis Delta Planet,Functional,Operational,Shop,,,,rs_re_6912348@shops.lppsa.com,Bulevar Nemanjica 11b,,122
+1024001193,0038 Deichmann Trbovlje,Functional,Operational,Shop,,,,,Vodenska cesta 51,,108
+1024001194,LPP Sinsay Nis Delta Planet,Functional,Operational,Shop,,,,rs_si_6412488@shops.lppsa.com,Bulevar Nemanjica 11b,,122
+1024001196,LPP CROPP Nis Delta Planet,Functional,Operational,Shop,,,,,Bulevar Nemanjica 11b,,122
+1024001197,LPP HOUSE Nis Delta Planet,Functional,Operational,Shop,,,,,Bulevar Nemanjica 11b,,122
+1024001198,Ted Baker TC Galerija,Functional,Operational,Shop,,,,TedBakerTCGalerija@gmail.com,"Vudroa Vilsona 12
+Beograd
+TC Galerija",,202
+1024001199,310012 Eurospin Sisak,Functional,Operational,Shop,,,,eurospinSisak@gmail.com,"Zagrebačka ulica 49g, 44000 Sisak",,200
+1024001200,Y143 Maxton Novi Sad,Functional,Operational,Shop,,,,,"Bulevar cara Lazara 25b
+21000
+Novi Sad",,106
+1024001201,310013 Eurospin Pula,Functional,Operational,Shop,,,,eurospinpulaprekomorskih @gmail.com,"Ulica Rimske centurijacije 100, 52100 Pula",,200
+1024001202,V650 JYSK Zagreb,Functional,Operational,Shop,,,,v650jyskzagreb@gmail.com,Ljubljanska avenija 2,,106
+1024001203,O524 Jysk Lenart,Functional,Operational,Shop,,,,O524jysklenart@gmail.com,Industrijska ulica 47,,106
+1024001204,V651 Jysk Županja,Functional,Operational,Shop,,,,v651jyskzupanja@gmail.com,Franje Račkog 34,,106
+1024001205,310015 Eurospin Split,Functional,Operational,Shop,,,,,"Solinska ulica 84, 21000 Split",,200
+1024001206,Y144 Jysk Pirot,Functional,Operational,Shop,,,,Y144JyskPirot@gmail.com,Vojvode Mišića bb,,106
+1024001207,LPP Sinsay Prijedor,Functional,Operational,Shop,,,,lppsinsayprijedor@gmail.com,Patrija - Trg majora Zorana Karlice,,122
+1024001208,IKEA Split 021P4,Functional,Operational,Shop,,,,ikeasplit@gmail.com,Vukovarska Ulica 207,,119
+1024001209,LPP Sinsay Bijeljina,Functional,Operational,Shop,,,,lppsinsaybijeljina@gmail.com,Sremska br 10 - City Mall,,122
+1024001210,Idea MP584 Pančevo,Functional,Operational,Shop,,,,mp584@mercator.rs,Braće Jovanovića 7,,112
+1024001211,310008 Eurospin Cakovec,Functional,Operational,Shop,,,,,"Obrtnicka ulica 2, 40000 Cakovec",,200
+1024001212,Idea MP588 Novi Sad,Functional,Operational,Shop,,,,mp588@mercator.rs,Cara Dušana 30,,112
+1024001213,LPP Sinsay Pirot,Functional,Operational,Shop,,,,rs_si_6412800@shops.lppsa.com,Vojvode Misica bb,,122
+1024001214,310014 Eurospin Slavonski Brod,Functional,Operational,Shop,,,,eurospinslavonskibrod@gmail.com,"Ulica Petra Svačića 2B, 35000 Slavonski Brod",,200
+1024001215,310018 Eurospin Sesvete,Functional,Operational,Shop,,,,eurospinSesvete@gmail.com,"Zagrebačka cesta 162A, 10360 Sesvete",,200
+1024001216,X728 JYSK Jajce,Functional,Operational,Shop,,,,X728JYSKJajce@gmail.com,Lučina bb,,106
+1024001217,Y145 JYSK Ruma,Functional,Operational,Shop,,,,Y145JYSK@gmail.com,Orloviceva 80,,106
+1024001218,X727 JYSK Zepce,Functional,Operational,Shop,,,,X727JYSK@gmail.com,Novo naselje bb,,106
+1024001219,BAHAM0302 H&M Tuzla,Functional,Operational,Shop,38733227887,,,,"Bingo city centar Tuzla
+Mitra Trifunovica Uce 2
+75000 Tuzla",,115
+1024001220,Technical Support Fiscal Solutions Zgb Cro,Functional,Operational,Shop,,,,support.FS.CRO@gmail.com,Čulinečka cesta 46,,3
+1024001221,0024 Deichmann Gradiska,Functional,Operational,Shop,,,,0024DeichmannGradiska@gmail.com,Ulica XVI krajiske brigade 2A naselje Bok Jankovac,,108
+1024001222,310019 Eurospin Zapresic,Functional,Operational,Shop,,,,310019EurospinZapresic@gmail.com,"Ulica Ante Starcevica 20, 10290 Zapresic",,200
+1024001223,V652 JYSK Zagreb,Functional,Operational,Shop,,,,V652JYSKZagreb@gmail.com,Radnička 228c,,106
+1024001224,LPP Sinsay Gradiska,Functional,Operational,Shop,,,,LPPSinsayGradiska@gmail.com,XVI krajiške brigade 2A,,122
+1024001225,Sani Optik Banja Luka,Functional,Operational,Shop,,,,SaniOptikBanjaLuka@gmail.com,XVI krajiške brigade 2A,,204
+1024001226,310016 Eurospin Viskovo,Functional,Operational,Shop,,,,EurospinViskovo@gmail.com,"Ulica Furicevo 20, 51216 Viškovo",,200
+1024001227,310017 Eurospin Osijek,Functional,Operational,Shop,,,,EurospinOsijek@gmail.com,"Gacka ulica 70, 31000 Osijek",,200
+1024001228,Emmezeta centralni magacin Beograd,Functional,Operational,Shop,,,,centralni.magacin@emmezeta.rs,Zmaja Ognjenog Vuka BB Simanovci,,159
+1024001229,V649 Jysk Kutina,Functional,Operational,Shop,,,,V649JyskKutina@gmail.com,"Kolodvorska 1
+44320
+Kutina",,106
+1024001230,V653 Jysk Zagreb Dubrava,Functional,Operational,Shop,,,,V653jyskzagrebdubrava@gmail.com,Rudolfa Kolaka 14,,
+1024001231,Idea MP593 Kireska Subotica,Functional,Operational,Shop,,,,mp593@mercator.rs,Kireška 90L Lamela III,,112
+1024001232,Idea MP591 Radijalac Subotica,Functional,Operational,Shop,,,,mp591@mercator.rs,Cara Lazara 33,,112
+1024001233,LPP Sinsay Novi Sad Mercator,Functional,Operational,Shop,,,,rs_si_6412799@shops.lppsa.com,Bulevar Oslobodjenja 102,,122
+1024001234,Idea MP592 Novi Sad,Functional,Operational,Shop,,,,mp592@mercator.rs,"Futoška 36
+Novi Sad
+Serbia",,112
+1024001235,LPP Sinsay Kragujevac Roda Centar,Functional,Operational,Shop,,,,,"Roda Centar
+Save Kovacevica 48
+34000
+Kragujevac",,122
+1024001236,0025 Deichmann Gracanica,Functional,Operational,Shop,,,,0025DeichmannGracanica@gmail.com,"Branilaca grada bb.
+75320 - Gracanica",,108
+1024001237,LPP House Kragujevac Roda Centar,Functional,Operational,Shop,,,,RS_HO_6112330@shops.lppsa.com,Save Kovacevica 48,,122
+1024001238,Tendam HQ Montenegro,Functional,Operational,Shop,,,,,,,107
+1024001239,LDC803 Mercator,Functional,Operational,Shop,065 850 3267,,,,Vazduhoplovca I/11,,112
+1024001240,MP595 Prozivka Subotica,Functional,Operational,Shop,,,,mp595@mercator.rs,Beogradski put 83,,112
+1024001241,7894 Woman Secret TC Bingo,Functional,Operational,Shop,,,,tien7894@womensecret.com,"Mitra Trifunovica 2, Bingo TC",,107
+1024001242,LPP Sinsay Indjija,Functional,Operational,Shop,,,,lppsinsayindjija@gmail.com,,,122
+1024001243,Y146 Jysk Beograd Ava Park,Functional,Operational,Shop,,,,y146avaparkbg@gmail.com,11231 Astrid Lindgren 11,,106
+1024001244,Loreal RS Serbia centrala,Functional,Operational,Shop,,,,,Bul. Zorana Đinđića 64a/IV,,179
+1024001245,V654 Jysk Sveti Ivan Zelin,Functional,Operational,Shop,,,,,,,106
+1024001246,LPP Sinsay Beograd Stadion,Functional,Operational,Shop,,,,rs_si_6412785@shops.lppsa.com,Zaplanjska 32,,122
+1024001247,LPP Sinsay IKEA Retail park,Functional,Operational,Shop,,,,,,,122
+1024001248,0028 Deichmann Sarajevo West Gate,Functional,Operational,Shop,,,,,Fra Anđela Zvizdovića,,108
+1024001249,Y147 Jysk Paracin,Functional,Operational,Shop,,,,Y147JyskParacin@gmail.com,,,106
+1024001250,LPP House Big Novi Sad,Functional,Operational,Shop,,,,lppnsbighouse@gmail.com,Sentandrejski put 11,,122
+1024001251,LPP Sinsay Trebinje,Functional,Operational,Shop,,,,,"Vuka Karadzica 43, Trebinje",,122
+1024001252,LPP Sinsay Derventa,Functional,Operational,Shop,,,,lppsinsayderventa@gmail.com,Kninska,,122
+1024001253,Loreal Kiehls TC Promenada NS,Functional,Operational,Shop,3.85993E+11,,,matija.labavic@loreal.com,Bulevar Oslibodenja 119,,179
+1024001254,MP 599 Smederevska Palanka 2,Functional,Operational,Shop,,,,mp599@mercator.rs,Šulejićeva 3,,112
+1024001255,Loreal Kiehl's Beograd BEO SC,Functional,Operational,Shop,,,,Vera.VASILJEVIC@loreal.com,Vojislava Ilica 141i,,179
+1024001257,0027 Deichmann Brcko,Functional,Operational,Shop,,,,0027deichmannbrcko@gmail.com,Bijeljinska 69,,108
+1024001258,Dzekos doo Sarajevo  Podruznica Dzekos Istocno Sarajevo,Functional,Operational,Shop,+387 33 76 60 61,061/512-393,,dzekosdoosarajevo@gmail.com,Ravnogorska 96,,198
+1024001259,0026 Deichmann Tesanj,Functional,Operational,Shop,,,,0026tesanjbih@gmail.com,"Tesanjika bb, Usora",,108
+1024001260,310021 Eurospin Zadar,Functional,Operational,Shop,,,,,"Matije Gupca 59, Žmirići",,200
+1024001261,LPP Sinsay Modrica,Functional,Operational,Shop,,,,LPPSinsayBrcko@gmail.com,"Jovana Ducica 6, Modrica",,122
+1024001262,LPP Sinsay Doboj,Functional,Operational,Shop,,,,LPPSinsayDoboj@gmail.com,"Nemanjina 5, Doboj",,122
+1024001263,Idea 604 Telepska Dolina,Functional,Operational,Shop,,,,mp604@mercator.rs,Slavka Rodića bb,,112
+1024001264,H&M Warehouse Krnješevci,Functional,Operational,Shop,,,,,,,115
+1024001265,H&M Krnješevci,Functional,Operational,Shop,,,,jelena.nikolic@hm.com,III Industrijska zona bb,,115
+1024001266,Eurospin HQ,Functional,Operational,Shop,,,,email@email.com,"Zelena aleja 34, Vukovina",,200
+1024001267,Y148 Jysk Nova Pazova,Functional,Operational,Shop,,,,ais@jysk.com,"Cara Dušana 155 , 22330, Nova Pazova",,106
+1024001268,LPP Sinsay Banja Luka RK Centar,Functional,Operational,Shop,,,,lppsinsayrkbl@gmail.com,Kralja Petra I Karadjordjevića 105,,122
+1024001269,M1361 Koton Bosanska Krupa,Functional,Operational,Shop,,,,koton1361@koton.com.tr,Unska BB Retail Park,,145
+1024001270,O525 Jysk Prevalje,Functional,Operational,Shop,,,,,"Polje 10, Prevalje",,106
+1024001271,0041 Deichmann Nova Pazova,Functional,Operational,Shop,,,,deichmannnovapazova@gmail.com,Vojački put 1A,,108
+1024001272,Idea 603 Novi Sad,Functional,Operational,Shop,,,,mp603@mercator.rs,Đorđa Rajkovića 14,,112
+1024001273,Y149 Jysk Vrbas,Functional,Operational,Shop,,,,,Njegoševa 2A,,106
+1024001274,X729 Jysk Zvornik,Functional,Operational,Shop,,,,X729Zvornik@gmail.com,,,106
+1024001275,310026 Eurospin Labin,Functional,Operational,Shop,,,,EurospinLabin@gmail.com,Strmac b.b. ( Retail Park STOP SHOP ),,200
+1024001276,Idea 606 Petrovaradin,Functional,Operational,Shop,,,,mp606@mercator.rs,Marka Oreškovića 2b,,112
+1024001277,Idea 607 Novi Sad,Functional,Operational,Shop,,,,mp607@mercator.rs,Temerinska 37,,112
+1024001278,LPP Sinsay Beograd Galerija,Functional,Operational,Shop,(38)1606908069,,,rs_si_6413196@shops.lppsa.com,Bulevar Vudro Vilsona 12,,122
+1024001279,LPP Sinsay Sarajevo Lukavica 3,Functional,Operational,Shop,,,,,Stefana Nemanje bb,,122
+1024001280,Decathlon SLO HQ,Functional,Operational,,,,,,Moskovska ulica 10,,123
+1024001281,IKEA Studio za planiranje Novi Sad,Functional,Operational,Shop,,,,,Bulevar Oslobodjenja 119 TC Promenada,,119
+1024001282,310024 Eurospin Koprivnica,Functional,Operational,Shop,,,,eurospinkoprivnica@gmail.com,"Ulica Mihovila P. Miškine 5, 48000 Koprivnica",,200
+1024001283,310027 Eurospin Pazin (Stop Shop Pazin),Functional,Operational,Shop,,,,eurospinpazin@gmail.com,Istarskih Narodnjaka 23,,200
+1024001284,V658 Jysk Pazin,Functional,Operational,Shop,,,,,"Istarskih narodnjaka 17
+52000
+Pazin
+Stop Shop
+091 6166 350",,106
+1024001285,RS0520 H&M TC Galerija,Functional,Operational,Shop,,,,RS0520galerija@gmail.com,Bulevar Vudroa Vilsona 12,Bulevar Vudroa Vilsona 12,115
+1024001287,310028 Eurospin Djakovo,Functional,Operational,Shop,,,,eurospindjakovo@gmail.com,"Ulica P. Preradovića 198, 31400 Djakovo",,200
+1024001288,H&M Centrala Sarajevo,Functional,Operational,Shop,,,,,Maglajska,,115
+1024001289,Kiehls TC USCE Beograd Loreal,Functional,Operational,Shop,,,,,"Bulevar Mihajla Pupina 4
+Beograd 
+11070",,179
+1024001290,0030 Deichmann Zvornik City Park,Functional,Operational,Shop,,,,,,,108
+1024001291,MP610 Idea Jagodina,Functional,Operational,Shop,,,,mp610@mercator.rs,Živorada Kostića 24,MP610 Idea Jagodina,112
+1024001292,OMV Srbija HQ Beograd,Functional,Operational,Shop,+381 11 207-1500,,,OMVSrbijaHQBeograd@gmail.com,"OMV Srbija d.o.o. 
+Airport City
+Omladinskih brigada 90 a/IV
+11070 Novi Beograd
+Srbija",,192
+1024001293,LPP Sinsay Zvornik,Functional,Operational,Shop,,,,,"City Centar
+Karakaj 87a",,122
+1024001294,LPP e-commerce,Functional,Operational,Shop,,,,,Aleksandrovačka petlja,,122
+1024001295,Lukoil Technology Services,Functional,Operational,Shop,3810697,,,,Bul. Mihaila Pupina 165D,,2
+1024001296,LPP Sinsay Srbac,Functional,Operational,Shop,,,,lppsinsaysrbac@gmail.com,Crnaja bb,,122
+1024001297,X724 Jysk Gradacac,Functional,Operational,Shop,033 546 963,,,,Sarajevska bb,,106
+1024001298,2447 Springfield BIG Fashion Novi Sad,Functional,Operational,Shop,,,,tien2447@spf.com,Bulevar Oslobodjenja 119 TC BIG Fashion,,107
+1024001299,0029 Deichmann Bihac,Functional,Operational,Shop,,,,0029deichmannbihac@gmail.com,Jablanska bb (Magistralni put M14),,108
+1024001300,0013 Deichmann Rijeka,Functional,Operational,Shop,,,,0013deichmannrijeka@gmail.com,Zvonimirova 3,,108
+1024001301,Emmezeta WEBSHOP Simanovci,Functional,Operational,Shop,,,,ws_podrska@emmezeta.rs,Kapetana Svetislava Krstića 1 (Braće Zagorac 1),,159
+1024001302,MP618 Prokuplje,Functional,Operational,Shop,,,,mp618@mercator.rs,Kosovska 27,,112
+1024001303,X730 Jysk Vogošća,Functional,Operational,Shop,,,,,Hasana Merdžanovića bb,,106
+1024001304,Decathlon Koper 3141,Functional,Operational,Shop,,,,,Ankaranska cesta 2,,123
+1024001305,Tendam Online Shop Dobanovci,Functional,Operational,Shop,,,,tendamonlineshop@gmail.com,Beogradska 7/A 11272,,107
+1024001306,2441 Springfield Tuzla,Functional,Operational,Shop,,,,tien2441@spf.com,Mitra Trifunovica Uce 2,,107
+1024001307,310033 Eurospin Ludbreg,Functional,Operational,Shop,,,,,Koprivnicka ulica 34a,,200
+1024001308,Idea 615 Avijaticarsko naselje,Functional,Operational,Shop,,,,mp615@mercator.rs,Rumenački put bb,,112
+1024001309,Idea 614 Veternik,Functional,Operational,Shop,,,,mp614@mercator.rs,Dragoslava Srejovića 75,,112
+1024001310,0039 Deichmann Kočevje Trgovski Park,Functional,Operational,Shop,,,,0039deichmannkocevjetrgovskipark@gmail.com,Kolodvorska cesta 6,,108
+1024001311,310032 Eurospin Dugo Selo,Functional,Operational,Shop,,,,,Ulica Hrvatskog preporoda 70,,200
+1024001312,Ikea PaOP Zadar City Park,Functional,Operational,Shop,,,,,"Ul. 4. Gardijske Brigade 1, 23000  Zadar",,119
+1024001313,310036 Eurospin Virovitica,Functional,Operational,Shop,,,,,Ulica Ote Horvata 1,,200
+1024001314,LPP Sinsay Bratunac,Functional,Operational,Shop,,,,,Gavrila Principa bb,,122
+1024001315,Idea 620 Novi Sad,Functional,Operational,Shop,,,,mp620@mercator.rs,Miše Dimitrijevića 53b,,112
+1024001316,Decathlon Murska Sobota 3140,Functional,Operational,Shop,,,,,Obrtna ulica 26,,123
+1024001317,Decathlon Kragujevac,Functional,Operational,Shop,,,,,Dimitrija Tucovića 23,,123
+1024001318,310034 Eurospin Jastrebarsko,Functional,Operational,Shop,,,,,Ulica Većeslava Holjevca 15,,200
+1024001319,LPP E-Commerce,Functional,Operational,Shop,,,,lppecommerce@gmail.com,Aleksandrovacka petlja,,122
+1024001320,310037 Eurospin Karlovac,Functional,Operational,Shop,,,,,Ulica Ljudevita Sestica 7,,200
+1024001321,0032 Deichmann Doboj,Functional,Operational,Shop,,,,0032deichmanndoboj@gmail.com,Nikole Tesle bb,,108
+1024001322,310035 Eurospin Vinkovci,Functional,Operational,Shop,,,,,Zvonarska ulica 63,,200
+1024001323,5507 Petrol BH Oil Company Banja Luka,Functional,Operational,Shop,,,,,Ivana Gorana Kovačića 203A,,299
+1024001324,5545 Petrol Oil  N5 Caffe Bar,Functional,Operational,Shop,,,,,Bulevar srpske vojske 14A,,299
+1024001325,5539 Petrol Oil BS Banja Luka Malta,Functional,Operational,Shop,,,,,Bulevar srpske vojske 14A,,299
+1024001326,5547 Petrol Oil BS Vijenac Banja Luka,Functional,Operational,Shop,,,,,Omladinska ulica bb,,299
+1024001327,5546 Petrol Oil N5 Caffe Bar Vijenac Banja Luka,Functional,Operational,Shop,,,,,Omladinska ulica bb,,299
+1024001328,5508 Petrol Oil BS Sargovac Banja Luka,Functional,Operational,Shop,,,,,Bilećka bb,,299
+1024001329,4832 Petrol BH Oil Company Doboj Šešlije,Functional,Operational,Shop,,,,petrolbhoilcompanydobojseslije@gmail.com,Šešlije BB,,299
+1024001330,4847 Petrol BH Oil Company Doboj Kladari,Functional,Operational,Shop,,,,petrolbhoilcompanykladari@gmail.com,Kladari bb,,299
+1024001331,4887 Petrol BH Oil Company Derventa,Functional,Operational,Shop,,,,petrolbhoilcompanyderventa@gmail.com,Derventski Lug bb,,299
+1024001332,Decathlon Subotica,Functional,Operational,Shop,0800 30 11 46,,,,Segedinski put 88a,,123
+1024001333,4844 Petrol Oil BS Zvornik,Functional,Operational,Shop,,,,,Tršić bb,,299
+1024001334,4890 Petrol Oil BS Glumina Zvornik,Functional,Operational,Shop,,,,,Glumina bb,,299
+1024001335,4825 Petrol Oil BS Vlasenica,Functional,Operational,Shop,,,,,Ilije Birčanina bb,,299
+1024001336,4842 Petrol Oil BS Bijeljina,Functional,Operational,Shop,,,,,Majevičkih brigada kvart 52 br 4,,299
+1024001337,4885 Petrol Oil N5 Bife Kladari (Doboj),Functional,Operational,Shop,,,,,Kladari bb,,299
+1024001338,4828 Petrol Oil N5 Caffe Bar,Functional,Operational,Shop,,,,,Ilije Birčanina bb,,299
+1024001339,O528 Jysk Litija,Functional,Operational,Shop,,,,O528jysklitija@gmail.com,Ježa bb,,106
+1024001340,M0996 Koton Banja Luka,Functional,Operational,Shop,,,,,Veselina Masleše 6,,145
+1024001341,58003 New Yorker Sarajevo,Functional,Operational,Shop,057 311-110,,,newyorkersarajevo@gmail.com,Vojvode Radomira Putnika bb,,188
+1024001342,58005 New Yorker Bijeljina City Mall,Functional,Operational,Shop,055 294-010,,,newyorkerbijeljina@gmail.com,Sremska 10,,188
+1024001343,58006 New Yorker Banja Luka,Functional,Operational,Shop,051 234-200,,,newyorkerbanjaluka@gmail.com,Trg Krajine 2,,188
+1024001344,58012 New Yorker Prijedor,Functional,Operational,Shop,052 490-144,,,newyorkerprijedor@gmail.com,Kralja Petra I oslobodioca,,188
+1024001345,58014 New Yorker Trebinje,Functional,Operational,Shop,059 490-570,,,newyorkerprijedor@gmail.com,Zasad polje,,188
+1024001346,58015 New Yorker Banja Luka Delta Planet,Functional,Operational,Shop,051 264-210,,,newyorkerbanjalukadeltaplanet@gmail.com,Bulevar srpske vojske 8,,188
+1024001347,58019 New Yorker Gradiška,Functional,Operational,Shop,051 492 481,,,newyorkergradiska@gmail.com,16. Krajiške Brigade,,188
+1024001348,New Yorker BIH Headquater,Functional,Operational,Shop,,,,,,,188
+1024001349,M1513 Koton Usora,Functional,Operational,Shop,,,,STOREM1513@koton.com.tr,Tešanjka BB,,145
+1024001350,7538 - Women Secret The Mall,Functional,Operational,Shop,+359 228 840 511,,,tien7538@womensecret.com,Bulevar Carigradsko šose 115z,,107
+1024001351,7539 - Cortefiel The Mall,Functional,Operational,Shop,+359 228 840 561,,,tien7539@cortefiel.com,Bulevar Carigradsko šose 115z,,107
+1024001352,7768 - Springfield The Mall,Functional,Operational,Shop,+359 2 884 0530,,,tien7768@spf.com,Bulevar Carigradsko šose 115z,,107
+1024001353,310030 Eurospin Matulji,Functional,Operational,Shop,,,,,Cesta Dalmatinskih brigada 7A,,200
+1024001354,58028 New Yorker Doboj City Park,Functional,Operational,Shop,053 423-845,,,newyorkerdoboj@gmail.com,Nikole Tesle 26,,188
+1024001355,310023 Eurospin Biograd na Moru,Functional,Operational,Shop,,,,,Žutska ulica 1,,200
+1024001356,LDC832 CROSSDOCK CENTAR Novi Sad,Functional,Operational,Shop,,,,,Temerinski put 50,,112
+1024001357,MP203 Trstenik,Functional,Operational,Shop,,,,,Cara Dusana bb Trstenik,,112
+1024001358,2055 - Women Secret Usce,Functional,Operational,Shop,,,,tien2055@womensecret.com,Bulevar Mihajla Pupina 4,,107
+1024001359,BAHAM0001 H&M Sarajevo,Functional,Operational,Shop,,,,hmsarajevocc@gmail.com,Vrbanja 1,,115
+1024001360,Poreska uprava filijala Zemun,Functional,Operational,Shop,011/6969-141,,,kabinet@purs.gov.rs,Cara Dušana 145,,206
+1024001361,9609 Women Secret Split,Functional,Operational,Shop,,,,,Vukovarska 207,,107
+1024001362,Kiehls Rajiceva Belgrade Loreal,Functional,Operational,Shop,,,,kiehlsrajicevabg@gmail.com,Kneza Mihaila 54,,179
+1024001363,310022 Eurospin Zagreb Samoborska,Functional,Operational,Shop,,,,,Samoborska 131,,200
+1024001364,Roda 612 KUTAK,Functional,Operational,Shop,,,,mp612@mercator.rs,Vazduhoplovaca 1/11,,112
+1024001365,Loreal Kiehls Paradise Mall BG0010,Functional,Operational,Shop,,,,,,,179
+1024001366,Loreal Kiehls Serdika Mall BG0020,Functional,Operational,Shop,,,,,,,179
+1024001367,M1159 Koton Beograd BEO SC,Functional,Operational,Shop,,,,,Vojislava Ilica 141i,,145
+1024001368,IKEA Studio za planiranje Novi Beograd,Functional,Operational,Shop,,,,,Đorđa Stanojevića 35,,119
+1024001369,M0894 Koton Kraljevo RETAIL PARK NEST,Functional,Operational,Shop,,,,,E761 39a,,145
+1024001370,2057 - Women Secret BIG Fashion Kragujevac,Functional,Operational,Shop,,,,tien2057@womensecret.com,Bulevar Kraljice Marije 56 BIG Fashion,,107
+1024001371,Lidl Srbija,Functional,Operational,Shop,,,,,Nova industrijska zona BB,,193
+1024001372,310040 Eurospin Ivanec,Functional,Operational,Shop,,,,,Ivanečko naselje 2/28,,200
+1024001373,0044 Deichman Cacak,Functional,Operational,Shop,,,,0044deichmancacak@gmail.com,Nikole Tesle 3,,108
+1024001374,PaOP Rijeka - Galerija Bakar,Functional,Operational,Shop,,,,,"Galerija Bakar, Kukuljanovo 362, 51223",,119
+1024001375,310041 Eurospin Nova Gradiška,Functional,Operational,Shop,,,,,Kralja Petra Svačića 2,,200
+1024001376,Petrol Oil LPG HIB D.O.O Šamac,Functional,Operational,Shop,,,,,Preduzetnička zona bb,,299
+1024001377,Petrol Oil Hidroenergina,Functional,Operational,Shop,,,,,Dzemala Bijedica 202,,299
+1024001378,JYSK V672 Nova Gradiška,Functional,Operational,Shop,,,,,Ulica Kralja Petra Svačića 3,,106
+1024001379,0043 Deichmann Sabac,Functional,Operational,Shop,,,,0043deichmannsabac@gmail.com,Vojvode Janka Stojićevića 3,,108
+1024001380,Loreal Kiehl's Rijeka Tower Center,Functional,Operational,Shop,,,,hr.khl.tcr@loreal.com,BQ Kiehl's HR Rijeka Tower Center,,179
+1024001381,M0865 Koton Rakovica Beograd CAPITOL PARK,Functional,Operational,Shop,,,,STOREM0865@koton.com.tr,"Patrijarha Dimitrija 14, Beograd",,145
+1024001382,Y154 Jysk Bor,Functional,Operational,Shop,+381 63 103 41 21,,,Y154JyskBor@gmail.com,Nikole Pašića bb,,106
+1024001383,310048 Eurospin Vukovar,Functional,Operational,Shop,,,,eurospinvukovar@gmail.com,Bana Josipa Jelačića 73A,,200
+1024001384,310045 Eurospin Osijek,Functional,Operational,Shop,,,,eurospinosijekjjs@gmail.com,J.J.Strossmayera 343A,,200
+1024001385,2832 Springfield Smederevo Gold Retail Park,Functional,Operational,Shop,,,,tien2832@spf.com,"Crvene Armije Smederevo, Gold Retail park",,107
+1024001386,310043 Eurospin Metković,Functional,Operational,Shop,,,,eurospinmetkovic@gmail.com,Franje Asiškog bb,,200
+1024001387,IKEA Hrvatska HR021 Pula,Functional,Operational,Shop,,,,ikeacrospula@gmail.com,Industrijska ul. 15,,119
+1024001388,310025 Eurospin Varaždin,Functional,Operational,Shop,,,,,Gustava Krkleca 1,,200
+1024001389,310038 Eurospin Kukuljanovo,Functional,Operational,Shop,,,,eurospinkukuljanovo@gmail.com,Kukuljanovo 350,,200
+1024001390,4640 - Cortefiel Delta City BG,Functional,Operational,Shop,,,,tien4640@cortefiel.com,Jurija Gagarina 16,,107
+1024001391,0040 Deichmann Smederevo,Functional,Operational,Shop,,,,0040deichmannsmederevo@gmail.com,Crvene armije 65,,108
+1024001392,CD 834 Nis,Functional,Operational,Shop,,,,cd834@gmail.com,Vazduhoplovaca I/11,,112
+1024001393,4335 - Springfield AFI Ploiesti,Functional,Operational,Shop,,,,tien4335@spf.com,Strada Calomfirescu 2,,107
+1024001394,4323 - Springfield Mega Mall,Functional,Operational,Shop,,,,tien4323@spf.com,Bulevardul Pierre de Coubertin 3-5,,107
+1024001395,4327 - Springfield AFI Cotroceni,Functional,Operational,Shop,,,,tien4327@spf.com,Bulevardul General Paul Teodorescu 4,,107
+1024001396,Tendam HQ Romania,Functional,Operational,Shop,,,,Tendam_hq@gmail.com,,,107
+1024001397,310049 Eurospin Zlatar,Functional,Operational,Shop,,,,eurospinzlatar@gmail.com,Zagrebačka ulica 70C,,200
+1024001398,4877 BH Petrol Oil Company Derventa,Retired,Incident,Shop,,,,bhpetroloilcompanyderventa@gmail.com,Derventski Lug bb,,299
+1024001399,IKEA Cacak,Functional,Operational,Shop,,,,ikeacacak@gmail.com,Nikole Tesle 11,,119
+1024001400,310031 Eurospin Ljubljanska,Functional,Operational,Shop,,,,310031eurospin@gmail.com,Ljubljanska Avenija 2D,,200
+1024001401,4525 - Women Secret ParkLake,Functional,Operational,Shop,,,,tien4525@womensecret.com,Str. Liviu Rebreanu 4,,107
+1024001402,Idea 495 Kraljevo,Functional,Operational,Shop,,,,mp495@mercator.rs,"Cara Lazara 1, Kraljevo",,112
+1024001403,4460 - Springfield,Functional,Operational,Shop,,,,tien4460@spf.com,Avenija Dubrovnik 16,,107
+1024001404,4630 - Women Secret,Functional,Operational,Shop,,,,tien4630@womensecret.com,Piata Consiliul Europei 2,,107
+1024001405,4412 - Springfield,Functional,Operational,Shop,,,,tien4412@spf.com,Piata Consiliul Europei 2,,107
+1024001406,Decathlon Nis,Functional,Operational,Shop,,,,,,,123
+1024001407,310046 Eurospin Šibenik,Functional,Operational,Shop,,,,eurospinsibenik@gmail.com,Južna magistrala 3,,200
