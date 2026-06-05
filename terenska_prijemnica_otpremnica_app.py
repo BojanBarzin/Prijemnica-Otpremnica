@@ -44,6 +44,23 @@ MAGACINI = [
     "FS SARAJEVO",
 ]
 
+TEHNICARI = [
+    "Adel Imeri",
+    "Andrej Prole",
+    "Bojan Barzin",
+    "Damir Ulovec",
+    "Dejan Todorovic",
+    "Goran Krstic",
+    "Ivan Petracic",
+    "Jovan Ilic",
+    "Kresimir Vukman",
+    "Lauro Cuha",
+    "Marko Madjar",
+    "Miroslav Hicil",
+    "Mladjen Stojakovic",
+    "Zvonko Jovic",
+]
+
 PROJECT_LABELS = {
     "107": "Tendam",
     "108": "Deichmann",
@@ -427,7 +444,7 @@ def init_defaults():
         "pri_adresa": "",
         "pri_mesto": "",
         "pri_predao": "",
-        "pri_uredjaj_razduzio_ime": "",
+        "pri_zaduzio": "",
         "pri_zaprimio": "",
         "otp_broj": "",
         "otp_datum": date.today(),
@@ -516,6 +533,7 @@ sp_opts = device_options("sp_inventory_number")
 obj_opts = object_options()
 client_opts = COMMON_CLIENTS
 magacin_opts = MAGACINI
+tehnicar_opts = TEHNICARI
 
 # =========================
 # DOCUMENT UI
@@ -573,11 +591,11 @@ for i in range(MAX_ITEMS):
 
 s1, s2, s3 = st.columns(3)
 with s1:
-    st.text_input("Uređaj predao", key="pri_predao")
+    smart_select("Uređaj predao", tehnicar_opts, "pri_predao")
 with s2:
-    st.text_input("Uređaj razdužio / Ime i prezime", key="pri_uredjaj_razduzio_ime")
+    smart_select("Uređaj zadužio", tehnicar_opts, "pri_zaduzio")
 with s3:
-    st.text_input("Uređaj zaprimio", key="pri_zaprimio")
+    smart_select("Uređaj zaprimio", tehnicar_opts, "pri_zaprimio")
 
 st.markdown('<div class="section-line"></div>', unsafe_allow_html=True)
 
@@ -632,11 +650,11 @@ for i in range(MAX_ITEMS):
 
 s1, s2, s3 = st.columns(3)
 with s1:
-    st.text_input("Uređaj otpremio", key="otp_otpremio")
+    smart_select("Uređaj otpremio", tehnicar_opts, "otp_otpremio")
 with s2:
-    st.text_input("Uređaj zadužio ", key="otp_zaduzio_bottom")
+    smart_select("Uređaj zadužio ", tehnicar_opts, "otp_zaduzio_bottom")
 with s3:
-    st.text_input("Uređaj primio", key="otp_primio")
+    smart_select("Uređaj primio", tehnicar_opts, "otp_primio")
 
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -714,7 +732,7 @@ def create_fallback_workbook():
             ws.cell(r, c).border = border
             ws.cell(r, c).alignment = Alignment(horizontal="center", vertical="center")
     merge_write("A20:B20", "Uređaj predao", True, True)
-    merge_write("C20:E20", "Uređaj razdužio / Ime i prezime", True, True)
+    merge_write("C20:E20", "Uređaj zadužio", True, True)
     merge_write("F20:G20", "Uređaj zaprimio", True, True)
 
     merge_write("A24:G24", "Fiscal Solutions d.o.o.   Temerinska 102, 21000 Novi Sad", True)
@@ -757,16 +775,16 @@ def fill_template() -> bytes:
     wb = load_template_or_fallback()
     ws = wb["Interna prijemnica"] if "Interna prijemnica" in wb.sheetnames else wb.active
 
-    # Prijemnica header
+    # Prijemnica header - original template layout
     write_cell(ws, "D3", st.session_state.get("pri_broj", ""))
-    write_cell(ws, "F3", date_to_str(st.session_state.get("pri_datum", date.today())))
-    write_cell(ws, "A7", st.session_state.get("pri_razduzio", ""))
-    write_cell(ws, "D7", st.session_state.get("pri_u_magacin", ""))
-    write_cell(ws, "A9", st.session_state.get("pri_objekat", ""))
+    write_cell(ws, "E4", date_to_str(st.session_state.get("pri_datum", date.today())))
+    write_cell(ws, "B7", st.session_state.get("pri_razduzio", ""))
+    write_cell(ws, "E7", st.session_state.get("pri_u_magacin", ""))
+    write_cell(ws, "C8", st.session_state.get("pri_objekat", ""))
     write_cell(ws, "C9", st.session_state.get("pri_adresa", ""))
-    write_cell(ws, "F9", st.session_state.get("pri_mesto", ""))
+    write_cell(ws, "C10", st.session_state.get("pri_mesto", ""))
 
-    start_row = 12
+    start_row = 13
     for i in range(MAX_ITEMS):
         r = start_row + i
         write_cell(ws, f"A{r}", i + 1)
@@ -776,20 +794,20 @@ def fill_template() -> bytes:
         write_cell(ws, f"E{r}", st.session_state.get(f"pri_sn_{i}", ""))
         write_cell(ws, f"F{r}", st.session_state.get(f"pri_sp_{i}", ""))
 
-    write_cell(ws, "A21", st.session_state.get("pri_predao", ""))
-    write_cell(ws, "C21", st.session_state.get("pri_uredjaj_razduzio_ime", ""))
-    write_cell(ws, "F21", st.session_state.get("pri_zaprimio", ""))
+    write_cell(ws, "B20", st.session_state.get("pri_predao", ""))
+    write_cell(ws, "D20", st.session_state.get("pri_zaduzio", ""))
+    write_cell(ws, "E20", st.session_state.get("pri_zaprimio", ""))
 
-    # Otpremnica header
+    # Otpremnica header - original template layout
     write_cell(ws, "D26", st.session_state.get("otp_broj", ""))
-    write_cell(ws, "F26", date_to_str(st.session_state.get("otp_datum", date.today())))
-    write_cell(ws, "A30", st.session_state.get("otp_iz_magacina", ""))
+    write_cell(ws, "E27", date_to_str(st.session_state.get("otp_datum", date.today())))
+    write_cell(ws, "B30", st.session_state.get("otp_iz_magacina", ""))
     write_cell(ws, "D30", st.session_state.get("otp_zaduzio", ""))
-    write_cell(ws, "A32", st.session_state.get("otp_objekat", ""))
-    write_cell(ws, "C32", st.session_state.get("otp_adresa", ""))
-    write_cell(ws, "F32", st.session_state.get("otp_mesto", ""))
+    write_cell(ws, "E31", st.session_state.get("otp_objekat", ""))
+    write_cell(ws, "E32", st.session_state.get("otp_adresa", ""))
+    write_cell(ws, "E33", st.session_state.get("otp_mesto", ""))
 
-    start_row = 35
+    start_row = 36
     for i in range(MAX_ITEMS):
         r = start_row + i
         write_cell(ws, f"A{r}", i + 1)
@@ -799,9 +817,9 @@ def fill_template() -> bytes:
         write_cell(ws, f"E{r}", st.session_state.get(f"otp_sn_{i}", ""))
         write_cell(ws, f"F{r}", st.session_state.get(f"otp_sp_{i}", ""))
 
-    write_cell(ws, "A44", st.session_state.get("otp_otpremio", ""))
-    write_cell(ws, "C44", st.session_state.get("otp_zaduzio_bottom", ""))
-    write_cell(ws, "F44", st.session_state.get("otp_primio", ""))
+    write_cell(ws, "B43", st.session_state.get("otp_otpremio", ""))
+    write_cell(ws, "D43", st.session_state.get("otp_zaduzio_bottom", ""))
+    write_cell(ws, "E43", st.session_state.get("otp_primio", ""))
 
     out = BytesIO()
     wb.save(out)
@@ -873,7 +891,7 @@ def build_print_html() -> str:
             </table>
             <div class="sign">
                 <div class="sig">Uređaj predao<br>{esc(st.session_state.get('pri_predao'))}</div>
-                <div class="sig">Uređaj razdužio / Ime i prezime<br>{esc(st.session_state.get('pri_uredjaj_razduzio_ime'))}</div>
+                <div class="sig">Uređaj zadužio<br>{esc(st.session_state.get('pri_zaduzio'))}</div>
                 <div class="sig">Uređaj zaprimio<br>{esc(st.session_state.get('pri_zaprimio'))}</div>
             </div>
         </div>
