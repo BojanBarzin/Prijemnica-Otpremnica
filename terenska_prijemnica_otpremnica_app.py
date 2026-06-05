@@ -20,7 +20,7 @@ LIGHT_GRAY = "#F5F5F5"
 
 DATA_FILE = "data.xlsx"
 LOCATIONS_FILE = "LocationsSPTS.csv"
-TEMPLATE_XLSX = "Prijamnica-otpremnica-template.xlsx"
+TEMPLATE_XLSX = "prijemnica_otpremnica_teren.xlsx"
 MAX_ITEMS = 5
 
 COMMON_CLIENTS = [
@@ -29,7 +29,7 @@ COMMON_CLIENTS = [
     "Takko",
     "Mercator-S",
     "H&M",
-    "Metre Cash & Carry",
+    "Metro Cash & Carry",
     "Ikea",
     "Decathlon",
     "Lidl",
@@ -260,7 +260,6 @@ with col_title:
         """
         <div class="brand-header">
             <div class="brand-title">Prijemnica / Otpremnica sa terena</div>
-            <div class="brand-subtitle">Prediktivno popunjavanje uređaja i lokacije iz CMDB i SPTS baze</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -565,7 +564,7 @@ with c1:
 with c2:
     smart_select("U magacin / Ime i prezime", magacin_opts, "pri_u_magacin")
 
-c1, c2, c3 = st.columns([1.4, 1.4, 1])
+c1, c2, c3 = st.columns([1.8, 1.5, 1])
 with c1:
     smart_select("Objekat", obj_opts, "pri_objekat")
 with c2:
@@ -624,7 +623,7 @@ with c1:
 with c2:
     st.text_input("Uređaj zadužio / Ime i prezime", key="otp_zaduzio")
 
-c1, c2, c3 = st.columns([1.4, 1.4, 1])
+c1, c2, c3 = st.columns([1.8, 1.5, 1])
 with c1:
     smart_select("Objekat ", obj_opts, "otp_objekat")
 with c2:
@@ -759,7 +758,11 @@ def create_fallback_workbook():
 def load_template_or_fallback():
     candidates = [
         TEMPLATE_XLSX,
+        "prijemnica_otpremnica_teren.xlsx",
+        "prijemnica_otpremnica_teren (1).xlsx",
         "Prijamnica-otpremnica-template.xlsx",
+        "/mnt/data/prijemnica_otpremnica_teren (1).xlsx",
+        "/mnt/data/prijemnica_otpremnica_teren.xlsx",
         "/mnt/data/Prijamnica-otpremnica-template.xlsx",
     ]
     for path in candidates:
@@ -826,10 +829,24 @@ def fill_template() -> bytes:
     return out.getvalue()
 
 # =========================
-# PRINT HTML SAME LAYOUT
+# PRINT HTML SAME LAYOUT AS TEMPLATE
 # =========================
 def esc(x):
     return str(x or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def print_logo_b64():
+    candidates = [
+        "assets/fs_logo.png",
+        "assets/fs_logo_print.png",
+        "Fiscal Solutions Logo(10).png",
+        "/mnt/data/Fiscal Solutions Logo(10).png",
+    ]
+    for path in candidates:
+        b64 = get_base64(path)
+        if b64:
+            return b64
+    return ""
 
 
 def item_rows_html(side: str):
@@ -837,92 +854,146 @@ def item_rows_html(side: str):
     for i in range(MAX_ITEMS):
         rows += f"""
         <tr>
-            <td>{i + 1}</td>
+            <td class="br">{i + 1}</td>
             <td>{esc(st.session_state.get(f'{side}_naziv_{i}', ''))}</td>
             <td>{esc(st.session_state.get(f'{side}_model_{i}', ''))}</td>
             <td>{esc(st.session_state.get(f'{side}_inv_{i}', ''))}</td>
             <td>{esc(st.session_state.get(f'{side}_sn_{i}', ''))}</td>
             <td>{esc(st.session_state.get(f'{side}_sp_{i}', ''))}</td>
-            <td></td>
         </tr>
         """
     return rows
 
 
 def build_print_html() -> str:
+    logo = print_logo_b64()
+    logo_html = f'<img class="fs-logo" src="data:image/png;base64,{logo}">' if logo else ""
+
     return f"""
     <html>
     <head>
         <style>
             @page {{ size: A4 portrait; margin: 8mm; }}
-            body {{ font-family: Arial, sans-serif; font-size: 11px; color: #000; }}
-            button {{ margin-bottom: 10px; padding: 8px 14px; background:#111; color:white; border:0; border-radius:6px; font-weight:bold; }}
-            .sheet {{ border:1px solid #000; padding:10px; margin-bottom:12px; }}
-            .company {{ text-align:center; font-weight:bold; margin-bottom:8px; }}
-            .title-line {{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; align-items:center; margin-bottom:8px; }}
-            .title {{ font-size:16px; font-weight:bold; }}
-            table {{ width:100%; border-collapse:collapse; margin-top:6px; }}
-            td, th {{ border:1px solid #000; padding:5px; text-align:center; height:20px; }}
-            th {{ font-weight:bold; background:#f2f2f2; }}
-            .sign {{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:22px; margin-top:36px; }}
-            .sig {{ border-top:1px solid #000; text-align:center; padding-top:6px; font-weight:bold; min-height:32px; }}
-            @media print {{ button {{ display:none; }} .sheet {{ page-break-inside: avoid; }} }}
+            body {{ font-family: Arial, sans-serif; font-size: 11px; color:#000; margin:0; }}
+            .print-btn {{ margin:0 0 10px 0; padding:8px 14px; background:#111; color:white; border:0; border-radius:6px; font-weight:bold; }}
+            .sheet {{ width: 760px; margin: 0 auto; }}
+            .section {{ position: relative; min-height: 385px; page-break-inside: avoid; }}
+            .logo-wrap {{ position:absolute; left:0; top:0; width:150px; height:62px; overflow:hidden; }}
+            .fs-logo {{ max-width:150px; max-height:62px; object-fit:contain; }}
+            .company {{ text-align:center; font-size:12px; font-weight:600; padding-top:10px; margin-bottom:14px; }}
+            .doc-row {{ display:grid; grid-template-columns: 170px 110px 90px 110px 1fr; align-items:center; gap:0; margin:0 0 12px 95px; }}
+            .doc-title {{ font-weight:bold; font-size:13px; }}
+            .cell-line {{ border:1px solid #000; min-height:24px; display:flex; align-items:center; justify-content:center; padding:1px 5px; }}
+            table {{ border-collapse:collapse; }}
+            td, th {{ border:1px solid #000; padding:3px 5px; height:20px; vertical-align:middle; }}
+            th {{ font-weight:bold; background:#fff; }}
+            .top-table-pri {{ width: 570px; margin-left:0; margin-top:8px; }}
+            .top-table-otp {{ width: 570px; margin-left:0; margin-top:8px; }}
+            .label {{ font-weight:bold; text-align:left; }}
+            .center {{ text-align:center; }}
+            .value {{ font-size:12px; }}
+            .loc-pri {{ margin-left: 95px; margin-top:4px; width:475px; }}
+            .loc-otp {{ margin-left: 250px; margin-top:4px; width:360px; }}
+            .loc td {{ height:19px; }}
+            .items {{ width: 610px; margin-top:14px; }}
+            .items th, .items td {{ text-align:center; }}
+            .br {{ width:42px; }}
+            .sign-table {{ width: 610px; margin-top:14px; }}
+            .sign-table td {{ border:none; height:20px; text-align:center; }}
+            .sign-title {{ font-weight:bold; }}
+            .sig-name {{ height:38px !important; vertical-align:bottom; }}
+            .spacer {{ height: 18px; }}
+            @media print {{ .print-btn {{ display:none; }} body {{ margin:0; }} .sheet {{ width:100%; }} }}
         </style>
     </head>
     <body>
-        <button onclick="window.print()">Print</button>
-
+        <button class="print-btn" onclick="window.print()">Print</button>
         <div class="sheet">
-            <div class="company">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
-            <div class="title-line">
-                <div class="title">PRIJEMNICA BR.</div>
-                <div>{esc(st.session_state.get('pri_broj'))}</div>
-                <div>Datum: {esc(date_to_str(st.session_state.get('pri_datum')))}</div>
-            </div>
-            <table>
-                <tr><th>UREĐAJ RAZDUŽIO (ime i prezime / naziv firme)</th><th>U magacin / Ime i prezime</th></tr>
-                <tr><td>{esc(st.session_state.get('pri_razduzio'))}</td><td>{esc(st.session_state.get('pri_u_magacin'))}</td></tr>
-                <tr><th>Objekat</th><th>Adresa</th><th>Mesto</th></tr>
-                <tr><td>{esc(st.session_state.get('pri_objekat'))}</td><td>{esc(st.session_state.get('pri_adresa'))}</td><td>{esc(st.session_state.get('pri_mesto'))}</td></tr>
-            </table>
-            <table>
-                <tr><th>BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP/FS</th><th>NAPOMENA</th></tr>
-                {item_rows_html('pri')}
-            </table>
-            <div class="sign">
-                <div class="sig">Uređaj predao<br>{esc(st.session_state.get('pri_predao'))}</div>
-                <div class="sig">Uređaj zadužio<br>{esc(st.session_state.get('pri_zaduzio'))}</div>
-                <div class="sig">Uređaj zaprimio<br>{esc(st.session_state.get('pri_zaprimio'))}</div>
-            </div>
-        </div>
+            <div class="section">
+                <div class="logo-wrap">{logo_html}</div>
+                <div class="company">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
+                <div class="doc-row">
+                    <div class="doc-title">PRIJEMNICA BR.</div>
+                    <div class="cell-line">{esc(st.session_state.get('pri_broj'))}</div>
+                    <div class="center">Datum:</div>
+                    <div class="cell-line">{esc(date_to_str(st.session_state.get('pri_datum')))}</div>
+                    <div></div>
+                </div>
 
-        <div class="sheet">
-            <div class="company">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
-            <div class="title-line">
-                <div class="title">OTPREMNICA BR.</div>
-                <div>{esc(st.session_state.get('otp_broj'))}</div>
-                <div>Datum: {esc(date_to_str(st.session_state.get('otp_datum')))}</div>
+                <table class="top-table-pri">
+                    <tr>
+                        <td class="label" style="width:280px;">UREĐAJ RAZDUŽIO (ime i prezime / naziv firme)</td>
+                        <td class="label" style="width:280px;">U magacin / Ime i prezime</td>
+                    </tr>
+                    <tr>
+                        <td class="center value">{esc(st.session_state.get('pri_razduzio'))}</td>
+                        <td class="center value">{esc(st.session_state.get('pri_u_magacin'))}</td>
+                    </tr>
+                </table>
+
+                <table class="loc loc-pri">
+                    <tr><td class="label" style="width:120px;">Objekat:</td><td>{esc(st.session_state.get('pri_objekat'))}</td></tr>
+                    <tr><td class="label">Adresa:</td><td>{esc(st.session_state.get('pri_adresa'))}</td></tr>
+                    <tr><td class="label">Mesto:</td><td>{esc(st.session_state.get('pri_mesto'))}</td></tr>
+                </table>
+
+                <table class="items">
+                    <tr><th class="br">BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP INV</th></tr>
+                    {item_rows_html('pri')}
+                </table>
+
+                <table class="sign-table">
+                    <tr><td class="sign-title">UREĐAJ PREDAO</td><td class="sign-title">UREĐAJ ZADUŽIO</td><td class="sign-title">UREĐAJ ZAPRIMIO</td></tr>
+                    <tr><td>(Pečat, ime i prezime)</td><td>(Pečat, ime i prezime)</td><td>(Pečat, ime i prezime)</td></tr>
+                    <tr><td class="sig-name">{esc(st.session_state.get('pri_predao'))}</td><td class="sig-name">{esc(st.session_state.get('pri_zaduzio'))}</td><td class="sig-name">{esc(st.session_state.get('pri_zaprimio'))}</td></tr>
+                </table>
             </div>
-            <table>
-                <tr><th>Iz magacina / Ime i prezime</th><th>Uređaj zadužio / Ime i prezime</th></tr>
-                <tr><td>{esc(st.session_state.get('otp_iz_magacina'))}</td><td>{esc(st.session_state.get('otp_zaduzio'))}</td></tr>
-                <tr><th>Objekat</th><th>Adresa</th><th>Mesto</th></tr>
-                <tr><td>{esc(st.session_state.get('otp_objekat'))}</td><td>{esc(st.session_state.get('otp_adresa'))}</td><td>{esc(st.session_state.get('otp_mesto'))}</td></tr>
-            </table>
-            <table>
-                <tr><th>BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP/FS</th><th>NAPOMENA</th></tr>
-                {item_rows_html('otp')}
-            </table>
-            <div class="sign">
-                <div class="sig">Uređaj otpremio<br>{esc(st.session_state.get('otp_otpremio'))}</div>
-                <div class="sig">Uređaj zadužio<br>{esc(st.session_state.get('otp_zaduzio_bottom'))}</div>
-                <div class="sig">Uređaj primio<br>{esc(st.session_state.get('otp_primio'))}</div>
+
+            <div class="spacer"></div>
+
+            <div class="section">
+                <div class="logo-wrap">{logo_html}</div>
+                <div class="company">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
+                <div class="doc-row">
+                    <div class="doc-title">OTPREMNICA BR.</div>
+                    <div class="cell-line">{esc(st.session_state.get('otp_broj'))}</div>
+                    <div class="center">Datum:</div>
+                    <div class="cell-line">{esc(date_to_str(st.session_state.get('otp_datum')))}</div>
+                    <div></div>
+                </div>
+
+                <table class="top-table-otp">
+                    <tr>
+                        <td class="label" style="width:260px;">Iz magacina / Ime i prezime</td>
+                        <td class="label" style="width:310px;">UREĐAJ ZADUŽIO (ime i prezime / naziv firme)</td>
+                    </tr>
+                    <tr>
+                        <td class="center value">{esc(st.session_state.get('otp_iz_magacina'))}</td>
+                        <td class="center value">{esc(st.session_state.get('otp_zaduzio'))}</td>
+                    </tr>
+                </table>
+
+                <table class="loc loc-otp">
+                    <tr><td class="label" style="width:105px;">Objekat:</td><td>{esc(st.session_state.get('otp_objekat'))}</td></tr>
+                    <tr><td class="label">Adresa:</td><td>{esc(st.session_state.get('otp_adresa'))}</td></tr>
+                    <tr><td class="label">Mesto:</td><td>{esc(st.session_state.get('otp_mesto'))}</td></tr>
+                </table>
+
+                <table class="items">
+                    <tr><th class="br">BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP INV</th></tr>
+                    {item_rows_html('otp')}
+                </table>
+
+                <table class="sign-table">
+                    <tr><td class="sign-title">UREĐAJ OTPREMIO</td><td class="sign-title">UREĐAJ ZADUŽIO</td><td class="sign-title">UREĐAJ ZAPRIMIO</td></tr>
+                    <tr><td>(Pečat, ime i prezime)</td><td>(Pečat, ime i prezime)</td><td>(Pečat, ime i prezime)</td></tr>
+                    <tr><td class="sig-name">{esc(st.session_state.get('otp_otpremio'))}</td><td class="sig-name">{esc(st.session_state.get('otp_zaduzio_bottom'))}</td><td class="sig-name">{esc(st.session_state.get('otp_primio'))}</td></tr>
+                </table>
             </div>
         </div>
     </body>
     </html>
     """
-
 # =========================
 # ACTIONS
 # =========================
