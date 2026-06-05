@@ -527,15 +527,15 @@ with c_datum:
 
 c1, c2 = st.columns(2)
 with c1:
-    st.session_state["pri_razduzio"] = smart_select("UREĐAJ RAZDUŽIO (ime i prezime / naziv firme)", client_opts, "pri_razduzio")
+    smart_select("UREĐAJ RAZDUŽIO (ime i prezime / naziv firme)", client_opts, "pri_razduzio")
 with c2:
     st.text_input("U magacin / Ime i prezime", key="pri_u_magacin")
 
 c1, c2, c3 = st.columns([1.4, 1.4, 1])
 with c1:
-    st.session_state["pri_uredjaj_razduzio_ime"] = st.text_input("Uređaj razdužio / Ime i prezime", key="pri_uredjaj_razduzio_ime")
+    st.text_input("Uređaj razdužio / Ime i prezime", key="pri_uredjaj_razduzio_ime")
 with c2:
-    st.session_state["pri_objekat"] = smart_select("Objekat", obj_opts, "pri_objekat")
+    smart_select("Objekat", obj_opts, "pri_objekat")
 with c3:
     st.text_input("Mesto", key="pri_mesto")
 st.text_input("Adresa", key="pri_adresa")
@@ -545,15 +545,15 @@ ci, cn, cm, cinv, csn, csp = st.columns([0.35, 1.4, 1.2, 1.3, 1.3, 1.2])
 with ci:
     st.text_input("", value="1", disabled=True, label_visibility="collapsed")
 with cn:
-    st.session_state["pri_naziv"] = smart_select("Naziv", name_opts, "pri_naziv")
+    smart_select("Naziv", name_opts, "pri_naziv")
 with cm:
-    st.session_state["pri_model"] = smart_select("Model", model_opts, "pri_model")
+    smart_select("Model", model_opts, "pri_model")
 with cinv:
-    st.session_state["pri_inv"] = smart_select("Inventarni broj", inv_opts, "pri_inv")
+    smart_select("Inventarni broj", inv_opts, "pri_inv")
 with csn:
-    st.session_state["pri_sn"] = smart_select("Serijski broj", serial_opts, "pri_sn")
+    smart_select("Serijski broj", serial_opts, "pri_sn")
 with csp:
-    st.session_state["pri_sp"] = smart_select("SP/FS broj", sp_opts, "pri_sp")
+    smart_select("SP/FS broj", sp_opts, "pri_sp")
 
 s1, s2, s3 = st.columns(3)
 with s1:
