@@ -17,7 +17,7 @@ GRAPHITE = "#111111"
 LIGHT_GRAY = "#F5F5F5"
 
 DATA_FILE = "data.xlsx"
-LOCATIONS_FILE = "LocationsSPTS(1).csv"
+LOCATIONS_FILE = "LocationsSPTS.csv"
 TEMPLATE_XLSX = "Prijamnica-otpremnica-template.xlsx"
 
 COMMON_CLIENTS = [
