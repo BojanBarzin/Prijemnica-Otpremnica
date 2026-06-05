@@ -253,11 +253,20 @@ def load_cmdb():
 
 @st.cache_data
 def load_locations():
-    try:
-        loc = pd.read_csv(LOCATIONS_FILE, dtype=str).fillna("")
-    except Exception:
-        loc = pd.DataFrame()
-    return loc
+    candidates = [
+        LOCATIONS_FILE,
+        "LocationsSPTS(1).csv",
+        "locations.csv",
+    ]
+
+    for file_name in candidates:
+        if os.path.exists(file_name):
+            try:
+                return pd.read_csv(file_name, dtype=str).fillna("")
+            except Exception:
+                continue
+
+    return pd.DataFrame()
 
 
 cmdb = load_cmdb()
