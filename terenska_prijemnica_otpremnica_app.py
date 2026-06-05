@@ -142,7 +142,7 @@ def apply_style():
         }}
         .paper {{
             background: white;
-            border: 1px solid #222;
+            border: none;
             padding: 18px 20px;
             box-shadow: 0 8px 22px rgba(0,0,0,0.10);
             margin-bottom: 18px;
@@ -260,6 +260,7 @@ with col_title:
         """
         <div class="brand-header">
             <div class="brand-title">Prijemnica / Otpremnica sa terena</div>
+            <div class="brand-subtitle">Prediktivno popunjavanje uređaja i lokacije iz CMDB i SPTS baze</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -513,16 +514,19 @@ if obj_row_otp is not None:
 mirror_map = {
     "otp_broj": "pri_broj",
     "otp_datum": "pri_datum",
-    "otp_iz_magacina": "pri_razduzio",
-    "otp_zaduzio": "pri_u_magacin",
+    # Prijemnica U magacin = Otpremnica Iz magacina
+    "otp_iz_magacina": "pri_u_magacin",
+    # Prijemnica UREĐAJ RAZDUŽIO = Otpremnica Uređaj zadužio
+    "otp_zaduzio": "pri_razduzio",
     "otp_objekat": "pri_objekat",
     "otp_adresa": "pri_adresa",
     "otp_mesto": "pri_mesto",
     "otp_otpremio": "pri_predao",
 }
 for dest, src in mirror_map.items():
-    if not st.session_state.get(dest) and st.session_state.get(src):
-        st.session_state[dest] = st.session_state[src]
+    src_value = st.session_state.get(src)
+    if src_value:
+        st.session_state[dest] = src_value
 
 name_opts = device_options("name")
 model_opts = device_options("model")
