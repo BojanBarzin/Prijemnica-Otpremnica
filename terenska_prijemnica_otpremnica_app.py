@@ -3,11 +3,13 @@ from datetime import date
 from io import BytesIO
 import os
 import re
+import zipfile
 
 import pandas as pd
 import streamlit as st
-from openpyxl import load_workbook
-from openpyxl.styles import Alignment
+from openpyxl import Workbook, load_workbook
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from openpyxl.utils import get_column_letter
 import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Prijemnica / Otpremnica", layout="wide")
@@ -19,6 +21,7 @@ LIGHT_GRAY = "#F5F5F5"
 DATA_FILE = "data.xlsx"
 LOCATIONS_FILE = "LocationsSPTS.csv"
 TEMPLATE_XLSX = "Prijamnica-otpremnica-template.xlsx"
+MAX_ITEMS = 5
 
 COMMON_CLIENTS = [
     "Tendam",
@@ -30,6 +33,15 @@ COMMON_CLIENTS = [
     "Ikea",
     "Decathlon",
     "Lidl",
+]
+
+MAGACINI = [
+    "FSBG",
+    "FS NIŠ",
+    "FSNS",
+    "FS ZAGREB",
+    "FS BANJA LUKA",
+    "FS SARAJEVO",
 ]
 
 PROJECT_LABELS = {
@@ -44,14 +56,15 @@ PROJECT_LABELS = {
     "193": "Lidl",
 }
 
-
+# =========================
+# STYLE
+# =========================
 def get_base64(path: str) -> str:
     try:
         with open(path, "rb") as f:
             return base64.b64encode(f.read()).decode()
     except Exception:
         return ""
-
 
 bg_logo = get_base64("assets/fs_logo_white.png")
 
@@ -88,7 +101,7 @@ def apply_style():
         .block-container {{
             position: relative;
             z-index: 1;
-            max-width: 1250px;
+            max-width: 1280px;
             padding-top: 1.4rem;
         }}
         .brand-header {{
@@ -132,12 +145,7 @@ def apply_style():
             font-size: 17px;
             font-weight: 800;
             text-align: left;
-        }}
-        .excel-label {{
-            font-size: 13px;
-            font-weight: 700;
-            color: #111;
-            margin-bottom: -0.35rem;
+            padding-top: 6px;
         }}
         .stTextInput label, .stDateInput label, div[data-baseweb="select"] label {{
             font-weight: 700 !important;
@@ -161,15 +169,16 @@ def apply_style():
         }}
         div[data-baseweb="select"] svg {{ display: none !important; }}
         div[data-baseweb="select"] [aria-label="open"] {{ display: none !important; }}
-        .section-line {{ border-top: 1px solid #222; margin: 12px 0 10px 0; }}
+        .section-line {{ border-top: 1px solid #222; margin: 18px 0 14px 0; }}
         .item-header {{
             display: grid;
-            grid-template-columns: 55px 1.4fr 1.2fr 1.3fr 1.3fr 1.2fr;
+            grid-template-columns: 50px 1.4fr 1.2fr 1.3fr 1.3fr 1.2fr;
             border-top: 1px solid #222;
             border-left: 1px solid #222;
             font-size: 13px;
             font-weight: 800;
             text-align: center;
+            margin-top: 10px;
         }}
         .item-header div {{
             border-right: 1px solid #222;
@@ -220,7 +229,6 @@ def apply_style():
         unsafe_allow_html=True,
     )
 
-
 apply_style()
 
 # Header
@@ -241,13 +249,16 @@ with col_title:
         unsafe_allow_html=True,
     )
 
-
+# =========================
+# DATA LOAD
+# =========================
 @st.cache_data
 def load_cmdb():
     try:
         data = pd.read_excel(DATA_FILE, dtype=str).fillna("")
     except Exception:
         data = pd.DataFrame()
+    data.columns = [str(c).strip() for c in data.columns]
     return data
 
 
@@ -258,16 +269,15 @@ def load_locations():
         "LocationsSPTS(1).csv",
         "locations.csv",
     ]
-
     for file_name in candidates:
         if os.path.exists(file_name):
             try:
-                return pd.read_csv(file_name, dtype=str).fillna("")
+                data = pd.read_csv(file_name, dtype=str).fillna("")
+                data.columns = [str(c).strip() for c in data.columns]
+                return data
             except Exception:
                 continue
-
     return pd.DataFrame()
-
 
 cmdb = load_cmdb()
 locations = load_locations()
@@ -279,17 +289,9 @@ if cmdb.empty:
 if locations.empty:
     st.warning(f"Nije pronađen ili je prazan fajl: {LOCATIONS_FILE}. Lokacije neće biti dostupne za predloge.")
 
-
-def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
-    out = df.copy()
-    out.columns = [str(c).strip() for c in out.columns]
-    return out
-
-
-cmdb = normalize_columns(cmdb)
-locations = normalize_columns(locations)
-
-
+# =========================
+# HELPERS
+# =========================
 def col_value(row, *names):
     for name in names:
         if name in row.index:
@@ -329,21 +331,21 @@ def object_options():
 def object_row_by_name(name: str):
     if locations.empty or "Name" not in locations.columns or not name:
         return None
-    exact = locations[locations["Name"].astype(str).str.strip().str.lower() == name.strip().lower()]
+    name_norm = str(name).strip().lower()
+    exact = locations[locations["Name"].astype(str).str.strip().str.lower() == name_norm]
     if not exact.empty:
         return exact.iloc[0]
-    starts = locations[locations["Name"].astype(str).str.strip().str.lower().str.startswith(name.strip().lower())]
+    starts = locations[locations["Name"].astype(str).str.strip().str.lower().str.startswith(name_norm)]
     if len(starts) == 1:
         return starts.iloc[0]
     return None
 
 
 def infer_city(address: str) -> str:
-    """Best effort. CSV nema posebnu kolonu za grad, pa vraćamo prazan string osim ako adresa već sadrži poznat grad."""
     if not address:
         return ""
     known = [
-        "Beograd", "Novi Sad", "Niš", "Kragujevac", "Subotica", "Zrenjanin", "Leskovac",
+        "Beograd", "Novi Sad", "Niš", "Nis", "Kragujevac", "Subotica", "Zrenjanin", "Leskovac",
         "Čačak", "Cacak", "Kruševac", "Krusevac", "Pančevo", "Pancevo", "Kraljevo",
         "Užice", "Uzice", "Valjevo", "Sombor", "Kikinda", "Vršac", "Vrsac", "Šabac", "Sabac",
         "Sremska Mitrovica", "Loznica", "Jagodina", "Paraćin", "Paracin", "Pirot", "Zaječar", "Zajecar",
@@ -351,8 +353,12 @@ def infer_city(address: str) -> str:
     a = address.lower()
     for city in known:
         if city.lower() in a:
-            return city
+            return "Niš" if city == "Nis" else city
     return ""
+
+
+def device_options(col: str):
+    return get_options_from_df(cmdb, col) if col in cmdb.columns else []
 
 
 def find_device(inv: str, serial: str, sp: str):
@@ -377,16 +383,12 @@ def find_device(inv: str, serial: str, sp: str):
     return None
 
 
-def device_options(col: str):
-    return get_options_from_df(cmdb, col) if col in cmdb.columns else []
-
-
-def smart_select(label: str, options, key: str, value: str = ""):
-    """Searchable input with free text when Streamlit supports accept_new_options."""
+def smart_select(label: str, options, key: str):
+    """Searchable field sa slobodnim unosom kada Streamlit podržava accept_new_options."""
     if key not in st.session_state:
-        st.session_state[key] = value or None
+        st.session_state[key] = ""
     try:
-        current = st.session_state.get(key)
+        current = st.session_state.get(key) or None
         index = None
         if current in options:
             index = options.index(current)
@@ -399,8 +401,7 @@ def smart_select(label: str, options, key: str, value: str = ""):
             accept_new_options=True,
         ) or ""
     except TypeError:
-        # Fallback za stariji Streamlit
-        return st.text_input(label, value=st.session_state.get(key, value) or "", key=f"{key}_text")
+        return st.text_input(label, key=key)
 
 
 def set_default(key, value):
@@ -408,8 +409,13 @@ def set_default(key, value):
         st.session_state[key] = value
 
 
+def date_to_str(value):
+    if hasattr(value, "strftime"):
+        return value.strftime("%d.%m.%Y")
+    return str(value or "")
+
 # =========================
-# INPUT STATE INIT
+# STATE INIT
 # =========================
 def init_defaults():
     defaults = {
@@ -417,16 +423,12 @@ def init_defaults():
         "pri_broj": "",
         "pri_datum": date.today(),
         "pri_u_magacin": "",
-        "pri_uredjaj_razduzio_ime": "",
         "pri_objekat": "",
         "pri_adresa": "",
         "pri_mesto": "",
-        "pri_naziv": "",
-        "pri_model": "",
-        "pri_inv": "",
-        "pri_sn": "",
-        "pri_sp": "",
         "pri_predao": "",
+        "pri_uredjaj_razduzio_ime": "",
+        "pri_zaprimio": "",
         "otp_broj": "",
         "otp_datum": date.today(),
         "otp_iz_magacina": "",
@@ -434,37 +436,48 @@ def init_defaults():
         "otp_objekat": "",
         "otp_adresa": "",
         "otp_mesto": "",
-        "otp_naziv": "",
-        "otp_model": "",
-        "otp_inv": "",
-        "otp_sn": "",
-        "otp_sp": "",
         "otp_otpremio": "",
+        "otp_primio": "",
     }
     for key, value in defaults.items():
         if key not in st.session_state:
             st.session_state[key] = value
 
+    for side in ["pri", "otp"]:
+        for i in range(MAX_ITEMS):
+            for field in ["naziv", "model", "inv", "sn", "sp"]:
+                key = f"{side}_{field}_{i}"
+                if key not in st.session_state:
+                    st.session_state[key] = ""
+
 
 init_defaults()
 
-# Auto-fill device based on current identifiers before rendering the document
-matched_device = find_device(
-    st.session_state.get("pri_inv", ""),
-    st.session_state.get("pri_sn", ""),
-    st.session_state.get("pri_sp", ""),
-)
-if matched_device is not None:
-    set_default("pri_naziv", col_value(matched_device, "name", "Name"))
-    set_default("pri_model", col_value(matched_device, "model", "Model"))
-    set_default("pri_inv", col_value(matched_device, "inventory_number", "InventoryNumber"))
-    set_default("pri_sn", col_value(matched_device, "serial_number", "SerialNumber"))
-    set_default("pri_sp", col_value(matched_device, "sp_inventory_number", "SPInventoryNumber"))
+# =========================
+# AUTO-FILL BEFORE UI
+# =========================
+def autofill_device_side(side: str):
+    for i in range(MAX_ITEMS):
+        matched = find_device(
+            st.session_state.get(f"{side}_inv_{i}", ""),
+            st.session_state.get(f"{side}_sn_{i}", ""),
+            st.session_state.get(f"{side}_sp_{i}", ""),
+        )
+        if matched is not None:
+            set_default(f"{side}_naziv_{i}", col_value(matched, "name", "Name"))
+            set_default(f"{side}_model_{i}", col_value(matched, "model", "Model"))
+            set_default(f"{side}_inv_{i}", col_value(matched, "inventory_number", "InventoryNumber"))
+            set_default(f"{side}_sn_{i}", col_value(matched, "serial_number", "SerialNumber"))
+            set_default(f"{side}_sp_{i}", col_value(matched, "sp_inventory_number", "SPInventoryNumber"))
 
-# Auto-fill object address and project/client
+
+autofill_device_side("pri")
+autofill_device_side("otp")
+
+# Auto-fill prijemnica object
 obj_row = object_row_by_name(st.session_state.get("pri_objekat", ""))
 if obj_row is not None:
-    address = col_value(obj_row, "Address", "address")
+    address = col_value(obj_row, "Address", "address", "Adress", "adres", "adresa")
     project_name = map_project_to_name(col_value(obj_row, "Project", "project"))
     set_default("pri_adresa", address)
     if not st.session_state.get("pri_mesto"):
@@ -472,7 +485,15 @@ if obj_row is not None:
     if project_name and not st.session_state.get("pri_razduzio"):
         st.session_state["pri_razduzio"] = project_name
 
-# Mirror prijemnica -> otpremnica when fields are still blank
+# Auto-fill otpremnica object
+obj_row_otp = object_row_by_name(st.session_state.get("otp_objekat", ""))
+if obj_row_otp is not None:
+    address = col_value(obj_row_otp, "Address", "address", "Adress", "adres", "adresa")
+    set_default("otp_adresa", address)
+    if not st.session_state.get("otp_mesto"):
+        st.session_state["otp_mesto"] = infer_city(address)
+
+# Mirror prijemnica -> otpremnica for document data only, NOT devices
 mirror_map = {
     "otp_broj": "pri_broj",
     "otp_datum": "pri_datum",
@@ -481,11 +502,6 @@ mirror_map = {
     "otp_objekat": "pri_objekat",
     "otp_adresa": "pri_adresa",
     "otp_mesto": "pri_mesto",
-    "otp_naziv": "pri_naziv",
-    "otp_model": "pri_model",
-    "otp_inv": "pri_inv",
-    "otp_sn": "pri_sn",
-    "otp_sp": "pri_sp",
     "otp_otpremio": "pri_predao",
 }
 for dest, src in mirror_map.items():
@@ -499,7 +515,7 @@ serial_opts = device_options("serial_number")
 sp_opts = device_options("sp_inventory_number")
 obj_opts = object_options()
 client_opts = COMMON_CLIENTS
-
+magacin_opts = MAGACINI
 
 # =========================
 # DOCUMENT UI
@@ -529,39 +545,39 @@ c1, c2 = st.columns(2)
 with c1:
     smart_select("UREĐAJ RAZDUŽIO (ime i prezime / naziv firme)", client_opts, "pri_razduzio")
 with c2:
-    st.text_input("U magacin / Ime i prezime", key="pri_u_magacin")
+    smart_select("U magacin / Ime i prezime", magacin_opts, "pri_u_magacin")
 
 c1, c2, c3 = st.columns([1.4, 1.4, 1])
 with c1:
-    st.text_input("Uređaj razdužio / Ime i prezime", key="pri_uredjaj_razduzio_ime")
-with c2:
     smart_select("Objekat", obj_opts, "pri_objekat")
+with c2:
+    st.text_input("Adresa", key="pri_adresa")
 with c3:
     st.text_input("Mesto", key="pri_mesto")
-st.text_input("Adresa", key="pri_adresa")
 
-st.markdown('<div class="item-header"><div>BR</div><div>NAZIV</div><div>MODEL</div><div>INV</div><div>SN</div><div>SP INV</div></div>', unsafe_allow_html=True)
-ci, cn, cm, cinv, csn, csp = st.columns([0.35, 1.4, 1.2, 1.3, 1.3, 1.2])
-with ci:
-    st.text_input("", value="1", disabled=True, label_visibility="collapsed")
-with cn:
-    smart_select("Naziv", name_opts, "pri_naziv")
-with cm:
-    smart_select("Model", model_opts, "pri_model")
-with cinv:
-    smart_select("Inventarni broj", inv_opts, "pri_inv")
-with csn:
-    smart_select("Serijski broj", serial_opts, "pri_sn")
-with csp:
-    smart_select("SP/FS broj", sp_opts, "pri_sp")
+st.markdown('<div class="item-header"><div>BR</div><div>NAZIV</div><div>MODEL</div><div>INV</div><div>SN</div><div>SP/FS</div></div>', unsafe_allow_html=True)
+for i in range(MAX_ITEMS):
+    ci, cn, cm, cinv, csn, csp = st.columns([0.35, 1.4, 1.2, 1.3, 1.3, 1.2])
+    with ci:
+        st.text_input("", value=str(i + 1), disabled=True, label_visibility="collapsed", key=f"pri_br_disabled_{i}")
+    with cn:
+        smart_select("Naziv" if i == 0 else "", name_opts, f"pri_naziv_{i}")
+    with cm:
+        smart_select("Model" if i == 0 else "", model_opts, f"pri_model_{i}")
+    with cinv:
+        smart_select("Inventarni broj" if i == 0 else "", inv_opts, f"pri_inv_{i}")
+    with csn:
+        smart_select("Serijski broj" if i == 0 else "", serial_opts, f"pri_sn_{i}")
+    with csp:
+        smart_select("SP/FS broj" if i == 0 else "", sp_opts, f"pri_sp_{i}")
 
 s1, s2, s3 = st.columns(3)
 with s1:
     st.text_input("Uređaj predao", key="pri_predao")
 with s2:
-    st.text_input("Uređaj zadužio", key="pri_uredjaj_razduzio_ime_bottom")
+    st.text_input("Uređaj razdužio / Ime i prezime", key="pri_uredjaj_razduzio_ime")
 with s3:
-    st.text_input("Uređaj zaprimio", key="pri_u_magacin_bottom")
+    st.text_input("Uređaj zaprimio", key="pri_zaprimio")
 
 st.markdown('<div class="section-line"></div>', unsafe_allow_html=True)
 
@@ -592,26 +608,27 @@ with c2:
 
 c1, c2, c3 = st.columns([1.4, 1.4, 1])
 with c1:
-    st.text_input("Objekat ", key="otp_objekat")
+    smart_select("Objekat ", obj_opts, "otp_objekat")
 with c2:
     st.text_input("Adresa ", key="otp_adresa")
 with c3:
     st.text_input("Mesto ", key="otp_mesto")
 
-st.markdown('<div class="item-header"><div>BR</div><div>NAZIV</div><div>MODEL</div><div>INV</div><div>SN</div><div>SP INV</div></div>', unsafe_allow_html=True)
-ci, cn, cm, cinv, csn, csp = st.columns([0.35, 1.4, 1.2, 1.3, 1.3, 1.2])
-with ci:
-    st.text_input("", value="1", disabled=True, label_visibility="collapsed", key="otp_br_disabled")
-with cn:
-    st.text_input("Naziv ", key="otp_naziv")
-with cm:
-    st.text_input("Model ", key="otp_model")
-with cinv:
-    st.text_input("Inventarni broj ", key="otp_inv")
-with csn:
-    st.text_input("Serijski broj ", key="otp_sn")
-with csp:
-    st.text_input("SP/FS broj ", key="otp_sp")
+st.markdown('<div class="item-header"><div>BR</div><div>NAZIV</div><div>MODEL</div><div>INV</div><div>SN</div><div>SP/FS</div></div>', unsafe_allow_html=True)
+for i in range(MAX_ITEMS):
+    ci, cn, cm, cinv, csn, csp = st.columns([0.35, 1.4, 1.2, 1.3, 1.3, 1.2])
+    with ci:
+        st.text_input("", value=str(i + 1), disabled=True, label_visibility="collapsed", key=f"otp_br_disabled_{i}")
+    with cn:
+        smart_select("Naziv " if i == 0 else "", name_opts, f"otp_naziv_{i}")
+    with cm:
+        smart_select("Model " if i == 0 else "", model_opts, f"otp_model_{i}")
+    with cinv:
+        smart_select("Inventarni broj " if i == 0 else "", inv_opts, f"otp_inv_{i}")
+    with csn:
+        smart_select("Serijski broj " if i == 0 else "", serial_opts, f"otp_sn_{i}")
+    with csp:
+        smart_select("SP/FS broj " if i == 0 else "", sp_opts, f"otp_sp_{i}")
 
 s1, s2, s3 = st.columns(3)
 with s1:
@@ -619,128 +636,278 @@ with s1:
 with s2:
     st.text_input("Uređaj zadužio ", key="otp_zaduzio_bottom")
 with s3:
-    st.text_input("Uređaj primio", key="otp_primio_bottom")
+    st.text_input("Uređaj primio", key="otp_primio")
 
 st.markdown('</div>', unsafe_allow_html=True)
-
 
 # =========================
 # EXCEL EXPORT
 # =========================
+def write_cell(ws, cell, value):
+    for merged_range in ws.merged_cells.ranges:
+        if cell in merged_range:
+            coord = merged_range.start_cell.coordinate
+            ws[coord] = value
+            ws[coord].alignment = Alignment(horizontal="center", vertical="center")
+            return
+    ws[cell] = value
+    ws[cell].alignment = Alignment(horizontal="center", vertical="center")
+
+
+def is_valid_xlsx(path: str) -> bool:
+    if not os.path.exists(path):
+        return False
+    try:
+        with zipfile.ZipFile(path, "r") as zf:
+            return "xl/workbook.xml" in zf.namelist()
+    except Exception:
+        return False
+
+
+def create_fallback_workbook():
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Interna prijemnica"
+
+    thin = Side(style="thin", color="000000")
+    border = Border(left=thin, right=thin, top=thin, bottom=thin)
+    header_fill = PatternFill("solid", fgColor="F2F2F2")
+    bold = Font(bold=True)
+
+    for col in range(1, 8):
+        ws.column_dimensions[get_column_letter(col)].width = [6, 28, 22, 22, 22, 20, 18][col - 1]
+
+    def merge_write(cell_range, value, bold_font=False, fill=False):
+        ws.merge_cells(cell_range)
+        start = cell_range.split(":")[0]
+        ws[start] = value
+        ws[start].alignment = Alignment(horizontal="center", vertical="center")
+        ws[start].font = bold if bold_font else Font()
+        if fill:
+            ws[start].fill = header_fill
+        for row in ws[cell_range]:
+            for c in row:
+                c.border = border
+
+    def row_header(row):
+        headers = ["BR", "NAZIV", "MODEL", "INV", "SN", "SP/FS", "NAPOMENA"]
+        for idx, h in enumerate(headers, 1):
+            c = ws.cell(row=row, column=idx)
+            c.value = h
+            c.font = bold
+            c.fill = header_fill
+            c.alignment = Alignment(horizontal="center", vertical="center")
+            c.border = border
+
+    merge_write("A1:G1", "Fiscal Solutions d.o.o.   Temerinska 102, 21000 Novi Sad", True)
+    merge_write("A3:C3", "PRIJEMNICA BR.", True)
+    merge_write("D3:E3", "")
+    merge_write("F3:G3", "Datum")
+    merge_write("A6:C6", "UREĐAJ RAZDUŽIO (ime i prezime / naziv firme)", True, True)
+    merge_write("D6:G6", "U magacin / Ime i prezime", True, True)
+    merge_write("A8:B8", "Objekat", True, True)
+    merge_write("C8:E8", "Adresa", True, True)
+    merge_write("F8:G8", "Mesto", True, True)
+    row_header(11)
+    for r in range(12, 17):
+        for c in range(1, 8):
+            ws.cell(r, c).border = border
+            ws.cell(r, c).alignment = Alignment(horizontal="center", vertical="center")
+    merge_write("A20:B20", "Uređaj predao", True, True)
+    merge_write("C20:E20", "Uređaj razdužio / Ime i prezime", True, True)
+    merge_write("F20:G20", "Uređaj zaprimio", True, True)
+
+    merge_write("A24:G24", "Fiscal Solutions d.o.o.   Temerinska 102, 21000 Novi Sad", True)
+    merge_write("A26:C26", "OTPREMNICA BR.", True)
+    merge_write("D26:E26", "")
+    merge_write("F26:G26", "Datum")
+    merge_write("A29:C29", "Iz magacina / Ime i prezime", True, True)
+    merge_write("D29:G29", "Uređaj zadužio / Ime i prezime", True, True)
+    merge_write("A31:B31", "Objekat", True, True)
+    merge_write("C31:E31", "Adresa", True, True)
+    merge_write("F31:G31", "Mesto", True, True)
+    row_header(34)
+    for r in range(35, 40):
+        for c in range(1, 8):
+            ws.cell(r, c).border = border
+            ws.cell(r, c).alignment = Alignment(horizontal="center", vertical="center")
+    merge_write("A43:B43", "Uređaj otpremio", True, True)
+    merge_write("C43:E43", "Uređaj zadužio", True, True)
+    merge_write("F43:G43", "Uređaj primio", True, True)
+
+    return wb
+
+
+def load_template_or_fallback():
+    candidates = [
+        TEMPLATE_XLSX,
+        "Prijamnica-otpremnica-template.xlsx",
+        "/mnt/data/Prijamnica-otpremnica-template.xlsx",
+    ]
+    for path in candidates:
+        if is_valid_xlsx(path):
+            try:
+                return load_workbook(path)
+            except Exception:
+                pass
+    return create_fallback_workbook()
+
+
 def fill_template() -> bytes:
-    template_path = TEMPLATE_XLSX
-    if not os.path.exists(template_path):
-        template_path = "/mnt/data/Prijamnica-otpremnica-template.xlsx"
-    wb = load_workbook(template_path)
+    wb = load_template_or_fallback()
     ws = wb["Interna prijemnica"] if "Interna prijemnica" in wb.sheetnames else wb.active
 
-    def write(cell, value):
-        for merged_range in ws.merged_cells.ranges:
-            if cell in merged_range:
-                coord = merged_range.start_cell.coordinate
-                ws[coord] = value
-                ws[coord].alignment = Alignment(horizontal="center", vertical="center")
-                return
-        ws[cell] = value
-        ws[cell].alignment = Alignment(horizontal="center", vertical="center")
+    # Prijemnica header
+    write_cell(ws, "D3", st.session_state.get("pri_broj", ""))
+    write_cell(ws, "F3", date_to_str(st.session_state.get("pri_datum", date.today())))
+    write_cell(ws, "A7", st.session_state.get("pri_razduzio", ""))
+    write_cell(ws, "D7", st.session_state.get("pri_u_magacin", ""))
+    write_cell(ws, "A9", st.session_state.get("pri_objekat", ""))
+    write_cell(ws, "C9", st.session_state.get("pri_adresa", ""))
+    write_cell(ws, "F9", st.session_state.get("pri_mesto", ""))
 
-    # Prijemnica positions based on uploaded template
-    write("D3", st.session_state.get("pri_broj", ""))
-    write("E4", st.session_state.get("pri_datum", date.today()).strftime("%d.%m.%Y"))
-    write("B7", st.session_state.get("pri_razduzio", ""))
-    write("E7", st.session_state.get("pri_u_magacin", ""))
-    write("B8", st.session_state.get("pri_objekat", ""))
-    write("B9", st.session_state.get("pri_adresa", ""))
-    write("B10", st.session_state.get("pri_mesto", ""))
-    write("B13", st.session_state.get("pri_naziv", ""))
-    write("C13", st.session_state.get("pri_model", ""))
-    write("D13", st.session_state.get("pri_inv", ""))
-    write("E13", st.session_state.get("pri_sn", ""))
-    write("F13", st.session_state.get("pri_sp", ""))
-    write("B20", st.session_state.get("pri_predao", ""))
-    write("D20", st.session_state.get("pri_uredjaj_razduzio_ime", ""))
-    write("E20", st.session_state.get("pri_u_magacin", ""))
+    start_row = 12
+    for i in range(MAX_ITEMS):
+        r = start_row + i
+        write_cell(ws, f"A{r}", i + 1)
+        write_cell(ws, f"B{r}", st.session_state.get(f"pri_naziv_{i}", ""))
+        write_cell(ws, f"C{r}", st.session_state.get(f"pri_model_{i}", ""))
+        write_cell(ws, f"D{r}", st.session_state.get(f"pri_inv_{i}", ""))
+        write_cell(ws, f"E{r}", st.session_state.get(f"pri_sn_{i}", ""))
+        write_cell(ws, f"F{r}", st.session_state.get(f"pri_sp_{i}", ""))
 
-    # Otpremnica positions based on uploaded template
-    write("D26", st.session_state.get("otp_broj", ""))
-    write("E27", st.session_state.get("otp_datum", date.today()).strftime("%d.%m.%Y"))
-    write("B30", st.session_state.get("otp_iz_magacina", ""))
-    write("D30", st.session_state.get("otp_zaduzio", ""))
-    write("D31", st.session_state.get("otp_objekat", ""))
-    write("D32", st.session_state.get("otp_adresa", ""))
-    write("D33", st.session_state.get("otp_mesto", ""))
-    write("B36", st.session_state.get("otp_naziv", ""))
-    write("C36", st.session_state.get("otp_model", ""))
-    write("D36", st.session_state.get("otp_inv", ""))
-    write("E36", st.session_state.get("otp_sn", ""))
-    write("F36", st.session_state.get("otp_sp", ""))
-    write("B43", st.session_state.get("otp_otpremio", ""))
-    write("D43", st.session_state.get("otp_zaduzio", ""))
-    write("E43", st.session_state.get("otp_zaduzio", ""))
+    write_cell(ws, "A21", st.session_state.get("pri_predao", ""))
+    write_cell(ws, "C21", st.session_state.get("pri_uredjaj_razduzio_ime", ""))
+    write_cell(ws, "F21", st.session_state.get("pri_zaprimio", ""))
+
+    # Otpremnica header
+    write_cell(ws, "D26", st.session_state.get("otp_broj", ""))
+    write_cell(ws, "F26", date_to_str(st.session_state.get("otp_datum", date.today())))
+    write_cell(ws, "A30", st.session_state.get("otp_iz_magacina", ""))
+    write_cell(ws, "D30", st.session_state.get("otp_zaduzio", ""))
+    write_cell(ws, "A32", st.session_state.get("otp_objekat", ""))
+    write_cell(ws, "C32", st.session_state.get("otp_adresa", ""))
+    write_cell(ws, "F32", st.session_state.get("otp_mesto", ""))
+
+    start_row = 35
+    for i in range(MAX_ITEMS):
+        r = start_row + i
+        write_cell(ws, f"A{r}", i + 1)
+        write_cell(ws, f"B{r}", st.session_state.get(f"otp_naziv_{i}", ""))
+        write_cell(ws, f"C{r}", st.session_state.get(f"otp_model_{i}", ""))
+        write_cell(ws, f"D{r}", st.session_state.get(f"otp_inv_{i}", ""))
+        write_cell(ws, f"E{r}", st.session_state.get(f"otp_sn_{i}", ""))
+        write_cell(ws, f"F{r}", st.session_state.get(f"otp_sp_{i}", ""))
+
+    write_cell(ws, "A44", st.session_state.get("otp_otpremio", ""))
+    write_cell(ws, "C44", st.session_state.get("otp_zaduzio_bottom", ""))
+    write_cell(ws, "F44", st.session_state.get("otp_primio", ""))
 
     out = BytesIO()
     wb.save(out)
     return out.getvalue()
 
+# =========================
+# PRINT HTML SAME LAYOUT
+# =========================
+def esc(x):
+    return str(x or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def item_rows_html(side: str):
+    rows = ""
+    for i in range(MAX_ITEMS):
+        rows += f"""
+        <tr>
+            <td>{i + 1}</td>
+            <td>{esc(st.session_state.get(f'{side}_naziv_{i}', ''))}</td>
+            <td>{esc(st.session_state.get(f'{side}_model_{i}', ''))}</td>
+            <td>{esc(st.session_state.get(f'{side}_inv_{i}', ''))}</td>
+            <td>{esc(st.session_state.get(f'{side}_sn_{i}', ''))}</td>
+            <td>{esc(st.session_state.get(f'{side}_sp_{i}', ''))}</td>
+            <td></td>
+        </tr>
+        """
+    return rows
+
 
 def build_print_html() -> str:
-    def esc(x):
-        return str(x or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
     return f"""
     <html>
     <head>
         <style>
-            @page {{ size: A4 portrait; margin: 10mm; }}
-            body {{ font-family: Arial, sans-serif; font-size: 12px; color: #000; }}
+            @page {{ size: A4 portrait; margin: 8mm; }}
+            body {{ font-family: Arial, sans-serif; font-size: 11px; color: #000; }}
             button {{ margin-bottom: 10px; padding: 8px 14px; background:#111; color:white; border:0; border-radius:6px; font-weight:bold; }}
-            .doc {{ border: 1px solid #000; padding: 12px; margin-bottom: 18px; }}
-            .center {{ text-align:center; font-weight:bold; }}
-            .title {{ font-size: 16px; font-weight:bold; margin-top: 12px; }}
-            table {{ width:100%; border-collapse:collapse; margin-top:8px; }}
-            td, th {{ border:1px solid #000; padding:6px; text-align:center; min-height:20px; }}
-            th {{ font-weight:bold; background:#f4f4f4; }}
-            .sign {{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; margin-top:42px; }}
-            .sig {{ border-top:1px solid #000; text-align:center; padding-top:6px; font-weight:bold; }}
-            @media print {{ button {{ display:none; }} }}
+            .sheet {{ border:1px solid #000; padding:10px; margin-bottom:12px; }}
+            .company {{ text-align:center; font-weight:bold; margin-bottom:8px; }}
+            .title-line {{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; align-items:center; margin-bottom:8px; }}
+            .title {{ font-size:16px; font-weight:bold; }}
+            table {{ width:100%; border-collapse:collapse; margin-top:6px; }}
+            td, th {{ border:1px solid #000; padding:5px; text-align:center; height:20px; }}
+            th {{ font-weight:bold; background:#f2f2f2; }}
+            .sign {{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:22px; margin-top:36px; }}
+            .sig {{ border-top:1px solid #000; text-align:center; padding-top:6px; font-weight:bold; min-height:32px; }}
+            @media print {{ button {{ display:none; }} .sheet {{ page-break-inside: avoid; }} }}
         </style>
     </head>
     <body>
         <button onclick="window.print()">Print</button>
-        <div class="doc">
-            <div class="center">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
-            <div class="title">PRIJEMNICA BR. {esc(st.session_state.get('pri_broj'))} &nbsp;&nbsp; Datum: {esc(st.session_state.get('pri_datum').strftime('%d.%m.%Y'))}</div>
+
+        <div class="sheet">
+            <div class="company">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
+            <div class="title-line">
+                <div class="title">PRIJEMNICA BR.</div>
+                <div>{esc(st.session_state.get('pri_broj'))}</div>
+                <div>Datum: {esc(date_to_str(st.session_state.get('pri_datum')))}</div>
+            </div>
             <table>
-                <tr><th>UREĐAJ RAZDUŽIO</th><th>U magacin / Ime i prezime</th></tr>
+                <tr><th>UREĐAJ RAZDUŽIO (ime i prezime / naziv firme)</th><th>U magacin / Ime i prezime</th></tr>
                 <tr><td>{esc(st.session_state.get('pri_razduzio'))}</td><td>{esc(st.session_state.get('pri_u_magacin'))}</td></tr>
                 <tr><th>Objekat</th><th>Adresa</th><th>Mesto</th></tr>
                 <tr><td>{esc(st.session_state.get('pri_objekat'))}</td><td>{esc(st.session_state.get('pri_adresa'))}</td><td>{esc(st.session_state.get('pri_mesto'))}</td></tr>
             </table>
             <table>
-                <tr><th>BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP INV</th></tr>
-                <tr><td>1</td><td>{esc(st.session_state.get('pri_naziv'))}</td><td>{esc(st.session_state.get('pri_model'))}</td><td>{esc(st.session_state.get('pri_inv'))}</td><td>{esc(st.session_state.get('pri_sn'))}</td><td>{esc(st.session_state.get('pri_sp'))}</td></tr>
+                <tr><th>BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP/FS</th><th>NAPOMENA</th></tr>
+                {item_rows_html('pri')}
             </table>
-            <div class="sign"><div class="sig">UREĐAJ PREDAO<br>{esc(st.session_state.get('pri_predao'))}</div><div class="sig">UREĐAJ ZADUŽIO<br>{esc(st.session_state.get('pri_uredjaj_razduzio_ime'))}</div><div class="sig">UREĐAJ ZAPRIMIO<br>{esc(st.session_state.get('pri_u_magacin'))}</div></div>
+            <div class="sign">
+                <div class="sig">Uređaj predao<br>{esc(st.session_state.get('pri_predao'))}</div>
+                <div class="sig">Uređaj razdužio / Ime i prezime<br>{esc(st.session_state.get('pri_uredjaj_razduzio_ime'))}</div>
+                <div class="sig">Uređaj zaprimio<br>{esc(st.session_state.get('pri_zaprimio'))}</div>
+            </div>
         </div>
-        <div class="doc">
-            <div class="center">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
-            <div class="title">OTPREMNICA BR. {esc(st.session_state.get('otp_broj'))} &nbsp;&nbsp; Datum: {esc(st.session_state.get('otp_datum').strftime('%d.%m.%Y'))}</div>
+
+        <div class="sheet">
+            <div class="company">Fiscal Solutions d.o.o. &nbsp; Temerinska 102, 21000 Novi Sad</div>
+            <div class="title-line">
+                <div class="title">OTPREMNICA BR.</div>
+                <div>{esc(st.session_state.get('otp_broj'))}</div>
+                <div>Datum: {esc(date_to_str(st.session_state.get('otp_datum')))}</div>
+            </div>
             <table>
-                <tr><th>Iz magacina / Ime i prezime</th><th>UREĐAJ ZADUŽIO</th></tr>
+                <tr><th>Iz magacina / Ime i prezime</th><th>Uređaj zadužio / Ime i prezime</th></tr>
                 <tr><td>{esc(st.session_state.get('otp_iz_magacina'))}</td><td>{esc(st.session_state.get('otp_zaduzio'))}</td></tr>
                 <tr><th>Objekat</th><th>Adresa</th><th>Mesto</th></tr>
                 <tr><td>{esc(st.session_state.get('otp_objekat'))}</td><td>{esc(st.session_state.get('otp_adresa'))}</td><td>{esc(st.session_state.get('otp_mesto'))}</td></tr>
             </table>
             <table>
-                <tr><th>BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP INV</th></tr>
-                <tr><td>1</td><td>{esc(st.session_state.get('otp_naziv'))}</td><td>{esc(st.session_state.get('otp_model'))}</td><td>{esc(st.session_state.get('otp_inv'))}</td><td>{esc(st.session_state.get('otp_sn'))}</td><td>{esc(st.session_state.get('otp_sp'))}</td></tr>
+                <tr><th>BR</th><th>NAZIV</th><th>MODEL</th><th>INV</th><th>SN</th><th>SP/FS</th><th>NAPOMENA</th></tr>
+                {item_rows_html('otp')}
             </table>
-            <div class="sign"><div class="sig">UREĐAJ OTPREMIO<br>{esc(st.session_state.get('otp_otpremio'))}</div><div class="sig">UREĐAJ ZADUŽIO<br>{esc(st.session_state.get('otp_zaduzio'))}</div><div class="sig">UREĐAJ PRIMIO<br>{esc(st.session_state.get('otp_zaduzio'))}</div></div>
+            <div class="sign">
+                <div class="sig">Uređaj otpremio<br>{esc(st.session_state.get('otp_otpremio'))}</div>
+                <div class="sig">Uređaj zadužio<br>{esc(st.session_state.get('otp_zaduzio_bottom'))}</div>
+                <div class="sig">Uređaj primio<br>{esc(st.session_state.get('otp_primio'))}</div>
+            </div>
         </div>
     </body>
     </html>
     """
 
+# =========================
+# ACTIONS
+# =========================
 st.markdown('<div class="no-print">', unsafe_allow_html=True)
 col_a, col_b, col_c = st.columns([1, 1, 1])
 with col_a:
@@ -753,10 +920,10 @@ with col_a:
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
     except Exception as e:
-        st.error(f"Ne mogu da napravim Excel. Proveri da li postoji {TEMPLATE_XLSX}. Detalj: {e}")
+        st.error(f"Ne mogu da napravim Excel. Detalj: {e}")
 with col_b:
     if st.button("Prikaži / Print dokument"):
-        components.html(build_print_html(), height=1200, scrolling=True)
+        components.html(build_print_html(), height=1300, scrolling=True)
 with col_c:
     if st.button("Osveži automatsko popunjavanje"):
         st.rerun()
